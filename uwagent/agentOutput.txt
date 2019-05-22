@@ -1,0 +1,1718 @@
+run UWPlace from UWAgent.UWPlace with port# = 15347
+Hop to cssmpi1
+Hop to cssmpi1
+End of Trip
+Print/Count: print, nServers: 1, Server1: cssmpi1, Command1: who, Command2: ls, Command3: ps, Command4: df
+kharam_css434 pts/6        May 22 11:18 (vergil11.u.washington.edu)
+ccomai92_css434 pts/12       May 22 11:39 (d-10-156-21-170.dhcp4.washington.edu)
+krpana_css434 pts/23       May 22 11:24 (10.102.48.87)
+gordeeva_css434 pts/24       May 22 11:49 (10.102.62.29)
+AnAgent.class
+AnAgent.java
+MyAgent.class
+TEST.sh
+TEST.sh~
+TestAgent.java
+UWAgent
+UWAgent.jar
+UWAgentUserManual.pdf
+UnixAgent.class
+UnixAgent.java
+UnixAgent.java~
+WhoAgent.class
+aOutput.txt
+agentOutput.txt
+compile.sh
+compile.sh~
+readme.txt
+runAgent.sh
+runUWPlace.sh
+runUnixAgent.sh
+runUnixAgent.sh~
+runWhoAgent.sh
+  PID TTY          TIME CMD
+ 8956 pts/12   00:00:00 bash
+14703 pts/12   00:00:00 runUWPlace.sh
+14704 pts/12   00:00:01 java
+15384 pts/12   00:00:00 ps
+Filesystem                     1K-blocks       Used Available Use% Mounted on
+/dev/mapper/sysvg-root         410198332   12222172 397976160   3% /
+devtmpfs                         8118740          0   8118740   0% /dev
+tmpfs                            8130544          0   8130544   0% /dev/shm
+tmpfs                            8130544     281292   7849252   4% /run
+tmpfs                            8130544          0   8130544   0% /sys/fs/cgroup
+/dev/xvda1                        764580     276008    488572  37% /boot
+neometis.uwb.edu:/DATA/apps   2113646592 1982045184  24210432  99% /usr/apps
+neometis.uwb.edu:/DATA/CSSDIV 2113646592 1982045184  24210432  99% /CSSDIV
+cssnfs2.uwb.edu:/nfsshare      821236736   37867520 783369216   5% /home
+tmpfs                            1626112          0   1626112   0% /run/user/1577478108
+tmpfs                            1626112          0   1626112   0% /run/user/1772536455
+tmpfs                            1626112          0   1626112   0% /run/user/1622675108
+tmpfs                            1626112          0   1626112   0% /run/user/1774755561
+tmpfs                            1626112          4   1626108   1% /run/user/16379876
+tmpfs                            1626112          0   1626112   0% /run/user/1463653561
+tmpfs                            1626112          4   1626108   1% /run/user/1673979392
+tmpfs                            1626112          0   1626112   0% /run/user/1771577455
+tmpfs                            1626112          0   1626112   0% /run/user/1840380795
+tmpfs                            1626112          0   1626112   0% /run/user/1825400561
+tmpfs                            1626112          0   1626112   0% /run/user/1468853561
+tmpfs                            1626112          0   1626112   0% /run/user/1620577455
+tmpfs                            1626112          0   1626112   0% /run/user/1242168455
+tmpfs                            1626112          0   1626112   0% /run/user/1872548561
+tmpfs                            1626112          0   1626112   0% /run/user/1534798455
+tmpfs                            1626112          0   1626112   0% /run/user/941524561
+tmpfs                            1626112          0   1626112   0% /run/user/1620681455
+tmpfs                            1626112          0   1626112   0% /run/user/1772837455
+tmpfs                            1626112          0   1626112   0% /run/user/1612482561
+tmpfs                            1626112          0   1626112   0% /run/user/1740681455
+tmpfs                            1626112          0   1626112   0% /run/user/1672848108
+tmpfs                            1626112          0   1626112   0% /run/user/1723277455
+tmpfs                            1626112          0   1626112   0% /run/user/1772541455
+tmpfs                            1626112          0   1626112   0% /run/user/1750339108
+tmpfs                            1626112          0   1626112   0% /run/user/1620554108
+tmpfs                            1626112          0   1626112   0% /run/user/1523920455
+tmpfs                            1626112          0   1626112   0% /run/user/1673357455
+tmpfs                            1626112          0   1626112   0% /run/user/1269338455
+tmpfs                            1626112          0   1626112   0% /run/user/1877128455
+tmpfs                            1626112          0   1626112   0% /run/user/1422384455
+tmpfs                            1626112          0   1626112   0% /run/user/1220258561
+tmpfs                            1626112          0   1626112   0% /run/user/1775511288
+Execution Time: 85
+End of Trip
+Print/Count: print, nServers: 2, Server1: cssmpi1, Server2: cssmpi2, Command1: who, Command2: ls, Command3: ps, Command4: df
+kharam_css434 pts/6        May 22 11:18 (vergil11.u.washington.edu)
+ccomai92_css434 pts/12       May 22 11:39 (d-10-156-21-170.dhcp4.washington.edu)
+krpana_css434 pts/23       May 22 11:24 (10.102.48.87)
+gordeeva_css434 pts/24       May 22 11:49 (10.102.62.29)
+AnAgent.class
+AnAgent.java
+MyAgent.class
+TEST.sh
+TEST.sh~
+TestAgent.java
+UWAgent
+UWAgent.jar
+UWAgentUserManual.pdf
+UnixAgent.class
+UnixAgent.java
+UnixAgent.java~
+WhoAgent.class
+aOutput.txt
+agentOutput.txt
+compile.sh
+compile.sh~
+readme.txt
+runAgent.sh
+runUWPlace.sh
+runUnixAgent.sh
+runUnixAgent.sh~
+runWhoAgent.sh
+  PID TTY          TIME CMD
+ 8956 pts/12   00:00:00 bash
+14703 pts/12   00:00:00 runUWPlace.sh
+14704 pts/12   00:00:01 java
+15390 pts/12   00:00:00 ps
+Filesystem                     1K-blocks       Used Available Use% Mounted on
+/dev/mapper/sysvg-root         410198332   12222172 397976160   3% /
+devtmpfs                         8118740          0   8118740   0% /dev
+tmpfs                            8130544          0   8130544   0% /dev/shm
+tmpfs                            8130544     281292   7849252   4% /run
+tmpfs                            8130544          0   8130544   0% /sys/fs/cgroup
+/dev/xvda1                        764580     276008    488572  37% /boot
+neometis.uwb.edu:/DATA/apps   2113646592 1982045184  24210432  99% /usr/apps
+neometis.uwb.edu:/DATA/CSSDIV 2113646592 1982045184  24210432  99% /CSSDIV
+cssnfs2.uwb.edu:/nfsshare      821236736   37867520 783369216   5% /home
+tmpfs                            1626112          0   1626112   0% /run/user/1577478108
+tmpfs                            1626112          0   1626112   0% /run/user/1772536455
+tmpfs                            1626112          0   1626112   0% /run/user/1622675108
+tmpfs                            1626112          0   1626112   0% /run/user/1774755561
+tmpfs                            1626112          4   1626108   1% /run/user/16379876
+tmpfs                            1626112          0   1626112   0% /run/user/1463653561
+tmpfs                            1626112          4   1626108   1% /run/user/1673979392
+tmpfs                            1626112          0   1626112   0% /run/user/1771577455
+tmpfs                            1626112          0   1626112   0% /run/user/1840380795
+tmpfs                            1626112          0   1626112   0% /run/user/1825400561
+tmpfs                            1626112          0   1626112   0% /run/user/1468853561
+tmpfs                            1626112          0   1626112   0% /run/user/1620577455
+tmpfs                            1626112          0   1626112   0% /run/user/1242168455
+tmpfs                            1626112          0   1626112   0% /run/user/1872548561
+tmpfs                            1626112          0   1626112   0% /run/user/1534798455
+tmpfs                            1626112          0   1626112   0% /run/user/941524561
+tmpfs                            1626112          0   1626112   0% /run/user/1620681455
+tmpfs                            1626112          0   1626112   0% /run/user/1772837455
+tmpfs                            1626112          0   1626112   0% /run/user/1612482561
+tmpfs                            1626112          0   1626112   0% /run/user/1740681455
+tmpfs                            1626112          0   1626112   0% /run/user/1672848108
+tmpfs                            1626112          0   1626112   0% /run/user/1723277455
+tmpfs                            1626112          0   1626112   0% /run/user/1772541455
+tmpfs                            1626112          0   1626112   0% /run/user/1750339108
+tmpfs                            1626112          0   1626112   0% /run/user/1620554108
+tmpfs                            1626112          0   1626112   0% /run/user/1523920455
+tmpfs                            1626112          0   1626112   0% /run/user/1673357455
+tmpfs                            1626112          0   1626112   0% /run/user/1269338455
+tmpfs                            1626112          0   1626112   0% /run/user/1877128455
+tmpfs                            1626112          0   1626112   0% /run/user/1422384455
+tmpfs                            1626112          0   1626112   0% /run/user/1220258561
+tmpfs                            1626112          0   1626112   0% /run/user/1775511288
+kharam_css434 pts/3        May 22 11:20 (vergil11.u.washington.edu)
+saltzp_css533 pts/10       May 22 12:18 (10.102.61.61)
+ccomai92_css434 pts/18       May 22 11:40 (d-10-156-21-170.dhcp4.washington.edu)
+gordeeva_css434 pts/19       May 22 11:49 (10.102.62.29)
+AnAgent.class
+AnAgent.java
+MyAgent.class
+TEST.sh
+TEST.sh~
+TestAgent.java
+UWAgent
+UWAgent.jar
+UWAgentUserManual.pdf
+UnixAgent.class
+UnixAgent.java
+UnixAgent.java~
+WhoAgent.class
+aOutput.txt
+agentOutput.txt
+compile.sh
+compile.sh~
+readme.txt
+runAgent.sh
+runUWPlace.sh
+runUnixAgent.sh
+runUnixAgent.sh~
+runWhoAgent.sh
+  PID TTY          TIME CMD
+ 2967 pts/18   00:00:00 bash
+ 5894 pts/18   00:00:00 runUWPlace.sh
+ 5895 pts/18   00:00:01 java
+ 6343 pts/18   00:00:00 ps
+Filesystem                     1K-blocks       Used Available Use% Mounted on
+/dev/mapper/sysvg-root         410198332    5540740 404657592   2% /
+devtmpfs                         8118748          0   8118748   0% /dev
+tmpfs                            8130544          0   8130544   0% /dev/shm
+tmpfs                            8130544     247936   7882608   4% /run
+tmpfs                            8130544          0   8130544   0% /sys/fs/cgroup
+/dev/xvda1                        764580     275972    488608  37% /boot
+neometis.uwb.edu:/DATA/CSSDIV 2113646592 1982045184  24210432  99% /CSSDIV
+neometis.uwb.edu:/DATA/apps   2113646592 1982045184  24210432  99% /usr/apps
+cssnfs2.uwb.edu:/nfsshare      821236736   37867520 783369216   5% /home
+tmpfs                            1626112          0   1626112   0% /run/user/1673979392
+tmpfs                            1626112          0   1626112   0% /run/user/1774755561
+tmpfs                            1626112          0   1626112   0% /run/user/1771577455
+tmpfs                            1626112          0   1626112   0% /run/user/1840380795
+tmpfs                            1626112          0   1626112   0% /run/user/1772536455
+tmpfs                            1626112          0   1626112   0% /run/user/1534798455
+tmpfs                            1626112          0   1626112   0% /run/user/1620577455
+tmpfs                            1626112          0   1626112   0% /run/user/1723277455
+tmpfs                            1626112          0   1626112   0% /run/user/1740681455
+tmpfs                            1626112          0   1626112   0% /run/user/1825400561
+tmpfs                            1626112          0   1626112   0% /run/user/1622675108
+tmpfs                            1626112          0   1626112   0% /run/user/1750339108
+tmpfs                            1626112          0   1626112   0% /run/user/1577478108
+tmpfs                            1626112          0   1626112   0% /run/user/1242168455
+tmpfs                            1626112          0   1626112   0% /run/user/1523920455
+tmpfs                            1626112          0   1626112   0% /run/user/1672848108
+tmpfs                            1626112          0   1626112   0% /run/user/1875057238
+tmpfs                            1626112          0   1626112   0% /run/user/1673357455
+tmpfs                            1626112          0   1626112   0% /run/user/1877128455
+tmpfs                            1626112          0   1626112   0% /run/user/1422384455
+tmpfs                            1626112          0   1626112   0% /run/user/1620681455
+tmpfs                            1626112          0   1626112   0% /run/user/1775511288
+tmpfs                            1626112          0   1626112   0% /run/user/1463653561
+Execution Time: 101
+Hop to cssmpi1
+End of Trip
+Print/Count: print, nServers: 3, Server1: cssmpi1, Server2: cssmpi2, Server3: cssmpi3, Command1: who, Command2: ls, Command3: ps, Command4: df
+kharam_css434 pts/6        May 22 11:18 (vergil11.u.washington.edu)
+ccomai92_css434 pts/12       May 22 11:39 (d-10-156-21-170.dhcp4.washington.edu)
+krpana_css434 pts/23       May 22 11:24 (10.102.48.87)
+gordeeva_css434 pts/24       May 22 11:49 (10.102.62.29)
+AnAgent.class
+AnAgent.java
+MyAgent.class
+TEST.sh
+TEST.sh~
+TestAgent.java
+UWAgent
+UWAgent.jar
+UWAgentUserManual.pdf
+UnixAgent.class
+UnixAgent.java
+UnixAgent.java~
+WhoAgent.class
+aOutput.txt
+agentOutput.txt
+compile.sh
+compile.sh~
+readme.txt
+runAgent.sh
+runUWPlace.sh
+runUnixAgent.sh
+runUnixAgent.sh~
+runWhoAgent.sh
+  PID TTY          TIME CMD
+ 8956 pts/12   00:00:00 bash
+14703 pts/12   00:00:00 runUWPlace.sh
+14704 pts/12   00:00:01 java
+15396 pts/12   00:00:00 ps
+Filesystem                     1K-blocks       Used Available Use% Mounted on
+/dev/mapper/sysvg-root         410198332   12222172 397976160   3% /
+devtmpfs                         8118740          0   8118740   0% /dev
+tmpfs                            8130544          0   8130544   0% /dev/shm
+tmpfs                            8130544     281292   7849252   4% /run
+tmpfs                            8130544          0   8130544   0% /sys/fs/cgroup
+/dev/xvda1                        764580     276008    488572  37% /boot
+neometis.uwb.edu:/DATA/apps   2113646592 1982045184  24210432  99% /usr/apps
+neometis.uwb.edu:/DATA/CSSDIV 2113646592 1982045184  24210432  99% /CSSDIV
+cssnfs2.uwb.edu:/nfsshare      821236736   37867520 783369216   5% /home
+tmpfs                            1626112          0   1626112   0% /run/user/1577478108
+tmpfs                            1626112          0   1626112   0% /run/user/1772536455
+tmpfs                            1626112          0   1626112   0% /run/user/1622675108
+tmpfs                            1626112          0   1626112   0% /run/user/1774755561
+tmpfs                            1626112          4   1626108   1% /run/user/16379876
+tmpfs                            1626112          0   1626112   0% /run/user/1463653561
+tmpfs                            1626112          4   1626108   1% /run/user/1673979392
+tmpfs                            1626112          0   1626112   0% /run/user/1771577455
+tmpfs                            1626112          0   1626112   0% /run/user/1840380795
+tmpfs                            1626112          0   1626112   0% /run/user/1825400561
+tmpfs                            1626112          0   1626112   0% /run/user/1468853561
+tmpfs                            1626112          0   1626112   0% /run/user/1620577455
+tmpfs                            1626112          0   1626112   0% /run/user/1242168455
+tmpfs                            1626112          0   1626112   0% /run/user/1872548561
+tmpfs                            1626112          0   1626112   0% /run/user/1534798455
+tmpfs                            1626112          0   1626112   0% /run/user/941524561
+tmpfs                            1626112          0   1626112   0% /run/user/1620681455
+tmpfs                            1626112          0   1626112   0% /run/user/1772837455
+tmpfs                            1626112          0   1626112   0% /run/user/1612482561
+tmpfs                            1626112          0   1626112   0% /run/user/1740681455
+tmpfs                            1626112          0   1626112   0% /run/user/1672848108
+tmpfs                            1626112          0   1626112   0% /run/user/1723277455
+tmpfs                            1626112          0   1626112   0% /run/user/1772541455
+tmpfs                            1626112          0   1626112   0% /run/user/1750339108
+tmpfs                            1626112          0   1626112   0% /run/user/1620554108
+tmpfs                            1626112          0   1626112   0% /run/user/1523920455
+tmpfs                            1626112          0   1626112   0% /run/user/1673357455
+tmpfs                            1626112          0   1626112   0% /run/user/1269338455
+tmpfs                            1626112          0   1626112   0% /run/user/1877128455
+tmpfs                            1626112          0   1626112   0% /run/user/1422384455
+tmpfs                            1626112          0   1626112   0% /run/user/1220258561
+tmpfs                            1626112          0   1626112   0% /run/user/1775511288
+kharam_css434 pts/3        May 22 11:20 (vergil11.u.washington.edu)
+saltzp_css533 pts/10       May 22 12:18 (10.102.61.61)
+ccomai92_css434 pts/18       May 22 11:40 (d-10-156-21-170.dhcp4.washington.edu)
+gordeeva_css434 pts/19       May 22 11:49 (10.102.62.29)
+AnAgent.class
+AnAgent.java
+MyAgent.class
+TEST.sh
+TEST.sh~
+TestAgent.java
+UWAgent
+UWAgent.jar
+UWAgentUserManual.pdf
+UnixAgent.class
+UnixAgent.java
+UnixAgent.java~
+WhoAgent.class
+aOutput.txt
+agentOutput.txt
+compile.sh
+compile.sh~
+readme.txt
+runAgent.sh
+runUWPlace.sh
+runUnixAgent.sh
+runUnixAgent.sh~
+runWhoAgent.sh
+  PID TTY          TIME CMD
+ 2967 pts/18   00:00:00 bash
+ 5894 pts/18   00:00:00 runUWPlace.sh
+ 5895 pts/18   00:00:01 java
+ 6349 pts/18   00:00:00 ps
+Filesystem                     1K-blocks       Used Available Use% Mounted on
+/dev/mapper/sysvg-root         410198332    5540740 404657592   2% /
+devtmpfs                         8118748          0   8118748   0% /dev
+tmpfs                            8130544          0   8130544   0% /dev/shm
+tmpfs                            8130544     247936   7882608   4% /run
+tmpfs                            8130544          0   8130544   0% /sys/fs/cgroup
+/dev/xvda1                        764580     275972    488608  37% /boot
+neometis.uwb.edu:/DATA/CSSDIV 2113646592 1982045184  24210432  99% /CSSDIV
+neometis.uwb.edu:/DATA/apps   2113646592 1982045184  24210432  99% /usr/apps
+cssnfs2.uwb.edu:/nfsshare      821236736   37867520 783369216   5% /home
+tmpfs                            1626112          0   1626112   0% /run/user/1673979392
+tmpfs                            1626112          0   1626112   0% /run/user/1774755561
+tmpfs                            1626112          0   1626112   0% /run/user/1771577455
+tmpfs                            1626112          0   1626112   0% /run/user/1840380795
+tmpfs                            1626112          0   1626112   0% /run/user/1772536455
+tmpfs                            1626112          0   1626112   0% /run/user/1534798455
+tmpfs                            1626112          0   1626112   0% /run/user/1620577455
+tmpfs                            1626112          0   1626112   0% /run/user/1723277455
+tmpfs                            1626112          0   1626112   0% /run/user/1740681455
+tmpfs                            1626112          0   1626112   0% /run/user/1825400561
+tmpfs                            1626112          0   1626112   0% /run/user/1622675108
+tmpfs                            1626112          0   1626112   0% /run/user/1750339108
+tmpfs                            1626112          0   1626112   0% /run/user/1577478108
+tmpfs                            1626112          0   1626112   0% /run/user/1242168455
+tmpfs                            1626112          0   1626112   0% /run/user/1523920455
+tmpfs                            1626112          0   1626112   0% /run/user/1672848108
+tmpfs                            1626112          0   1626112   0% /run/user/1875057238
+tmpfs                            1626112          0   1626112   0% /run/user/1673357455
+tmpfs                            1626112          0   1626112   0% /run/user/1877128455
+tmpfs                            1626112          0   1626112   0% /run/user/1422384455
+tmpfs                            1626112          0   1626112   0% /run/user/1620681455
+tmpfs                            1626112          0   1626112   0% /run/user/1775511288
+tmpfs                            1626112          0   1626112   0% /run/user/1463653561
+kharam_css434 pts/7        May 22 11:20 (vergil11.u.washington.edu)
+ccomai92_css434 pts/8        May 22 11:40 (d-10-156-21-170.dhcp4.washington.edu)
+saltzp_css533 pts/13       May 22 12:18 (10.102.61.61)
+gordeeva_css434 pts/17       May 22 11:51 (10.102.62.29)
+AnAgent.class
+AnAgent.java
+MyAgent.class
+TEST.sh
+TEST.sh~
+TestAgent.java
+UWAgent
+UWAgent.jar
+UWAgentUserManual.pdf
+UnixAgent.class
+UnixAgent.java
+UnixAgent.java~
+WhoAgent.class
+aOutput.txt
+agentOutput.txt
+compile.sh
+compile.sh~
+readme.txt
+runAgent.sh
+runUWPlace.sh
+runUnixAgent.sh
+runUnixAgent.sh~
+runWhoAgent.sh
+  PID TTY          TIME CMD
+17888 pts/8    00:00:00 bash
+20144 pts/8    00:00:00 runUWPlace.sh
+20145 pts/8    00:00:01 java
+20561 pts/8    00:00:00 ps
+Filesystem                     1K-blocks       Used Available Use% Mounted on
+/dev/mapper/sysvg-root         410198332    5860972 404337360   2% /
+devtmpfs                         8118748          0   8118748   0% /dev
+tmpfs                            8130544          0   8130544   0% /dev/shm
+tmpfs                            8130544     206860   7923684   3% /run
+tmpfs                            8130544          0   8130544   0% /sys/fs/cgroup
+/dev/xvda1                        764580     275980    488600  37% /boot
+neometis.uwb.edu:/DATA/CSSDIV 2113646592 1982045184  24210432  99% /CSSDIV
+neometis.uwb.edu:/DATA/apps   2113646592 1982045184  24210432  99% /usr/apps
+cssnfs2.uwb.edu:/nfsshare      821236736   37867520 783369216   5% /home
+tmpfs                            1626112          0   1626112   0% /run/user/1463653561
+tmpfs                            1626112          0   1626112   0% /run/user/1771577455
+tmpfs                            1626112          0   1626112   0% /run/user/1242168455
+tmpfs                            1626112          0   1626112   0% /run/user/1840380795
+tmpfs                            1626112          0   1626112   0% /run/user/1772536455
+tmpfs                            1626112          0   1626112   0% /run/user/1534798455
+tmpfs                            1626112          0   1626112   0% /run/user/1872548561
+tmpfs                            1626112          0   1626112   0% /run/user/1673979392
+tmpfs                            1626112          0   1626112   0% /run/user/1772837455
+tmpfs                            1626112          0   1626112   0% /run/user/1620577455
+tmpfs                            1626112          0   1626112   0% /run/user/1723277455
+tmpfs                            1626112          0   1626112   0% /run/user/1740681455
+tmpfs                            1626112          0   1626112   0% /run/user/1750339108
+tmpfs                            1626112          0   1626112   0% /run/user/1622675108
+tmpfs                            1626112          0   1626112   0% /run/user/1577478108
+tmpfs                            1626112          0   1626112   0% /run/user/1523920455
+tmpfs                            1626112          0   1626112   0% /run/user/1672848108
+tmpfs                            1626112          0   1626112   0% /run/user/1673357455
+tmpfs                            1626112          0   1626112   0% /run/user/1422384455
+tmpfs                            1626112          0   1626112   0% /run/user/1620681455
+tmpfs                            1626112          0   1626112   0% /run/user/1775511288
+Execution Time: 129
+Hop to cssmpi1
+End of Trip
+Print/Count: print, nServers: 1, Server1: cssmpi1, Command1: who, Command2: ls, Command3: ps, Command4: df, Command5: who, Command6: ls, Command7: ps, Command8: df, Command9: who, Command10: ls, Command11: ps, Command12: df
+kharam_css434 pts/6        May 22 11:18 (vergil11.u.washington.edu)
+ccomai92_css434 pts/12       May 22 11:39 (d-10-156-21-170.dhcp4.washington.edu)
+krpana_css434 pts/23       May 22 11:24 (10.102.48.87)
+gordeeva_css434 pts/24       May 22 11:49 (10.102.62.29)
+AnAgent.class
+AnAgent.java
+MyAgent.class
+TEST.sh
+TEST.sh~
+TestAgent.java
+UWAgent
+UWAgent.jar
+UWAgentUserManual.pdf
+UnixAgent.class
+UnixAgent.java
+UnixAgent.java~
+WhoAgent.class
+aOutput.txt
+agentOutput.txt
+compile.sh
+compile.sh~
+readme.txt
+runAgent.sh
+runUWPlace.sh
+runUnixAgent.sh
+runUnixAgent.sh~
+runWhoAgent.sh
+  PID TTY          TIME CMD
+ 8956 pts/12   00:00:00 bash
+14703 pts/12   00:00:00 runUWPlace.sh
+14704 pts/12   00:00:01 java
+15402 pts/12   00:00:00 ps
+Filesystem                     1K-blocks       Used Available Use% Mounted on
+/dev/mapper/sysvg-root         410198332   12222172 397976160   3% /
+devtmpfs                         8118740          0   8118740   0% /dev
+tmpfs                            8130544          0   8130544   0% /dev/shm
+tmpfs                            8130544     281292   7849252   4% /run
+tmpfs                            8130544          0   8130544   0% /sys/fs/cgroup
+/dev/xvda1                        764580     276008    488572  37% /boot
+neometis.uwb.edu:/DATA/apps   2113646592 1982045184  24210432  99% /usr/apps
+neometis.uwb.edu:/DATA/CSSDIV 2113646592 1982045184  24210432  99% /CSSDIV
+cssnfs2.uwb.edu:/nfsshare      821236736   37867520 783369216   5% /home
+tmpfs                            1626112          0   1626112   0% /run/user/1577478108
+tmpfs                            1626112          0   1626112   0% /run/user/1772536455
+tmpfs                            1626112          0   1626112   0% /run/user/1622675108
+tmpfs                            1626112          0   1626112   0% /run/user/1774755561
+tmpfs                            1626112          4   1626108   1% /run/user/16379876
+tmpfs                            1626112          0   1626112   0% /run/user/1463653561
+tmpfs                            1626112          4   1626108   1% /run/user/1673979392
+tmpfs                            1626112          0   1626112   0% /run/user/1771577455
+tmpfs                            1626112          0   1626112   0% /run/user/1840380795
+tmpfs                            1626112          0   1626112   0% /run/user/1825400561
+tmpfs                            1626112          0   1626112   0% /run/user/1468853561
+tmpfs                            1626112          0   1626112   0% /run/user/1620577455
+tmpfs                            1626112          0   1626112   0% /run/user/1242168455
+tmpfs                            1626112          0   1626112   0% /run/user/1872548561
+tmpfs                            1626112          0   1626112   0% /run/user/1534798455
+tmpfs                            1626112          0   1626112   0% /run/user/941524561
+tmpfs                            1626112          0   1626112   0% /run/user/1620681455
+tmpfs                            1626112          0   1626112   0% /run/user/1772837455
+tmpfs                            1626112          0   1626112   0% /run/user/1612482561
+tmpfs                            1626112          0   1626112   0% /run/user/1740681455
+tmpfs                            1626112          0   1626112   0% /run/user/1672848108
+tmpfs                            1626112          0   1626112   0% /run/user/1723277455
+tmpfs                            1626112          0   1626112   0% /run/user/1772541455
+tmpfs                            1626112          0   1626112   0% /run/user/1750339108
+tmpfs                            1626112          0   1626112   0% /run/user/1620554108
+tmpfs                            1626112          0   1626112   0% /run/user/1523920455
+tmpfs                            1626112          0   1626112   0% /run/user/1673357455
+tmpfs                            1626112          0   1626112   0% /run/user/1269338455
+tmpfs                            1626112          0   1626112   0% /run/user/1877128455
+tmpfs                            1626112          0   1626112   0% /run/user/1422384455
+tmpfs                            1626112          0   1626112   0% /run/user/1220258561
+tmpfs                            1626112          0   1626112   0% /run/user/1775511288
+kharam_css434 pts/6        May 22 11:18 (vergil11.u.washington.edu)
+ccomai92_css434 pts/12       May 22 11:39 (d-10-156-21-170.dhcp4.washington.edu)
+krpana_css434 pts/23       May 22 11:24 (10.102.48.87)
+gordeeva_css434 pts/24       May 22 11:49 (10.102.62.29)
+AnAgent.class
+AnAgent.java
+MyAgent.class
+TEST.sh
+TEST.sh~
+TestAgent.java
+UWAgent
+UWAgent.jar
+UWAgentUserManual.pdf
+UnixAgent.class
+UnixAgent.java
+UnixAgent.java~
+WhoAgent.class
+aOutput.txt
+agentOutput.txt
+compile.sh
+compile.sh~
+readme.txt
+runAgent.sh
+runUWPlace.sh
+runUnixAgent.sh
+runUnixAgent.sh~
+runWhoAgent.sh
+  PID TTY          TIME CMD
+ 8956 pts/12   00:00:00 bash
+14703 pts/12   00:00:00 runUWPlace.sh
+14704 pts/12   00:00:01 java
+15406 pts/12   00:00:00 ps
+Filesystem                     1K-blocks       Used Available Use% Mounted on
+/dev/mapper/sysvg-root         410198332   12222172 397976160   3% /
+devtmpfs                         8118740          0   8118740   0% /dev
+tmpfs                            8130544          0   8130544   0% /dev/shm
+tmpfs                            8130544     281292   7849252   4% /run
+tmpfs                            8130544          0   8130544   0% /sys/fs/cgroup
+/dev/xvda1                        764580     276008    488572  37% /boot
+neometis.uwb.edu:/DATA/apps   2113646592 1982045184  24210432  99% /usr/apps
+neometis.uwb.edu:/DATA/CSSDIV 2113646592 1982045184  24210432  99% /CSSDIV
+cssnfs2.uwb.edu:/nfsshare      821236736   37867520 783369216   5% /home
+tmpfs                            1626112          0   1626112   0% /run/user/1577478108
+tmpfs                            1626112          0   1626112   0% /run/user/1772536455
+tmpfs                            1626112          0   1626112   0% /run/user/1622675108
+tmpfs                            1626112          0   1626112   0% /run/user/1774755561
+tmpfs                            1626112          4   1626108   1% /run/user/16379876
+tmpfs                            1626112          0   1626112   0% /run/user/1463653561
+tmpfs                            1626112          4   1626108   1% /run/user/1673979392
+tmpfs                            1626112          0   1626112   0% /run/user/1771577455
+tmpfs                            1626112          0   1626112   0% /run/user/1840380795
+tmpfs                            1626112          0   1626112   0% /run/user/1825400561
+tmpfs                            1626112          0   1626112   0% /run/user/1468853561
+tmpfs                            1626112          0   1626112   0% /run/user/1620577455
+tmpfs                            1626112          0   1626112   0% /run/user/1242168455
+tmpfs                            1626112          0   1626112   0% /run/user/1872548561
+tmpfs                            1626112          0   1626112   0% /run/user/1534798455
+tmpfs                            1626112          0   1626112   0% /run/user/941524561
+tmpfs                            1626112          0   1626112   0% /run/user/1620681455
+tmpfs                            1626112          0   1626112   0% /run/user/1772837455
+tmpfs                            1626112          0   1626112   0% /run/user/1612482561
+tmpfs                            1626112          0   1626112   0% /run/user/1740681455
+tmpfs                            1626112          0   1626112   0% /run/user/1672848108
+tmpfs                            1626112          0   1626112   0% /run/user/1723277455
+tmpfs                            1626112          0   1626112   0% /run/user/1772541455
+tmpfs                            1626112          0   1626112   0% /run/user/1750339108
+tmpfs                            1626112          0   1626112   0% /run/user/1620554108
+tmpfs                            1626112          0   1626112   0% /run/user/1523920455
+tmpfs                            1626112          0   1626112   0% /run/user/1673357455
+tmpfs                            1626112          0   1626112   0% /run/user/1269338455
+tmpfs                            1626112          0   1626112   0% /run/user/1877128455
+tmpfs                            1626112          0   1626112   0% /run/user/1422384455
+tmpfs                            1626112          0   1626112   0% /run/user/1220258561
+tmpfs                            1626112          0   1626112   0% /run/user/1775511288
+kharam_css434 pts/6        May 22 11:18 (vergil11.u.washington.edu)
+ccomai92_css434 pts/12       May 22 11:39 (d-10-156-21-170.dhcp4.washington.edu)
+krpana_css434 pts/23       May 22 11:24 (10.102.48.87)
+gordeeva_css434 pts/24       May 22 11:49 (10.102.62.29)
+AnAgent.class
+AnAgent.java
+MyAgent.class
+TEST.sh
+TEST.sh~
+TestAgent.java
+UWAgent
+UWAgent.jar
+UWAgentUserManual.pdf
+UnixAgent.class
+UnixAgent.java
+UnixAgent.java~
+WhoAgent.class
+aOutput.txt
+agentOutput.txt
+compile.sh
+compile.sh~
+readme.txt
+runAgent.sh
+runUWPlace.sh
+runUnixAgent.sh
+runUnixAgent.sh~
+runWhoAgent.sh
+  PID TTY          TIME CMD
+ 8956 pts/12   00:00:00 bash
+14703 pts/12   00:00:00 runUWPlace.sh
+14704 pts/12   00:00:01 java
+15410 pts/12   00:00:00 ps
+Filesystem                     1K-blocks       Used Available Use% Mounted on
+/dev/mapper/sysvg-root         410198332   12222172 397976160   3% /
+devtmpfs                         8118740          0   8118740   0% /dev
+tmpfs                            8130544          0   8130544   0% /dev/shm
+tmpfs                            8130544     281292   7849252   4% /run
+tmpfs                            8130544          0   8130544   0% /sys/fs/cgroup
+/dev/xvda1                        764580     276008    488572  37% /boot
+neometis.uwb.edu:/DATA/apps   2113646592 1982045184  24210432  99% /usr/apps
+neometis.uwb.edu:/DATA/CSSDIV 2113646592 1982045184  24210432  99% /CSSDIV
+cssnfs2.uwb.edu:/nfsshare      821236736   37867520 783369216   5% /home
+tmpfs                            1626112          0   1626112   0% /run/user/1577478108
+tmpfs                            1626112          0   1626112   0% /run/user/1772536455
+tmpfs                            1626112          0   1626112   0% /run/user/1622675108
+tmpfs                            1626112          0   1626112   0% /run/user/1774755561
+tmpfs                            1626112          4   1626108   1% /run/user/16379876
+tmpfs                            1626112          0   1626112   0% /run/user/1463653561
+tmpfs                            1626112          4   1626108   1% /run/user/1673979392
+tmpfs                            1626112          0   1626112   0% /run/user/1771577455
+tmpfs                            1626112          0   1626112   0% /run/user/1840380795
+tmpfs                            1626112          0   1626112   0% /run/user/1825400561
+tmpfs                            1626112          0   1626112   0% /run/user/1468853561
+tmpfs                            1626112          0   1626112   0% /run/user/1620577455
+tmpfs                            1626112          0   1626112   0% /run/user/1242168455
+tmpfs                            1626112          0   1626112   0% /run/user/1872548561
+tmpfs                            1626112          0   1626112   0% /run/user/1534798455
+tmpfs                            1626112          0   1626112   0% /run/user/941524561
+tmpfs                            1626112          0   1626112   0% /run/user/1620681455
+tmpfs                            1626112          0   1626112   0% /run/user/1772837455
+tmpfs                            1626112          0   1626112   0% /run/user/1612482561
+tmpfs                            1626112          0   1626112   0% /run/user/1740681455
+tmpfs                            1626112          0   1626112   0% /run/user/1672848108
+tmpfs                            1626112          0   1626112   0% /run/user/1723277455
+tmpfs                            1626112          0   1626112   0% /run/user/1772541455
+tmpfs                            1626112          0   1626112   0% /run/user/1750339108
+tmpfs                            1626112          0   1626112   0% /run/user/1620554108
+tmpfs                            1626112          0   1626112   0% /run/user/1523920455
+tmpfs                            1626112          0   1626112   0% /run/user/1673357455
+tmpfs                            1626112          0   1626112   0% /run/user/1269338455
+tmpfs                            1626112          0   1626112   0% /run/user/1877128455
+tmpfs                            1626112          0   1626112   0% /run/user/1422384455
+tmpfs                            1626112          0   1626112   0% /run/user/1220258561
+tmpfs                            1626112          0   1626112   0% /run/user/1775511288
+Execution Time: 103
+Hop to cssmpi1
+End of Trip
+Print/Count: print, nServers: 2, Server1: cssmpi1, Server2: cssmpi2, Command1: who, Command2: ls, Command3: ps, Command4: df, Command5: who, Command6: ls, Command7: ps, Command8: df, Command9: who, Command10: ls, Command11: ps, Command12: df
+kharam_css434 pts/6        May 22 11:18 (vergil11.u.washington.edu)
+ccomai92_css434 pts/12       May 22 11:39 (d-10-156-21-170.dhcp4.washington.edu)
+krpana_css434 pts/23       May 22 11:24 (10.102.48.87)
+gordeeva_css434 pts/24       May 22 11:49 (10.102.62.29)
+AnAgent.class
+AnAgent.java
+MyAgent.class
+TEST.sh
+TEST.sh~
+TestAgent.java
+UWAgent
+UWAgent.jar
+UWAgentUserManual.pdf
+UnixAgent.class
+UnixAgent.java
+UnixAgent.java~
+WhoAgent.class
+aOutput.txt
+agentOutput.txt
+compile.sh
+compile.sh~
+readme.txt
+runAgent.sh
+runUWPlace.sh
+runUnixAgent.sh
+runUnixAgent.sh~
+runWhoAgent.sh
+  PID TTY          TIME CMD
+ 8956 pts/12   00:00:00 bash
+14703 pts/12   00:00:00 runUWPlace.sh
+14704 pts/12   00:00:02 java
+15416 pts/12   00:00:00 ps
+Filesystem                     1K-blocks       Used Available Use% Mounted on
+/dev/mapper/sysvg-root         410198332   12222172 397976160   3% /
+devtmpfs                         8118740          0   8118740   0% /dev
+tmpfs                            8130544          0   8130544   0% /dev/shm
+tmpfs                            8130544     281292   7849252   4% /run
+tmpfs                            8130544          0   8130544   0% /sys/fs/cgroup
+/dev/xvda1                        764580     276008    488572  37% /boot
+neometis.uwb.edu:/DATA/apps   2113646592 1982045184  24210432  99% /usr/apps
+neometis.uwb.edu:/DATA/CSSDIV 2113646592 1982045184  24210432  99% /CSSDIV
+cssnfs2.uwb.edu:/nfsshare      821236736   37867520 783369216   5% /home
+tmpfs                            1626112          0   1626112   0% /run/user/1577478108
+tmpfs                            1626112          0   1626112   0% /run/user/1772536455
+tmpfs                            1626112          0   1626112   0% /run/user/1622675108
+tmpfs                            1626112          0   1626112   0% /run/user/1774755561
+tmpfs                            1626112          4   1626108   1% /run/user/16379876
+tmpfs                            1626112          0   1626112   0% /run/user/1463653561
+tmpfs                            1626112          4   1626108   1% /run/user/1673979392
+tmpfs                            1626112          0   1626112   0% /run/user/1771577455
+tmpfs                            1626112          0   1626112   0% /run/user/1840380795
+tmpfs                            1626112          0   1626112   0% /run/user/1825400561
+tmpfs                            1626112          0   1626112   0% /run/user/1468853561
+tmpfs                            1626112          0   1626112   0% /run/user/1620577455
+tmpfs                            1626112          0   1626112   0% /run/user/1242168455
+tmpfs                            1626112          0   1626112   0% /run/user/1872548561
+tmpfs                            1626112          0   1626112   0% /run/user/1534798455
+tmpfs                            1626112          0   1626112   0% /run/user/941524561
+tmpfs                            1626112          0   1626112   0% /run/user/1620681455
+tmpfs                            1626112          0   1626112   0% /run/user/1772837455
+tmpfs                            1626112          0   1626112   0% /run/user/1612482561
+tmpfs                            1626112          0   1626112   0% /run/user/1740681455
+tmpfs                            1626112          0   1626112   0% /run/user/1672848108
+tmpfs                            1626112          0   1626112   0% /run/user/1723277455
+tmpfs                            1626112          0   1626112   0% /run/user/1772541455
+tmpfs                            1626112          0   1626112   0% /run/user/1750339108
+tmpfs                            1626112          0   1626112   0% /run/user/1620554108
+tmpfs                            1626112          0   1626112   0% /run/user/1523920455
+tmpfs                            1626112          0   1626112   0% /run/user/1673357455
+tmpfs                            1626112          0   1626112   0% /run/user/1269338455
+tmpfs                            1626112          0   1626112   0% /run/user/1877128455
+tmpfs                            1626112          0   1626112   0% /run/user/1422384455
+tmpfs                            1626112          0   1626112   0% /run/user/1220258561
+tmpfs                            1626112          0   1626112   0% /run/user/1775511288
+kharam_css434 pts/6        May 22 11:18 (vergil11.u.washington.edu)
+ccomai92_css434 pts/12       May 22 11:39 (d-10-156-21-170.dhcp4.washington.edu)
+krpana_css434 pts/23       May 22 11:24 (10.102.48.87)
+gordeeva_css434 pts/24       May 22 11:49 (10.102.62.29)
+AnAgent.class
+AnAgent.java
+MyAgent.class
+TEST.sh
+TEST.sh~
+TestAgent.java
+UWAgent
+UWAgent.jar
+UWAgentUserManual.pdf
+UnixAgent.class
+UnixAgent.java
+UnixAgent.java~
+WhoAgent.class
+aOutput.txt
+agentOutput.txt
+compile.sh
+compile.sh~
+readme.txt
+runAgent.sh
+runUWPlace.sh
+runUnixAgent.sh
+runUnixAgent.sh~
+runWhoAgent.sh
+  PID TTY          TIME CMD
+ 8956 pts/12   00:00:00 bash
+14703 pts/12   00:00:00 runUWPlace.sh
+14704 pts/12   00:00:02 java
+15420 pts/12   00:00:00 ps
+Filesystem                     1K-blocks       Used Available Use% Mounted on
+/dev/mapper/sysvg-root         410198332   12222172 397976160   3% /
+devtmpfs                         8118740          0   8118740   0% /dev
+tmpfs                            8130544          0   8130544   0% /dev/shm
+tmpfs                            8130544     281292   7849252   4% /run
+tmpfs                            8130544          0   8130544   0% /sys/fs/cgroup
+/dev/xvda1                        764580     276008    488572  37% /boot
+neometis.uwb.edu:/DATA/apps   2113646592 1982045184  24210432  99% /usr/apps
+neometis.uwb.edu:/DATA/CSSDIV 2113646592 1982045184  24210432  99% /CSSDIV
+cssnfs2.uwb.edu:/nfsshare      821236736   37867520 783369216   5% /home
+tmpfs                            1626112          0   1626112   0% /run/user/1577478108
+tmpfs                            1626112          0   1626112   0% /run/user/1772536455
+tmpfs                            1626112          0   1626112   0% /run/user/1622675108
+tmpfs                            1626112          0   1626112   0% /run/user/1774755561
+tmpfs                            1626112          4   1626108   1% /run/user/16379876
+tmpfs                            1626112          0   1626112   0% /run/user/1463653561
+tmpfs                            1626112          4   1626108   1% /run/user/1673979392
+tmpfs                            1626112          0   1626112   0% /run/user/1771577455
+tmpfs                            1626112          0   1626112   0% /run/user/1840380795
+tmpfs                            1626112          0   1626112   0% /run/user/1825400561
+tmpfs                            1626112          0   1626112   0% /run/user/1468853561
+tmpfs                            1626112          0   1626112   0% /run/user/1620577455
+tmpfs                            1626112          0   1626112   0% /run/user/1242168455
+tmpfs                            1626112          0   1626112   0% /run/user/1872548561
+tmpfs                            1626112          0   1626112   0% /run/user/1534798455
+tmpfs                            1626112          0   1626112   0% /run/user/941524561
+tmpfs                            1626112          0   1626112   0% /run/user/1620681455
+tmpfs                            1626112          0   1626112   0% /run/user/1772837455
+tmpfs                            1626112          0   1626112   0% /run/user/1612482561
+tmpfs                            1626112          0   1626112   0% /run/user/1740681455
+tmpfs                            1626112          0   1626112   0% /run/user/1672848108
+tmpfs                            1626112          0   1626112   0% /run/user/1723277455
+tmpfs                            1626112          0   1626112   0% /run/user/1772541455
+tmpfs                            1626112          0   1626112   0% /run/user/1750339108
+tmpfs                            1626112          0   1626112   0% /run/user/1620554108
+tmpfs                            1626112          0   1626112   0% /run/user/1523920455
+tmpfs                            1626112          0   1626112   0% /run/user/1673357455
+tmpfs                            1626112          0   1626112   0% /run/user/1269338455
+tmpfs                            1626112          0   1626112   0% /run/user/1877128455
+tmpfs                            1626112          0   1626112   0% /run/user/1422384455
+tmpfs                            1626112          0   1626112   0% /run/user/1220258561
+tmpfs                            1626112          0   1626112   0% /run/user/1775511288
+kharam_css434 pts/6        May 22 11:18 (vergil11.u.washington.edu)
+ccomai92_css434 pts/12       May 22 11:39 (d-10-156-21-170.dhcp4.washington.edu)
+krpana_css434 pts/23       May 22 11:24 (10.102.48.87)
+gordeeva_css434 pts/24       May 22 11:49 (10.102.62.29)
+AnAgent.class
+AnAgent.java
+MyAgent.class
+TEST.sh
+TEST.sh~
+TestAgent.java
+UWAgent
+UWAgent.jar
+UWAgentUserManual.pdf
+UnixAgent.class
+UnixAgent.java
+UnixAgent.java~
+WhoAgent.class
+aOutput.txt
+agentOutput.txt
+compile.sh
+compile.sh~
+readme.txt
+runAgent.sh
+runUWPlace.sh
+runUnixAgent.sh
+runUnixAgent.sh~
+runWhoAgent.sh
+  PID TTY          TIME CMD
+ 8956 pts/12   00:00:00 bash
+14703 pts/12   00:00:00 runUWPlace.sh
+14704 pts/12   00:00:02 java
+15424 pts/12   00:00:00 ps
+Filesystem                     1K-blocks       Used Available Use% Mounted on
+/dev/mapper/sysvg-root         410198332   12222172 397976160   3% /
+devtmpfs                         8118740          0   8118740   0% /dev
+tmpfs                            8130544          0   8130544   0% /dev/shm
+tmpfs                            8130544     281292   7849252   4% /run
+tmpfs                            8130544          0   8130544   0% /sys/fs/cgroup
+/dev/xvda1                        764580     276008    488572  37% /boot
+neometis.uwb.edu:/DATA/apps   2113646592 1982045184  24210432  99% /usr/apps
+neometis.uwb.edu:/DATA/CSSDIV 2113646592 1982045184  24210432  99% /CSSDIV
+cssnfs2.uwb.edu:/nfsshare      821236736   37867520 783369216   5% /home
+tmpfs                            1626112          0   1626112   0% /run/user/1577478108
+tmpfs                            1626112          0   1626112   0% /run/user/1772536455
+tmpfs                            1626112          0   1626112   0% /run/user/1622675108
+tmpfs                            1626112          0   1626112   0% /run/user/1774755561
+tmpfs                            1626112          4   1626108   1% /run/user/16379876
+tmpfs                            1626112          0   1626112   0% /run/user/1463653561
+tmpfs                            1626112          4   1626108   1% /run/user/1673979392
+tmpfs                            1626112          0   1626112   0% /run/user/1771577455
+tmpfs                            1626112          0   1626112   0% /run/user/1840380795
+tmpfs                            1626112          0   1626112   0% /run/user/1825400561
+tmpfs                            1626112          0   1626112   0% /run/user/1468853561
+tmpfs                            1626112          0   1626112   0% /run/user/1620577455
+tmpfs                            1626112          0   1626112   0% /run/user/1242168455
+tmpfs                            1626112          0   1626112   0% /run/user/1872548561
+tmpfs                            1626112          0   1626112   0% /run/user/1534798455
+tmpfs                            1626112          0   1626112   0% /run/user/941524561
+tmpfs                            1626112          0   1626112   0% /run/user/1620681455
+tmpfs                            1626112          0   1626112   0% /run/user/1772837455
+tmpfs                            1626112          0   1626112   0% /run/user/1612482561
+tmpfs                            1626112          0   1626112   0% /run/user/1740681455
+tmpfs                            1626112          0   1626112   0% /run/user/1672848108
+tmpfs                            1626112          0   1626112   0% /run/user/1723277455
+tmpfs                            1626112          0   1626112   0% /run/user/1772541455
+tmpfs                            1626112          0   1626112   0% /run/user/1750339108
+tmpfs                            1626112          0   1626112   0% /run/user/1620554108
+tmpfs                            1626112          0   1626112   0% /run/user/1523920455
+tmpfs                            1626112          0   1626112   0% /run/user/1673357455
+tmpfs                            1626112          0   1626112   0% /run/user/1269338455
+tmpfs                            1626112          0   1626112   0% /run/user/1877128455
+tmpfs                            1626112          0   1626112   0% /run/user/1422384455
+tmpfs                            1626112          0   1626112   0% /run/user/1220258561
+tmpfs                            1626112          0   1626112   0% /run/user/1775511288
+kharam_css434 pts/3        May 22 11:20 (vergil11.u.washington.edu)
+saltzp_css533 pts/10       May 22 12:18 (10.102.61.61)
+ccomai92_css434 pts/18       May 22 11:40 (d-10-156-21-170.dhcp4.washington.edu)
+gordeeva_css434 pts/19       May 22 11:49 (10.102.62.29)
+AnAgent.class
+AnAgent.java
+MyAgent.class
+TEST.sh
+TEST.sh~
+TestAgent.java
+UWAgent
+UWAgent.jar
+UWAgentUserManual.pdf
+UnixAgent.class
+UnixAgent.java
+UnixAgent.java~
+WhoAgent.class
+aOutput.txt
+agentOutput.txt
+compile.sh
+compile.sh~
+readme.txt
+runAgent.sh
+runUWPlace.sh
+runUnixAgent.sh
+runUnixAgent.sh~
+runWhoAgent.sh
+  PID TTY          TIME CMD
+ 2967 pts/18   00:00:00 bash
+ 5894 pts/18   00:00:00 runUWPlace.sh
+ 5895 pts/18   00:00:01 java
+ 6355 pts/18   00:00:00 ps
+Filesystem                     1K-blocks       Used Available Use% Mounted on
+/dev/mapper/sysvg-root         410198332    5540740 404657592   2% /
+devtmpfs                         8118748          0   8118748   0% /dev
+tmpfs                            8130544          0   8130544   0% /dev/shm
+tmpfs                            8130544     247936   7882608   4% /run
+tmpfs                            8130544          0   8130544   0% /sys/fs/cgroup
+/dev/xvda1                        764580     275972    488608  37% /boot
+neometis.uwb.edu:/DATA/CSSDIV 2113646592 1982045184  24210432  99% /CSSDIV
+neometis.uwb.edu:/DATA/apps   2113646592 1982045184  24210432  99% /usr/apps
+cssnfs2.uwb.edu:/nfsshare      821236736   37867520 783369216   5% /home
+tmpfs                            1626112          0   1626112   0% /run/user/1673979392
+tmpfs                            1626112          0   1626112   0% /run/user/1774755561
+tmpfs                            1626112          0   1626112   0% /run/user/1771577455
+tmpfs                            1626112          0   1626112   0% /run/user/1840380795
+tmpfs                            1626112          0   1626112   0% /run/user/1772536455
+tmpfs                            1626112          0   1626112   0% /run/user/1534798455
+tmpfs                            1626112          0   1626112   0% /run/user/1620577455
+tmpfs                            1626112          0   1626112   0% /run/user/1723277455
+tmpfs                            1626112          0   1626112   0% /run/user/1740681455
+tmpfs                            1626112          0   1626112   0% /run/user/1825400561
+tmpfs                            1626112          0   1626112   0% /run/user/1622675108
+tmpfs                            1626112          0   1626112   0% /run/user/1750339108
+tmpfs                            1626112          0   1626112   0% /run/user/1577478108
+tmpfs                            1626112          0   1626112   0% /run/user/1242168455
+tmpfs                            1626112          0   1626112   0% /run/user/1523920455
+tmpfs                            1626112          0   1626112   0% /run/user/1672848108
+tmpfs                            1626112          0   1626112   0% /run/user/1875057238
+tmpfs                            1626112          0   1626112   0% /run/user/1673357455
+tmpfs                            1626112          0   1626112   0% /run/user/1877128455
+tmpfs                            1626112          0   1626112   0% /run/user/1422384455
+tmpfs                            1626112          0   1626112   0% /run/user/1620681455
+tmpfs                            1626112          0   1626112   0% /run/user/1775511288
+tmpfs                            1626112          0   1626112   0% /run/user/1463653561
+kharam_css434 pts/3        May 22 11:20 (vergil11.u.washington.edu)
+saltzp_css533 pts/10       May 22 12:18 (10.102.61.61)
+ccomai92_css434 pts/18       May 22 11:40 (d-10-156-21-170.dhcp4.washington.edu)
+gordeeva_css434 pts/19       May 22 11:49 (10.102.62.29)
+AnAgent.class
+AnAgent.java
+MyAgent.class
+TEST.sh
+TEST.sh~
+TestAgent.java
+UWAgent
+UWAgent.jar
+UWAgentUserManual.pdf
+UnixAgent.class
+UnixAgent.java
+UnixAgent.java~
+WhoAgent.class
+aOutput.txt
+agentOutput.txt
+compile.sh
+compile.sh~
+readme.txt
+runAgent.sh
+runUWPlace.sh
+runUnixAgent.sh
+runUnixAgent.sh~
+runWhoAgent.sh
+  PID TTY          TIME CMD
+ 2967 pts/18   00:00:00 bash
+ 5894 pts/18   00:00:00 runUWPlace.sh
+ 5895 pts/18   00:00:01 java
+ 6359 pts/18   00:00:00 ps
+Filesystem                     1K-blocks       Used Available Use% Mounted on
+/dev/mapper/sysvg-root         410198332    5540740 404657592   2% /
+devtmpfs                         8118748          0   8118748   0% /dev
+tmpfs                            8130544          0   8130544   0% /dev/shm
+tmpfs                            8130544     247936   7882608   4% /run
+tmpfs                            8130544          0   8130544   0% /sys/fs/cgroup
+/dev/xvda1                        764580     275972    488608  37% /boot
+neometis.uwb.edu:/DATA/CSSDIV 2113646592 1982045184  24210432  99% /CSSDIV
+neometis.uwb.edu:/DATA/apps   2113646592 1982045184  24210432  99% /usr/apps
+cssnfs2.uwb.edu:/nfsshare      821236736   37867520 783369216   5% /home
+tmpfs                            1626112          0   1626112   0% /run/user/1673979392
+tmpfs                            1626112          0   1626112   0% /run/user/1774755561
+tmpfs                            1626112          0   1626112   0% /run/user/1771577455
+tmpfs                            1626112          0   1626112   0% /run/user/1840380795
+tmpfs                            1626112          0   1626112   0% /run/user/1772536455
+tmpfs                            1626112          0   1626112   0% /run/user/1534798455
+tmpfs                            1626112          0   1626112   0% /run/user/1620577455
+tmpfs                            1626112          0   1626112   0% /run/user/1723277455
+tmpfs                            1626112          0   1626112   0% /run/user/1740681455
+tmpfs                            1626112          0   1626112   0% /run/user/1825400561
+tmpfs                            1626112          0   1626112   0% /run/user/1622675108
+tmpfs                            1626112          0   1626112   0% /run/user/1750339108
+tmpfs                            1626112          0   1626112   0% /run/user/1577478108
+tmpfs                            1626112          0   1626112   0% /run/user/1242168455
+tmpfs                            1626112          0   1626112   0% /run/user/1523920455
+tmpfs                            1626112          0   1626112   0% /run/user/1672848108
+tmpfs                            1626112          0   1626112   0% /run/user/1875057238
+tmpfs                            1626112          0   1626112   0% /run/user/1673357455
+tmpfs                            1626112          0   1626112   0% /run/user/1877128455
+tmpfs                            1626112          0   1626112   0% /run/user/1422384455
+tmpfs                            1626112          0   1626112   0% /run/user/1620681455
+tmpfs                            1626112          0   1626112   0% /run/user/1775511288
+tmpfs                            1626112          0   1626112   0% /run/user/1463653561
+kharam_css434 pts/3        May 22 11:20 (vergil11.u.washington.edu)
+saltzp_css533 pts/10       May 22 12:18 (10.102.61.61)
+ccomai92_css434 pts/18       May 22 11:40 (d-10-156-21-170.dhcp4.washington.edu)
+gordeeva_css434 pts/19       May 22 11:49 (10.102.62.29)
+AnAgent.class
+AnAgent.java
+MyAgent.class
+TEST.sh
+TEST.sh~
+TestAgent.java
+UWAgent
+UWAgent.jar
+UWAgentUserManual.pdf
+UnixAgent.class
+UnixAgent.java
+UnixAgent.java~
+WhoAgent.class
+aOutput.txt
+agentOutput.txt
+compile.sh
+compile.sh~
+readme.txt
+runAgent.sh
+runUWPlace.sh
+runUnixAgent.sh
+runUnixAgent.sh~
+runWhoAgent.sh
+  PID TTY          TIME CMD
+ 2967 pts/18   00:00:00 bash
+ 5894 pts/18   00:00:00 runUWPlace.sh
+ 5895 pts/18   00:00:01 java
+ 6363 pts/18   00:00:00 ps
+Filesystem                     1K-blocks       Used Available Use% Mounted on
+/dev/mapper/sysvg-root         410198332    5540740 404657592   2% /
+devtmpfs                         8118748          0   8118748   0% /dev
+tmpfs                            8130544          0   8130544   0% /dev/shm
+tmpfs                            8130544     247936   7882608   4% /run
+tmpfs                            8130544          0   8130544   0% /sys/fs/cgroup
+/dev/xvda1                        764580     275972    488608  37% /boot
+neometis.uwb.edu:/DATA/CSSDIV 2113646592 1982045184  24210432  99% /CSSDIV
+neometis.uwb.edu:/DATA/apps   2113646592 1982045184  24210432  99% /usr/apps
+cssnfs2.uwb.edu:/nfsshare      821236736   37867520 783369216   5% /home
+tmpfs                            1626112          0   1626112   0% /run/user/1673979392
+tmpfs                            1626112          0   1626112   0% /run/user/1774755561
+tmpfs                            1626112          0   1626112   0% /run/user/1771577455
+tmpfs                            1626112          0   1626112   0% /run/user/1840380795
+tmpfs                            1626112          0   1626112   0% /run/user/1772536455
+tmpfs                            1626112          0   1626112   0% /run/user/1534798455
+tmpfs                            1626112          0   1626112   0% /run/user/1620577455
+tmpfs                            1626112          0   1626112   0% /run/user/1723277455
+tmpfs                            1626112          0   1626112   0% /run/user/1740681455
+tmpfs                            1626112          0   1626112   0% /run/user/1825400561
+tmpfs                            1626112          0   1626112   0% /run/user/1622675108
+tmpfs                            1626112          0   1626112   0% /run/user/1750339108
+tmpfs                            1626112          0   1626112   0% /run/user/1577478108
+tmpfs                            1626112          0   1626112   0% /run/user/1242168455
+tmpfs                            1626112          0   1626112   0% /run/user/1523920455
+tmpfs                            1626112          0   1626112   0% /run/user/1672848108
+tmpfs                            1626112          0   1626112   0% /run/user/1875057238
+tmpfs                            1626112          0   1626112   0% /run/user/1673357455
+tmpfs                            1626112          0   1626112   0% /run/user/1877128455
+tmpfs                            1626112          0   1626112   0% /run/user/1422384455
+tmpfs                            1626112          0   1626112   0% /run/user/1620681455
+tmpfs                            1626112          0   1626112   0% /run/user/1775511288
+tmpfs                            1626112          0   1626112   0% /run/user/1463653561
+Execution Time: 173
+Hop to cssmpi1
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+Hop to cssmpi1
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+End of Trip
+Print/Count: print, nServers: 3, Server1: cssmpi1, Server2: cssmpi2, Server3: cssmpi3, Command1: who, Command2: ls, Command3: ps, Command4: df, Command5: who, Command6: ls, Command7: ps, Command8: df, Command9: who, Command10: ls, Command11: ps, Command12: df
+kharam_css434 pts/6        May 22 11:18 (vergil11.u.washington.edu)
+ccomai92_css434 pts/12       May 22 11:39 (d-10-156-21-170.dhcp4.washington.edu)
+krpana_css434 pts/23       May 22 11:24 (10.102.48.87)
+gordeeva_css434 pts/24       May 22 11:49 (10.102.62.29)
+AnAgent.class
+AnAgent.java
+MyAgent.class
+TEST.sh
+TEST.sh~
+TestAgent.java
+UWAgent
+UWAgent.jar
+UWAgentUserManual.pdf
+UnixAgent.class
+UnixAgent.java
+UnixAgent.java~
+WhoAgent.class
+aOutput.txt
+agentOutput.txt
+compile.sh
+compile.sh~
+readme.txt
+runAgent.sh
+runUWPlace.sh
+runUnixAgent.sh
+runUnixAgent.sh~
+runWhoAgent.sh
+  PID TTY          TIME CMD
+ 8956 pts/12   00:00:00 bash
+14703 pts/12   00:00:00 runUWPlace.sh
+14704 pts/12   00:00:02 java
+15431 pts/12   00:00:00 ps
+Filesystem                     1K-blocks       Used Available Use% Mounted on
+/dev/mapper/sysvg-root         410198332   12222172 397976160   3% /
+devtmpfs                         8118740          0   8118740   0% /dev
+tmpfs                            8130544          0   8130544   0% /dev/shm
+tmpfs                            8130544     281292   7849252   4% /run
+tmpfs                            8130544          0   8130544   0% /sys/fs/cgroup
+/dev/xvda1                        764580     276008    488572  37% /boot
+neometis.uwb.edu:/DATA/apps   2113646592 1982045184  24210432  99% /usr/apps
+neometis.uwb.edu:/DATA/CSSDIV 2113646592 1982045184  24210432  99% /CSSDIV
+cssnfs2.uwb.edu:/nfsshare      821236736   37867520 783369216   5% /home
+tmpfs                            1626112          0   1626112   0% /run/user/1577478108
+tmpfs                            1626112          0   1626112   0% /run/user/1772536455
+tmpfs                            1626112          0   1626112   0% /run/user/1622675108
+tmpfs                            1626112          0   1626112   0% /run/user/1774755561
+tmpfs                            1626112          4   1626108   1% /run/user/16379876
+tmpfs                            1626112          0   1626112   0% /run/user/1463653561
+tmpfs                            1626112          4   1626108   1% /run/user/1673979392
+tmpfs                            1626112          0   1626112   0% /run/user/1771577455
+tmpfs                            1626112          0   1626112   0% /run/user/1840380795
+tmpfs                            1626112          0   1626112   0% /run/user/1825400561
+tmpfs                            1626112          0   1626112   0% /run/user/1468853561
+tmpfs                            1626112          0   1626112   0% /run/user/1620577455
+tmpfs                            1626112          0   1626112   0% /run/user/1242168455
+tmpfs                            1626112          0   1626112   0% /run/user/1872548561
+tmpfs                            1626112          0   1626112   0% /run/user/1534798455
+tmpfs                            1626112          0   1626112   0% /run/user/941524561
+tmpfs                            1626112          0   1626112   0% /run/user/1620681455
+tmpfs                            1626112          0   1626112   0% /run/user/1772837455
+tmpfs                            1626112          0   1626112   0% /run/user/1612482561
+tmpfs                            1626112          0   1626112   0% /run/user/1740681455
+tmpfs                            1626112          0   1626112   0% /run/user/1672848108
+tmpfs                            1626112          0   1626112   0% /run/user/1723277455
+tmpfs                            1626112          0   1626112   0% /run/user/1772541455
+tmpfs                            1626112          0   1626112   0% /run/user/1750339108
+tmpfs                            1626112          0   1626112   0% /run/user/1620554108
+tmpfs                            1626112          0   1626112   0% /run/user/1523920455
+tmpfs                            1626112          0   1626112   0% /run/user/1673357455
+tmpfs                            1626112          0   1626112   0% /run/user/1269338455
+tmpfs                            1626112          0   1626112   0% /run/user/1877128455
+tmpfs                            1626112          0   1626112   0% /run/user/1422384455
+tmpfs                            1626112          0   1626112   0% /run/user/1220258561
+tmpfs                            1626112          0   1626112   0% /run/user/1775511288
+kharam_css434 pts/6        May 22 11:18 (vergil11.u.washington.edu)
+ccomai92_css434 pts/12       May 22 11:39 (d-10-156-21-170.dhcp4.washington.edu)
+krpana_css434 pts/23       May 22 11:24 (10.102.48.87)
+gordeeva_css434 pts/24       May 22 11:49 (10.102.62.29)
+AnAgent.class
+AnAgent.java
+MyAgent.class
+TEST.sh
+TEST.sh~
+TestAgent.java
+UWAgent
+UWAgent.jar
+UWAgentUserManual.pdf
+UnixAgent.class
+UnixAgent.java
+UnixAgent.java~
+WhoAgent.class
+aOutput.txt
+agentOutput.txt
+compile.sh
+compile.sh~
+readme.txt
+runAgent.sh
+runUWPlace.sh
+runUnixAgent.sh
+runUnixAgent.sh~
+runWhoAgent.sh
+  PID TTY          TIME CMD
+ 8956 pts/12   00:00:00 bash
+14703 pts/12   00:00:00 runUWPlace.sh
+14704 pts/12   00:00:02 java
+15435 pts/12   00:00:00 ps
+Filesystem                     1K-blocks       Used Available Use% Mounted on
+/dev/mapper/sysvg-root         410198332   12222172 397976160   3% /
+devtmpfs                         8118740          0   8118740   0% /dev
+tmpfs                            8130544          0   8130544   0% /dev/shm
+tmpfs                            8130544     281292   7849252   4% /run
+tmpfs                            8130544          0   8130544   0% /sys/fs/cgroup
+/dev/xvda1                        764580     276008    488572  37% /boot
+neometis.uwb.edu:/DATA/apps   2113646592 1982045184  24210432  99% /usr/apps
+neometis.uwb.edu:/DATA/CSSDIV 2113646592 1982045184  24210432  99% /CSSDIV
+cssnfs2.uwb.edu:/nfsshare      821236736   37867520 783369216   5% /home
+tmpfs                            1626112          0   1626112   0% /run/user/1577478108
+tmpfs                            1626112          0   1626112   0% /run/user/1772536455
+tmpfs                            1626112          0   1626112   0% /run/user/1622675108
+tmpfs                            1626112          0   1626112   0% /run/user/1774755561
+tmpfs                            1626112          4   1626108   1% /run/user/16379876
+tmpfs                            1626112          0   1626112   0% /run/user/1463653561
+tmpfs                            1626112          4   1626108   1% /run/user/1673979392
+tmpfs                            1626112          0   1626112   0% /run/user/1771577455
+tmpfs                            1626112          0   1626112   0% /run/user/1840380795
+tmpfs                            1626112          0   1626112   0% /run/user/1825400561
+tmpfs                            1626112          0   1626112   0% /run/user/1468853561
+tmpfs                            1626112          0   1626112   0% /run/user/1620577455
+tmpfs                            1626112          0   1626112   0% /run/user/1242168455
+tmpfs                            1626112          0   1626112   0% /run/user/1872548561
+tmpfs                            1626112          0   1626112   0% /run/user/1534798455
+tmpfs                            1626112          0   1626112   0% /run/user/941524561
+tmpfs                            1626112          0   1626112   0% /run/user/1620681455
+tmpfs                            1626112          0   1626112   0% /run/user/1772837455
+tmpfs                            1626112          0   1626112   0% /run/user/1612482561
+tmpfs                            1626112          0   1626112   0% /run/user/1740681455
+tmpfs                            1626112          0   1626112   0% /run/user/1672848108
+tmpfs                            1626112          0   1626112   0% /run/user/1723277455
+tmpfs                            1626112          0   1626112   0% /run/user/1772541455
+tmpfs                            1626112          0   1626112   0% /run/user/1750339108
+tmpfs                            1626112          0   1626112   0% /run/user/1620554108
+tmpfs                            1626112          0   1626112   0% /run/user/1523920455
+tmpfs                            1626112          0   1626112   0% /run/user/1673357455
+tmpfs                            1626112          0   1626112   0% /run/user/1269338455
+tmpfs                            1626112          0   1626112   0% /run/user/1877128455
+tmpfs                            1626112          0   1626112   0% /run/user/1422384455
+tmpfs                            1626112          0   1626112   0% /run/user/1220258561
+tmpfs                            1626112          0   1626112   0% /run/user/1775511288
+kharam_css434 pts/6        May 22 11:18 (vergil11.u.washington.edu)
+ccomai92_css434 pts/12       May 22 11:39 (d-10-156-21-170.dhcp4.washington.edu)
+krpana_css434 pts/23       May 22 11:24 (10.102.48.87)
+gordeeva_css434 pts/24       May 22 11:49 (10.102.62.29)
+AnAgent.class
+AnAgent.java
+MyAgent.class
+TEST.sh
+TEST.sh~
+TestAgent.java
+UWAgent
+UWAgent.jar
+UWAgentUserManual.pdf
+UnixAgent.class
+UnixAgent.java
+UnixAgent.java~
+WhoAgent.class
+aOutput.txt
+agentOutput.txt
+compile.sh
+compile.sh~
+readme.txt
+runAgent.sh
+runUWPlace.sh
+runUnixAgent.sh
+runUnixAgent.sh~
+runWhoAgent.sh
+  PID TTY          TIME CMD
+ 8956 pts/12   00:00:00 bash
+14703 pts/12   00:00:00 runUWPlace.sh
+14704 pts/12   00:00:02 java
+15439 pts/12   00:00:00 ps
+Filesystem                     1K-blocks       Used Available Use% Mounted on
+/dev/mapper/sysvg-root         410198332   12222172 397976160   3% /
+devtmpfs                         8118740          0   8118740   0% /dev
+tmpfs                            8130544          0   8130544   0% /dev/shm
+tmpfs                            8130544     281292   7849252   4% /run
+tmpfs                            8130544          0   8130544   0% /sys/fs/cgroup
+/dev/xvda1                        764580     276008    488572  37% /boot
+neometis.uwb.edu:/DATA/apps   2113646592 1982045184  24210432  99% /usr/apps
+neometis.uwb.edu:/DATA/CSSDIV 2113646592 1982045184  24210432  99% /CSSDIV
+cssnfs2.uwb.edu:/nfsshare      821236736   37867520 783369216   5% /home
+tmpfs                            1626112          0   1626112   0% /run/user/1577478108
+tmpfs                            1626112          0   1626112   0% /run/user/1772536455
+tmpfs                            1626112          0   1626112   0% /run/user/1622675108
+tmpfs                            1626112          0   1626112   0% /run/user/1774755561
+tmpfs                            1626112          4   1626108   1% /run/user/16379876
+tmpfs                            1626112          0   1626112   0% /run/user/1463653561
+tmpfs                            1626112          4   1626108   1% /run/user/1673979392
+tmpfs                            1626112          0   1626112   0% /run/user/1771577455
+tmpfs                            1626112          0   1626112   0% /run/user/1840380795
+tmpfs                            1626112          0   1626112   0% /run/user/1825400561
+tmpfs                            1626112          0   1626112   0% /run/user/1468853561
+tmpfs                            1626112          0   1626112   0% /run/user/1620577455
+tmpfs                            1626112          0   1626112   0% /run/user/1242168455
+tmpfs                            1626112          0   1626112   0% /run/user/1872548561
+tmpfs                            1626112          0   1626112   0% /run/user/1534798455
+tmpfs                            1626112          0   1626112   0% /run/user/941524561
+tmpfs                            1626112          0   1626112   0% /run/user/1620681455
+tmpfs                            1626112          0   1626112   0% /run/user/1772837455
+tmpfs                            1626112          0   1626112   0% /run/user/1612482561
+tmpfs                            1626112          0   1626112   0% /run/user/1740681455
+tmpfs                            1626112          0   1626112   0% /run/user/1672848108
+tmpfs                            1626112          0   1626112   0% /run/user/1723277455
+tmpfs                            1626112          0   1626112   0% /run/user/1772541455
+tmpfs                            1626112          0   1626112   0% /run/user/1750339108
+tmpfs                            1626112          0   1626112   0% /run/user/1620554108
+tmpfs                            1626112          0   1626112   0% /run/user/1523920455
+tmpfs                            1626112          0   1626112   0% /run/user/1673357455
+tmpfs                            1626112          0   1626112   0% /run/user/1269338455
+tmpfs                            1626112          0   1626112   0% /run/user/1877128455
+tmpfs                            1626112          0   1626112   0% /run/user/1422384455
+tmpfs                            1626112          0   1626112   0% /run/user/1220258561
+tmpfs                            1626112          0   1626112   0% /run/user/1775511288
+kharam_css434 pts/3        May 22 11:20 (vergil11.u.washington.edu)
+saltzp_css533 pts/10       May 22 12:18 (10.102.61.61)
+ccomai92_css434 pts/18       May 22 11:40 (d-10-156-21-170.dhcp4.washington.edu)
+gordeeva_css434 pts/19       May 22 11:49 (10.102.62.29)
+AnAgent.class
+AnAgent.java
+MyAgent.class
+TEST.sh
+TEST.sh~
+TestAgent.java
+UWAgent
+UWAgent.jar
+UWAgentUserManual.pdf
+UnixAgent.class
+UnixAgent.java
+UnixAgent.java~
+WhoAgent.class
+aOutput.txt
+agentOutput.txt
+compile.sh
+compile.sh~
+readme.txt
+runAgent.sh
+runUWPlace.sh
+runUnixAgent.sh
+runUnixAgent.sh~
+runWhoAgent.sh
+  PID TTY          TIME CMD
+ 2967 pts/18   00:00:00 bash
+ 5894 pts/18   00:00:00 runUWPlace.sh
+ 5895 pts/18   00:00:01 java
+ 6369 pts/18   00:00:00 ps
+Filesystem                     1K-blocks       Used Available Use% Mounted on
+/dev/mapper/sysvg-root         410198332    5540740 404657592   2% /
+devtmpfs                         8118748          0   8118748   0% /dev
+tmpfs                            8130544          0   8130544   0% /dev/shm
+tmpfs                            8130544     247936   7882608   4% /run
+tmpfs                            8130544          0   8130544   0% /sys/fs/cgroup
+/dev/xvda1                        764580     275972    488608  37% /boot
+neometis.uwb.edu:/DATA/CSSDIV 2113646592 1982045184  24210432  99% /CSSDIV
+neometis.uwb.edu:/DATA/apps   2113646592 1982045184  24210432  99% /usr/apps
+cssnfs2.uwb.edu:/nfsshare      821236736   37867520 783369216   5% /home
+tmpfs                            1626112          0   1626112   0% /run/user/1673979392
+tmpfs                            1626112          0   1626112   0% /run/user/1774755561
+tmpfs                            1626112          0   1626112   0% /run/user/1771577455
+tmpfs                            1626112          0   1626112   0% /run/user/1840380795
+tmpfs                            1626112          0   1626112   0% /run/user/1772536455
+tmpfs                            1626112          0   1626112   0% /run/user/1534798455
+tmpfs                            1626112          0   1626112   0% /run/user/1620577455
+tmpfs                            1626112          0   1626112   0% /run/user/1723277455
+tmpfs                            1626112          0   1626112   0% /run/user/1740681455
+tmpfs                            1626112          0   1626112   0% /run/user/1825400561
+tmpfs                            1626112          0   1626112   0% /run/user/1622675108
+tmpfs                            1626112          0   1626112   0% /run/user/1750339108
+tmpfs                            1626112          0   1626112   0% /run/user/1577478108
+tmpfs                            1626112          0   1626112   0% /run/user/1242168455
+tmpfs                            1626112          0   1626112   0% /run/user/1523920455
+tmpfs                            1626112          0   1626112   0% /run/user/1672848108
+tmpfs                            1626112          0   1626112   0% /run/user/1875057238
+tmpfs                            1626112          0   1626112   0% /run/user/1673357455
+tmpfs                            1626112          0   1626112   0% /run/user/1877128455
+tmpfs                            1626112          0   1626112   0% /run/user/1422384455
+tmpfs                            1626112          0   1626112   0% /run/user/1620681455
+tmpfs                            1626112          0   1626112   0% /run/user/1775511288
+tmpfs                            1626112          0   1626112   0% /run/user/1463653561
+kharam_css434 pts/3        May 22 11:20 (vergil11.u.washington.edu)
+saltzp_css533 pts/10       May 22 12:18 (10.102.61.61)
+ccomai92_css434 pts/18       May 22 11:40 (d-10-156-21-170.dhcp4.washington.edu)
+gordeeva_css434 pts/19       May 22 11:49 (10.102.62.29)
+AnAgent.class
+AnAgent.java
+MyAgent.class
+TEST.sh
+TEST.sh~
+TestAgent.java
+UWAgent
+UWAgent.jar
+UWAgentUserManual.pdf
+UnixAgent.class
+UnixAgent.java
+UnixAgent.java~
+WhoAgent.class
+aOutput.txt
+agentOutput.txt
+compile.sh
+compile.sh~
+readme.txt
+runAgent.sh
+runUWPlace.sh
+runUnixAgent.sh
+runUnixAgent.sh~
+runWhoAgent.sh
+  PID TTY          TIME CMD
+ 2967 pts/18   00:00:00 bash
+ 5894 pts/18   00:00:00 runUWPlace.sh
+ 5895 pts/18   00:00:01 java
+ 6373 pts/18   00:00:00 ps
+Filesystem                     1K-blocks       Used Available Use% Mounted on
+/dev/mapper/sysvg-root         410198332    5540740 404657592   2% /
+devtmpfs                         8118748          0   8118748   0% /dev
+tmpfs                            8130544          0   8130544   0% /dev/shm
+tmpfs                            8130544     247936   7882608   4% /run
+tmpfs                            8130544          0   8130544   0% /sys/fs/cgroup
+/dev/xvda1                        764580     275972    488608  37% /boot
+neometis.uwb.edu:/DATA/CSSDIV 2113646592 1982045184  24210432  99% /CSSDIV
+neometis.uwb.edu:/DATA/apps   2113646592 1982045184  24210432  99% /usr/apps
+cssnfs2.uwb.edu:/nfsshare      821236736   37867520 783369216   5% /home
+tmpfs                            1626112          0   1626112   0% /run/user/1673979392
+tmpfs                            1626112          0   1626112   0% /run/user/1774755561
+tmpfs                            1626112          0   1626112   0% /run/user/1771577455
+tmpfs                            1626112          0   1626112   0% /run/user/1840380795
+tmpfs                            1626112          0   1626112   0% /run/user/1772536455
+tmpfs                            1626112          0   1626112   0% /run/user/1534798455
+tmpfs                            1626112          0   1626112   0% /run/user/1620577455
+tmpfs                            1626112          0   1626112   0% /run/user/1723277455
+tmpfs                            1626112          0   1626112   0% /run/user/1740681455
+tmpfs                            1626112          0   1626112   0% /run/user/1825400561
+tmpfs                            1626112          0   1626112   0% /run/user/1622675108
+tmpfs                            1626112          0   1626112   0% /run/user/1750339108
+tmpfs                            1626112          0   1626112   0% /run/user/1577478108
+tmpfs                            1626112          0   1626112   0% /run/user/1242168455
+tmpfs                            1626112          0   1626112   0% /run/user/1523920455
+tmpfs                            1626112          0   1626112   0% /run/user/1672848108
+tmpfs                            1626112          0   1626112   0% /run/user/1875057238
+tmpfs                            1626112          0   1626112   0% /run/user/1673357455
+tmpfs                            1626112          0   1626112   0% /run/user/1877128455
+tmpfs                            1626112          0   1626112   0% /run/user/1422384455
+tmpfs                            1626112          0   1626112   0% /run/user/1620681455
+tmpfs                            1626112          0   1626112   0% /run/user/1775511288
+tmpfs                            1626112          0   1626112   0% /run/user/1463653561
+kharam_css434 pts/3        May 22 11:20 (vergil11.u.washington.edu)
+saltzp_css533 pts/10       May 22 12:18 (10.102.61.61)
+ccomai92_css434 pts/18       May 22 11:40 (d-10-156-21-170.dhcp4.washington.edu)
+gordeeva_css434 pts/19       May 22 11:49 (10.102.62.29)
+AnAgent.class
+AnAgent.java
+MyAgent.class
+TEST.sh
+TEST.sh~
+TestAgent.java
+UWAgent
+UWAgent.jar
+UWAgentUserManual.pdf
+UnixAgent.class
+UnixAgent.java
+UnixAgent.java~
+WhoAgent.class
+aOutput.txt
+agentOutput.txt
+compile.sh
+compile.sh~
+readme.txt
+runAgent.sh
+runUWPlace.sh
+runUnixAgent.sh
+runUnixAgent.sh~
+runWhoAgent.sh
+  PID TTY          TIME CMD
+ 2967 pts/18   00:00:00 bash
+ 5894 pts/18   00:00:00 runUWPlace.sh
+ 5895 pts/18   00:00:01 java
+ 6377 pts/18   00:00:00 ps
+Filesystem                     1K-blocks       Used Available Use% Mounted on
+/dev/mapper/sysvg-root         410198332    5540740 404657592   2% /
+devtmpfs                         8118748          0   8118748   0% /dev
+tmpfs                            8130544          0   8130544   0% /dev/shm
+tmpfs                            8130544     247936   7882608   4% /run
+tmpfs                            8130544          0   8130544   0% /sys/fs/cgroup
+/dev/xvda1                        764580     275972    488608  37% /boot
+neometis.uwb.edu:/DATA/CSSDIV 2113646592 1982045184  24210432  99% /CSSDIV
+neometis.uwb.edu:/DATA/apps   2113646592 1982045184  24210432  99% /usr/apps
+cssnfs2.uwb.edu:/nfsshare      821236736   37867520 783369216   5% /home
+tmpfs                            1626112          0   1626112   0% /run/user/1673979392
+tmpfs                            1626112          0   1626112   0% /run/user/1774755561
+tmpfs                            1626112          0   1626112   0% /run/user/1771577455
+tmpfs                            1626112          0   1626112   0% /run/user/1840380795
+tmpfs                            1626112          0   1626112   0% /run/user/1772536455
+tmpfs                            1626112          0   1626112   0% /run/user/1534798455
+tmpfs                            1626112          0   1626112   0% /run/user/1620577455
+tmpfs                            1626112          0   1626112   0% /run/user/1723277455
+tmpfs                            1626112          0   1626112   0% /run/user/1740681455
+tmpfs                            1626112          0   1626112   0% /run/user/1825400561
+tmpfs                            1626112          0   1626112   0% /run/user/1622675108
+tmpfs                            1626112          0   1626112   0% /run/user/1750339108
+tmpfs                            1626112          0   1626112   0% /run/user/1577478108
+tmpfs                            1626112          0   1626112   0% /run/user/1242168455
+tmpfs                            1626112          0   1626112   0% /run/user/1523920455
+tmpfs                            1626112          0   1626112   0% /run/user/1672848108
+tmpfs                            1626112          0   1626112   0% /run/user/1875057238
+tmpfs                            1626112          0   1626112   0% /run/user/1673357455
+tmpfs                            1626112          0   1626112   0% /run/user/1877128455
+tmpfs                            1626112          0   1626112   0% /run/user/1422384455
+tmpfs                            1626112          0   1626112   0% /run/user/1620681455
+tmpfs                            1626112          0   1626112   0% /run/user/1775511288
+tmpfs                            1626112          0   1626112   0% /run/user/1463653561
+kharam_css434 pts/7        May 22 11:20 (vergil11.u.washington.edu)
+ccomai92_css434 pts/8        May 22 11:40 (d-10-156-21-170.dhcp4.washington.edu)
+saltzp_css533 pts/13       May 22 12:18 (10.102.61.61)
+gordeeva_css434 pts/17       May 22 11:51 (10.102.62.29)
+AnAgent.class
+AnAgent.java
+MyAgent.class
+TEST.sh
+TEST.sh~
+TestAgent.java
+UWAgent
+UWAgent.jar
+UWAgentUserManual.pdf
+UnixAgent.class
+UnixAgent.java
+UnixAgent.java~
+WhoAgent.class
+aOutput.txt
+agentOutput.txt
+compile.sh
+compile.sh~
+readme.txt
+runAgent.sh
+runUWPlace.sh
+runUnixAgent.sh
+runUnixAgent.sh~
+runWhoAgent.sh
+  PID TTY          TIME CMD
+17888 pts/8    00:00:00 bash
+20144 pts/8    00:00:00 runUWPlace.sh
+20145 pts/8    00:00:01 java
+20567 pts/8    00:00:00 ps
+Filesystem                     1K-blocks       Used Available Use% Mounted on
+/dev/mapper/sysvg-root         410198332    5860972 404337360   2% /
+devtmpfs                         8118748          0   8118748   0% /dev
+tmpfs                            8130544          0   8130544   0% /dev/shm
+tmpfs                            8130544     206860   7923684   3% /run
+tmpfs                            8130544          0   8130544   0% /sys/fs/cgroup
+/dev/xvda1                        764580     275980    488600  37% /boot
+neometis.uwb.edu:/DATA/CSSDIV 2113646592 1982045184  24210432  99% /CSSDIV
+neometis.uwb.edu:/DATA/apps   2113646592 1982045184  24210432  99% /usr/apps
+cssnfs2.uwb.edu:/nfsshare      821236736   37867520 783369216   5% /home
+tmpfs                            1626112          0   1626112   0% /run/user/1463653561
+tmpfs                            1626112          0   1626112   0% /run/user/1771577455
+tmpfs                            1626112          0   1626112   0% /run/user/1242168455
+tmpfs                            1626112          0   1626112   0% /run/user/1840380795
+tmpfs                            1626112          0   1626112   0% /run/user/1772536455
+tmpfs                            1626112          0   1626112   0% /run/user/1534798455
+tmpfs                            1626112          0   1626112   0% /run/user/1872548561
+tmpfs                            1626112          0   1626112   0% /run/user/1673979392
+tmpfs                            1626112          0   1626112   0% /run/user/1772837455
+tmpfs                            1626112          0   1626112   0% /run/user/1620577455
+tmpfs                            1626112          0   1626112   0% /run/user/1723277455
+tmpfs                            1626112          0   1626112   0% /run/user/1740681455
+tmpfs                            1626112          0   1626112   0% /run/user/1750339108
+tmpfs                            1626112          0   1626112   0% /run/user/1622675108
+tmpfs                            1626112          0   1626112   0% /run/user/1577478108
+tmpfs                            1626112          0   1626112   0% /run/user/1523920455
+tmpfs                            1626112          0   1626112   0% /run/user/1672848108
+tmpfs                            1626112          0   1626112   0% /run/user/1673357455
+tmpfs                            1626112          0   1626112   0% /run/user/1422384455
+tmpfs                            1626112          0   1626112   0% /run/user/1620681455
+tmpfs                            1626112          0   1626112   0% /run/user/1775511288
+kharam_css434 pts/7        May 22 11:20 (vergil11.u.washington.edu)
+ccomai92_css434 pts/8        May 22 11:40 (d-10-156-21-170.dhcp4.washington.edu)
+saltzp_css533 pts/13       May 22 12:18 (10.102.61.61)
+gordeeva_css434 pts/17       May 22 11:51 (10.102.62.29)
+AnAgent.class
+AnAgent.java
+MyAgent.class
+TEST.sh
+TEST.sh~
+TestAgent.java
+UWAgent
+UWAgent.jar
+UWAgentUserManual.pdf
+UnixAgent.class
+UnixAgent.java
+UnixAgent.java~
+WhoAgent.class
+aOutput.txt
+agentOutput.txt
+compile.sh
+compile.sh~
+readme.txt
+runAgent.sh
+runUWPlace.sh
+runUnixAgent.sh
+runUnixAgent.sh~
+runWhoAgent.sh
+  PID TTY          TIME CMD
+17888 pts/8    00:00:00 bash
+20144 pts/8    00:00:00 runUWPlace.sh
+20145 pts/8    00:00:01 java
+20571 pts/8    00:00:00 ps
+Filesystem                     1K-blocks       Used Available Use% Mounted on
+/dev/mapper/sysvg-root         410198332    5860972 404337360   2% /
+devtmpfs                         8118748          0   8118748   0% /dev
+tmpfs                            8130544          0   8130544   0% /dev/shm
+tmpfs                            8130544     206860   7923684   3% /run
+tmpfs                            8130544          0   8130544   0% /sys/fs/cgroup
+/dev/xvda1                        764580     275980    488600  37% /boot
+neometis.uwb.edu:/DATA/CSSDIV 2113646592 1982045184  24210432  99% /CSSDIV
+neometis.uwb.edu:/DATA/apps   2113646592 1982045184  24210432  99% /usr/apps
+cssnfs2.uwb.edu:/nfsshare      821236736   37867520 783369216   5% /home
+tmpfs                            1626112          0   1626112   0% /run/user/1463653561
+tmpfs                            1626112          0   1626112   0% /run/user/1771577455
+tmpfs                            1626112          0   1626112   0% /run/user/1242168455
+tmpfs                            1626112          0   1626112   0% /run/user/1840380795
+tmpfs                            1626112          0   1626112   0% /run/user/1772536455
+tmpfs                            1626112          0   1626112   0% /run/user/1534798455
+tmpfs                            1626112          0   1626112   0% /run/user/1872548561
+tmpfs                            1626112          0   1626112   0% /run/user/1673979392
+tmpfs                            1626112          0   1626112   0% /run/user/1772837455
+tmpfs                            1626112          0   1626112   0% /run/user/1620577455
+tmpfs                            1626112          0   1626112   0% /run/user/1723277455
+tmpfs                            1626112          0   1626112   0% /run/user/1740681455
+tmpfs                            1626112          0   1626112   0% /run/user/1750339108
+tmpfs                            1626112          0   1626112   0% /run/user/1622675108
+tmpfs                            1626112          0   1626112   0% /run/user/1577478108
+tmpfs                            1626112          0   1626112   0% /run/user/1523920455
+tmpfs                            1626112          0   1626112   0% /run/user/1672848108
+tmpfs                            1626112          0   1626112   0% /run/user/1673357455
+tmpfs                            1626112          0   1626112   0% /run/user/1422384455
+tmpfs                            1626112          0   1626112   0% /run/user/1620681455
+tmpfs                            1626112          0   1626112   0% /run/user/1775511288
+kharam_css434 pts/7        May 22 11:20 (vergil11.u.washington.edu)
+ccomai92_css434 pts/8        May 22 11:40 (d-10-156-21-170.dhcp4.washington.edu)
+saltzp_css533 pts/13       May 22 12:18 (10.102.61.61)
+gordeeva_css434 pts/17       May 22 11:51 (10.102.62.29)
+AnAgent.class
+AnAgent.java
+MyAgent.class
+TEST.sh
+TEST.sh~
+TestAgent.java
+UWAgent
+UWAgent.jar
+UWAgentUserManual.pdf
+UnixAgent.class
+UnixAgent.java
+UnixAgent.java~
+WhoAgent.class
+aOutput.txt
+agentOutput.txt
+compile.sh
+compile.sh~
+readme.txt
+runAgent.sh
+runUWPlace.sh
+runUnixAgent.sh
+runUnixAgent.sh~
+runWhoAgent.sh
+  PID TTY          TIME CMD
+17888 pts/8    00:00:00 bash
+20144 pts/8    00:00:00 runUWPlace.sh
+20145 pts/8    00:00:01 java
+20575 pts/8    00:00:00 ps
+Filesystem                     1K-blocks       Used Available Use% Mounted on
+/dev/mapper/sysvg-root         410198332    5860972 404337360   2% /
+devtmpfs                         8118748          0   8118748   0% /dev
+tmpfs                            8130544          0   8130544   0% /dev/shm
+tmpfs                            8130544     206860   7923684   3% /run
+tmpfs                            8130544          0   8130544   0% /sys/fs/cgroup
+/dev/xvda1                        764580     275980    488600  37% /boot
+neometis.uwb.edu:/DATA/CSSDIV 2113646592 1982045184  24210432  99% /CSSDIV
+neometis.uwb.edu:/DATA/apps   2113646592 1982045184  24210432  99% /usr/apps
+cssnfs2.uwb.edu:/nfsshare      821236736   37867520 783369216   5% /home
+tmpfs                            1626112          0   1626112   0% /run/user/1463653561
+tmpfs                            1626112          0   1626112   0% /run/user/1771577455
+tmpfs                            1626112          0   1626112   0% /run/user/1242168455
+tmpfs                            1626112          0   1626112   0% /run/user/1840380795
+tmpfs                            1626112          0   1626112   0% /run/user/1772536455
+tmpfs                            1626112          0   1626112   0% /run/user/1534798455
+tmpfs                            1626112          0   1626112   0% /run/user/1872548561
+tmpfs                            1626112          0   1626112   0% /run/user/1673979392
+tmpfs                            1626112          0   1626112   0% /run/user/1772837455
+tmpfs                            1626112          0   1626112   0% /run/user/1620577455
+tmpfs                            1626112          0   1626112   0% /run/user/1723277455
+tmpfs                            1626112          0   1626112   0% /run/user/1740681455
+tmpfs                            1626112          0   1626112   0% /run/user/1750339108
+tmpfs                            1626112          0   1626112   0% /run/user/1622675108
+tmpfs                            1626112          0   1626112   0% /run/user/1577478108
+tmpfs                            1626112          0   1626112   0% /run/user/1523920455
+tmpfs                            1626112          0   1626112   0% /run/user/1672848108
+tmpfs                            1626112          0   1626112   0% /run/user/1673357455
+tmpfs                            1626112          0   1626112   0% /run/user/1422384455
+tmpfs                            1626112          0   1626112   0% /run/user/1620681455
+tmpfs                            1626112          0   1626112   0% /run/user/1775511288
+Execution Time: 234
+End of Trip
+Print/Count: count, nServers: 1, Server1: cssmpi1, Command1: grep -o 123 ../files/text1.txt
+Count: 359
+Execution Time: 130
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+Hop to cssmpi1
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+Hop to cssmpi1
+End of Trip
+Print/Count: count, nServers: 2, Server1: cssmpi1, Server2: cssmpi2, Command1: grep -o 123 ../files/text1.txt
+Count: 718
+Execution Time: 250
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+End of Trip
+Print/Count: count, nServers: 3, Server1: cssmpi1, Server2: cssmpi2, Server3: cssmpi3, Command1: grep -o 123 ../files/text1.txt
+Count: 1077
+Execution Time: 344
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)

@@ -1,0 +1,21 @@
+Print/Count: print, Port: 34798, nServers: 1, Server1: cssmpi1, Command1: who, Command2: ls, Command3: ps, Command4: df
+Execution Time: 265
+Print/Count: print, Port: 34798, nServers: 2, Server1: cssmpi1, Server2: cssmpi2, Command1: who, Command2: ls, Command3: ps, Command4: df
+Execution Time: 252
+Print/Count: print, Port: 34798, nServers: 3, Server1: cssmpi1, Server2: cssmpi2, Server3: cssmpi3, Command1: who, Command2: ls, Command3: ps, Command4: df
+Execution Time: 312
+Print/Count: print, Port: 34798, nServers: 1, Server1: cssmpi1, Command1: who, Command2: ls, Command3: ps, Command4: df, Command5: who, Command6: ls, Command7: ps, Command8: df, Command9: who, Command10: ls, Command11: ps, Command12: df
+Execution Time: 246
+Print/Count: print, Port: 34798, nServers: 2, Server1: cssmpi1, Server2: cssmpi2, Command1: who, Command2: ls, Command3: ps, Command4: df, Command5: who, Command6: ls, Command7: ps, Command8: df, Command9: who, Command10: ls, Command11: ps, Command12: df
+Execution Time: 330
+Print/Count: print, Port: 34798, nServers: 3, Server1: cssmpi1, Server2: cssmpi2, Server3: cssmpi3, Command1: who, Command2: ls, Command3: ps, Command4: df, Command5: who, Command6: ls, Command7: ps, Command8: df, Command9: who, Command10: ls, Command11: ps, Command12: df
+Execution Time: 460
+Print/Count: count, Port: 34798, nServers: 1, Server1: cssmpi1, Command1: grep -o 123 ../files/text1.txt
+Count: 361
+Execution Time: 263
+Print/Count: count, Port: 34798, nServers: 2, Server1: cssmpi1, Server2: cssmpi2, Command1: grep -o 123 ../files/text1.txt
+Count: 722
+Execution Time: 412
+Print/Count: count, Port: 34798, nServers: 3, Server1: cssmpi1, Server2: cssmpi2, Server3: cssmpi3, Command1: grep -o 123 ../files/text1.txt
+Count: 1083
+Execution Time: 487

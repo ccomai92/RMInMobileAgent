@@ -1,0 +1,163 @@
+import java.io.*;
+import UWAgent.*;
+import java.util.*;
+import java.net.*;
+
+public class UnixAgent extends UWAgent implements Serializable {
+
+    // for result
+    private Vector<String> output;
+    private Date start;
+    private int currentServer;
+    private String summary; 
+
+    // for input parameters
+    private String option;
+    private String origin;
+    private String[] servers;
+    private String[] commands;
+
+    public UnixAgent(String[] args) {
+        // 1. option P/C
+        // 2. # of servers
+        // 3. name of servers
+        // 4. # of commands
+        // 5. list of commands
+        
+        // get host anme of current host
+        try {
+            this.origin = InetAddress.getLocalHost().getHostName();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        // print option 
+        this.option = args[0];
+
+        // parse server names
+        int serverIpSize = Integer.parseInt(args[1]);
+        this.servers = new String[serverIpSize];
+
+        for (int i = 0; i < serverIpSize; i++) {
+            int argIndex = 2 + i;
+            this.servers[i] = args[argIndex];
+        }
+
+        // parsing commands
+        int commandSize = Integer.parseInt(args[2 + serverIpSize]); // 1 + # of ips + 1
+        this.commands = new String[commandSize];
+        for (int i = 0; i < commandSize; i++) {
+            // 2 + serverIpSize + 1 + i
+            this.commands[i] = args[3 + serverIpSize + i];
+        }
+
+        // argument parsing is completed 
+        this.summary = this.parseArgs();
+        
+        // initializing vector that agent will carry around
+        this.output = new Vector<String>();
+
+        // initializing current Server index
+        this.currentServer = 0;
+
+    }
+
+    public UnixAgent() {
+        System.err.println("Injected with no argument");
+    }
+
+    public void init() {
+        // start timer and hoping
+        this.start = new Date();
+        System.err.println("Hop to " + this.servers[this.currentServer]);
+        hop(this.servers[this.currentServer], "execute");
+
+    }
+
+    public void end() {
+        // end of tour
+        // end of timer
+        Date end = new Date();
+        System.err.println("End of Trip");
+        
+
+	System.out.println(this.summary);
+        // print based on the option 
+        if (option.equals("P")) {
+            this.printResult();
+        } else { // print count of result
+            System.out.println("Count: " + this.output.size());
+        }
+
+        // print execution time
+        System.out.println("Execution Time: " + (end.getTime() - this.start.getTime()));
+    }
+
+    public void execute() {
+
+        // execute commands in all computing grid
+
+        System.err.println("Injected to " + this.servers[this.currentServer]);
+	//        this.output.addElement("=========================================================================================");
+        String line;
+
+        for (int i = 0; i < this.commands.length; i++) {
+
+            String command = this.commands[i];
+
+	    // this.output.addElement(this.servers[this.currentServer] + " command(" + command
+	    //       + "):.................................................................");
+
+            try {
+                Runtime runtime = Runtime.getRuntime();
+                Process process = runtime.exec(command);
+                InputStream input = process.getInputStream();
+                BufferedReader bufferedInput = new BufferedReader(new InputStreamReader(input));
+                while ((line = bufferedInput.readLine()) != null) {
+                    this.output.addElement(line);
+                }
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+
+        // find next hop and hop
+        if (this.currentServer < this.servers.length - 1) {
+            this.currentServer++;
+            System.err.println("Hop to " + this.servers[this.currentServer]);
+            hop(this.servers[this.currentServer], "execute");
+        } else { // current is last of list
+            System.err.println("Back to origin");
+            hop(this.origin, "end");
+        }
+
+    }
+
+    // print overall result 
+    private void printResult() {
+        for (int i = 0; i < this.output.size(); i++) {
+            System.out.println(this.output.get(i));
+        }
+    }
+
+    // return summary of input arguments 
+    private String parseArgs() {
+        String result = "Print/Count: ";
+        if (option.equals("P")) {
+            result += "print, ";
+        } else {
+            result += "count, ";
+        }
+
+        result += "nServers: " + servers.length;
+        for (int i = 0; i < servers.length; i++) {
+            result += ", Server" + (i + 1) + ": " + servers[i];
+        }
+
+        for (int i = 0; i < commands.length; i++) {
+            result += ", Command" + (i + 1) + ": " + commands[i];
+        }
+        return result;
+    }
+
+}

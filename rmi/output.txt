@@ -1,0 +1,1808 @@
+=========================================================================================
+cssmpi1 command(who):.................................................................
+soheli28_css533 pts/6        May 21 23:38 (10.102.58.225)
+soheli28_css533 pts/12       May 21 23:38 (10.102.58.225)
+ccomai92_css434 pts/23       May 21 23:39 (10.102.55.161)
+mfukuda  pts/24       May 21 23:50 (10.102.57.168)
+mfukuda  pts/32       May 21 23:51 (10.102.57.168)
+tremuell_css434 pts/37       May 21 22:40 (10.102.2.144)
+tremuell_css434 pts/38       May 21 22:40 (10.102.2.144)
+tremuell_css434 pts/39       May 21 22:41 (10.102.2.144)
+mkhsu_css434 pts/41       May 21 19:30 (d-10-65-70-230.dhcp4.washington.edu)
+cssmpi1 command(ls):.................................................................
+BUILD.sh
+BUILD.sh~
+RUN_SERVER.sh
+RUN_SERVER.sh~
+ServerInterface.class
+ServerInterface.java
+TEST.sh
+TEST.sh~
+UnixAgent.java
+UnixAgent.java~
+UnixClient.class
+UnixClient.java
+UnixClient.java~
+UnixServer.class
+UnixServer.java
+UnixServer.java~
+UnixServer_Stub.class
+log.txt
+output.txt
+result.txt
+test.txt
+cssmpi1 command(ps):.................................................................
+  PID TTY          TIME CMD
+22975 pts/23   00:00:00 bash
+26163 pts/23   00:00:00 RUN_SERVER.sh
+26166 pts/23   00:00:00 java
+26246 pts/23   00:00:00 ps
+cssmpi1 command(df):.................................................................
+Filesystem                     1K-blocks       Used Available Use% Mounted on
+/dev/mapper/sysvg-root         410198332   12218648 397979684   3% /
+devtmpfs                         8118740          0   8118740   0% /dev
+tmpfs                            8130544          0   8130544   0% /dev/shm
+tmpfs                            8130544     281548   7848996   4% /run
+tmpfs                            8130544          0   8130544   0% /sys/fs/cgroup
+/dev/xvda1                        764580     276008    488572  37% /boot
+neometis.uwb.edu:/DATA/apps   2113646592 1982045184  24210432  99% /usr/apps
+neometis.uwb.edu:/DATA/CSSDIV 2113646592 1982045184  24210432  99% /CSSDIV
+cssnfs2.uwb.edu:/nfsshare      821236736   37610496 783626240   5% /home
+tmpfs                            1626112          0   1626112   0% /run/user/1577478108
+tmpfs                            1626112          0   1626112   0% /run/user/1772536455
+tmpfs                            1626112          0   1626112   0% /run/user/1622675108
+tmpfs                            1626112          0   1626112   0% /run/user/1774755561
+tmpfs                            1626112          4   1626108   1% /run/user/16379876
+tmpfs                            1626112          0   1626112   0% /run/user/1463653561
+tmpfs                            1626112          4   1626108   1% /run/user/1673979392
+tmpfs                            1626112          0   1626112   0% /run/user/1771577455
+tmpfs                            1626112          0   1626112   0% /run/user/1840380795
+tmpfs                            1626112          0   1626112   0% /run/user/1825400561
+tmpfs                            1626112          0   1626112   0% /run/user/1468853561
+tmpfs                            1626112          0   1626112   0% /run/user/1620577455
+tmpfs                            1626112          0   1626112   0% /run/user/1242168455
+tmpfs                            1626112          0   1626112   0% /run/user/1872548561
+tmpfs                            1626112          0   1626112   0% /run/user/1534798455
+tmpfs                            1626112          0   1626112   0% /run/user/941524561
+tmpfs                            1626112          0   1626112   0% /run/user/1620681455
+tmpfs                            1626112          0   1626112   0% /run/user/1772837455
+tmpfs                            1626112          0   1626112   0% /run/user/1612482561
+tmpfs                            1626112          0   1626112   0% /run/user/1740681455
+tmpfs                            1626112          0   1626112   0% /run/user/1672848108
+tmpfs                            1626112          0   1626112   0% /run/user/1723277455
+tmpfs                            1626112          0   1626112   0% /run/user/1772541455
+tmpfs                            1626112          0   1626112   0% /run/user/1750339108
+tmpfs                            1626112          0   1626112   0% /run/user/1620554108
+tmpfs                            1626112          0   1626112   0% /run/user/1523920455
+tmpfs                            1626112          0   1626112   0% /run/user/1673357455
+tmpfs                            1626112          0   1626112   0% /run/user/1269338455
+tmpfs                            1626112          0   1626112   0% /run/user/1877128455
+tmpfs                            1626112          0   1626112   0% /run/user/1422384455
+tmpfs                            1626112          0   1626112   0% /run/user/1220258561
+tmpfs                            1626112          0   1626112   0% /run/user/1827738561
+=========================================================================================
+cssmpi1 command(who):.................................................................
+soheli28_css533 pts/6        May 21 23:38 (10.102.58.225)
+soheli28_css533 pts/12       May 21 23:38 (10.102.58.225)
+ccomai92_css434 pts/23       May 21 23:39 (10.102.55.161)
+mfukuda  pts/24       May 21 23:50 (10.102.57.168)
+mfukuda  pts/32       May 21 23:51 (10.102.57.168)
+tremuell_css434 pts/37       May 21 22:40 (10.102.2.144)
+tremuell_css434 pts/38       May 21 22:40 (10.102.2.144)
+tremuell_css434 pts/39       May 21 22:41 (10.102.2.144)
+mkhsu_css434 pts/41       May 21 19:30 (d-10-65-70-230.dhcp4.washington.edu)
+cssmpi1 command(ls):.................................................................
+BUILD.sh
+BUILD.sh~
+RUN_SERVER.sh
+RUN_SERVER.sh~
+ServerInterface.class
+ServerInterface.java
+TEST.sh
+TEST.sh~
+UnixAgent.java
+UnixAgent.java~
+UnixClient.class
+UnixClient.java
+UnixClient.java~
+UnixServer.class
+UnixServer.java
+UnixServer.java~
+UnixServer_Stub.class
+log.txt
+output.txt
+result.txt
+test.txt
+cssmpi1 command(ps):.................................................................
+  PID TTY          TIME CMD
+22975 pts/23   00:00:00 bash
+26163 pts/23   00:00:00 RUN_SERVER.sh
+26166 pts/23   00:00:00 java
+26250 pts/23   00:00:00 ps
+cssmpi1 command(df):.................................................................
+Filesystem                     1K-blocks       Used Available Use% Mounted on
+/dev/mapper/sysvg-root         410198332   12218648 397979684   3% /
+devtmpfs                         8118740          0   8118740   0% /dev
+tmpfs                            8130544          0   8130544   0% /dev/shm
+tmpfs                            8130544     281548   7848996   4% /run
+tmpfs                            8130544          0   8130544   0% /sys/fs/cgroup
+/dev/xvda1                        764580     276008    488572  37% /boot
+neometis.uwb.edu:/DATA/apps   2113646592 1982045184  24210432  99% /usr/apps
+neometis.uwb.edu:/DATA/CSSDIV 2113646592 1982045184  24210432  99% /CSSDIV
+cssnfs2.uwb.edu:/nfsshare      821236736   37610496 783626240   5% /home
+tmpfs                            1626112          0   1626112   0% /run/user/1577478108
+tmpfs                            1626112          0   1626112   0% /run/user/1772536455
+tmpfs                            1626112          0   1626112   0% /run/user/1622675108
+tmpfs                            1626112          0   1626112   0% /run/user/1774755561
+tmpfs                            1626112          4   1626108   1% /run/user/16379876
+tmpfs                            1626112          0   1626112   0% /run/user/1463653561
+tmpfs                            1626112          4   1626108   1% /run/user/1673979392
+tmpfs                            1626112          0   1626112   0% /run/user/1771577455
+tmpfs                            1626112          0   1626112   0% /run/user/1840380795
+tmpfs                            1626112          0   1626112   0% /run/user/1825400561
+tmpfs                            1626112          0   1626112   0% /run/user/1468853561
+tmpfs                            1626112          0   1626112   0% /run/user/1620577455
+tmpfs                            1626112          0   1626112   0% /run/user/1242168455
+tmpfs                            1626112          0   1626112   0% /run/user/1872548561
+tmpfs                            1626112          0   1626112   0% /run/user/1534798455
+tmpfs                            1626112          0   1626112   0% /run/user/941524561
+tmpfs                            1626112          0   1626112   0% /run/user/1620681455
+tmpfs                            1626112          0   1626112   0% /run/user/1772837455
+tmpfs                            1626112          0   1626112   0% /run/user/1612482561
+tmpfs                            1626112          0   1626112   0% /run/user/1740681455
+tmpfs                            1626112          0   1626112   0% /run/user/1672848108
+tmpfs                            1626112          0   1626112   0% /run/user/1723277455
+tmpfs                            1626112          0   1626112   0% /run/user/1772541455
+tmpfs                            1626112          0   1626112   0% /run/user/1750339108
+tmpfs                            1626112          0   1626112   0% /run/user/1620554108
+tmpfs                            1626112          0   1626112   0% /run/user/1523920455
+tmpfs                            1626112          0   1626112   0% /run/user/1673357455
+tmpfs                            1626112          0   1626112   0% /run/user/1269338455
+tmpfs                            1626112          0   1626112   0% /run/user/1877128455
+tmpfs                            1626112          0   1626112   0% /run/user/1422384455
+tmpfs                            1626112          0   1626112   0% /run/user/1220258561
+tmpfs                            1626112          0   1626112   0% /run/user/1827738561
+=========================================================================================
+cssmpi2 command(who):.................................................................
+mfukuda  pts/3        May 21 23:51 (10.102.57.168)
+ccomai92_css434 pts/6        May 21 23:40 (10.102.55.161)
+soheli28_css533 pts/10       May 21 23:40 (10.102.58.225)
+mkhsu_css434 pts/18       May 21 19:30 (d-10-65-70-230.dhcp4.washington.edu)
+tremuell_css434 pts/25       May 21 22:40 (cssmpi1.uwb.edu)
+cssmpi2 command(ls):.................................................................
+BUILD.sh
+BUILD.sh~
+RUN_SERVER.sh
+RUN_SERVER.sh~
+ServerInterface.class
+ServerInterface.java
+TEST.sh
+TEST.sh~
+UnixAgent.java
+UnixAgent.java~
+UnixClient.class
+UnixClient.java
+UnixClient.java~
+UnixServer.class
+UnixServer.java
+UnixServer.java~
+UnixServer_Stub.class
+log.txt
+output.txt
+result.txt
+test.txt
+cssmpi2 command(ps):.................................................................
+  PID TTY          TIME CMD
+  370 pts/6    00:00:00 bash
+ 2233 pts/6    00:00:00 RUN_SERVER.sh
+ 2234 pts/6    00:00:00 rmiregistry
+ 2235 pts/6    00:00:00 java
+ 2274 pts/6    00:00:00 ps
+cssmpi2 command(df):.................................................................
+Filesystem                     1K-blocks       Used Available Use% Mounted on
+/dev/mapper/sysvg-root         410198332    5540180 404658152   2% /
+devtmpfs                         8118748          0   8118748   0% /dev
+tmpfs                            8130544          0   8130544   0% /dev/shm
+tmpfs                            8130544     247896   7882648   4% /run
+tmpfs                            8130544          0   8130544   0% /sys/fs/cgroup
+/dev/xvda1                        764580     275972    488608  37% /boot
+neometis.uwb.edu:/DATA/CSSDIV 2113646592 1982045184  24210432  99% /CSSDIV
+neometis.uwb.edu:/DATA/apps   2113646592 1982045184  24210432  99% /usr/apps
+cssnfs2.uwb.edu:/nfsshare      821236736   37610496 783626240   5% /home
+tmpfs                            1626112          0   1626112   0% /run/user/1673979392
+tmpfs                            1626112          0   1626112   0% /run/user/1774755561
+tmpfs                            1626112          0   1626112   0% /run/user/1771577455
+tmpfs                            1626112          0   1626112   0% /run/user/1840380795
+tmpfs                            1626112          0   1626112   0% /run/user/1772536455
+tmpfs                            1626112          0   1626112   0% /run/user/1534798455
+tmpfs                            1626112          0   1626112   0% /run/user/1620577455
+tmpfs                            1626112          0   1626112   0% /run/user/1723277455
+tmpfs                            1626112          0   1626112   0% /run/user/1740681455
+tmpfs                            1626112          0   1626112   0% /run/user/1825400561
+tmpfs                            1626112          0   1626112   0% /run/user/1622675108
+tmpfs                            1626112          0   1626112   0% /run/user/1750339108
+tmpfs                            1626112          0   1626112   0% /run/user/1577478108
+tmpfs                            1626112          0   1626112   0% /run/user/1242168455
+tmpfs                            1626112          0   1626112   0% /run/user/1523920455
+tmpfs                            1626112          0   1626112   0% /run/user/1672848108
+tmpfs                            1626112          0   1626112   0% /run/user/1875057238
+tmpfs                            1626112          0   1626112   0% /run/user/1673357455
+tmpfs                            1626112          0   1626112   0% /run/user/1877128455
+tmpfs                            1626112          0   1626112   0% /run/user/1422384455
+tmpfs                            1626112          0   1626112   0% /run/user/1620681455
+tmpfs                            1626112          0   1626112   0% /run/user/1827738561
+tmpfs                            1626112          0   1626112   0% /run/user/16379876
+=========================================================================================
+cssmpi1 command(who):.................................................................
+soheli28_css533 pts/6        May 21 23:38 (10.102.58.225)
+soheli28_css533 pts/12       May 21 23:38 (10.102.58.225)
+ccomai92_css434 pts/23       May 21 23:39 (10.102.55.161)
+mfukuda  pts/24       May 21 23:50 (10.102.57.168)
+mfukuda  pts/32       May 21 23:51 (10.102.57.168)
+tremuell_css434 pts/37       May 21 22:40 (10.102.2.144)
+tremuell_css434 pts/38       May 21 22:40 (10.102.2.144)
+tremuell_css434 pts/39       May 21 22:41 (10.102.2.144)
+mkhsu_css434 pts/41       May 21 19:30 (d-10-65-70-230.dhcp4.washington.edu)
+cssmpi1 command(ls):.................................................................
+BUILD.sh
+BUILD.sh~
+RUN_SERVER.sh
+RUN_SERVER.sh~
+ServerInterface.class
+ServerInterface.java
+TEST.sh
+TEST.sh~
+UnixAgent.java
+UnixAgent.java~
+UnixClient.class
+UnixClient.java
+UnixClient.java~
+UnixServer.class
+UnixServer.java
+UnixServer.java~
+UnixServer_Stub.class
+log.txt
+output.txt
+result.txt
+test.txt
+cssmpi1 command(ps):.................................................................
+  PID TTY          TIME CMD
+22975 pts/23   00:00:00 bash
+26163 pts/23   00:00:00 RUN_SERVER.sh
+26166 pts/23   00:00:00 java
+26254 pts/23   00:00:00 ps
+cssmpi1 command(df):.................................................................
+Filesystem                     1K-blocks       Used Available Use% Mounted on
+/dev/mapper/sysvg-root         410198332   12218648 397979684   3% /
+devtmpfs                         8118740          0   8118740   0% /dev
+tmpfs                            8130544          0   8130544   0% /dev/shm
+tmpfs                            8130544     281548   7848996   4% /run
+tmpfs                            8130544          0   8130544   0% /sys/fs/cgroup
+/dev/xvda1                        764580     276008    488572  37% /boot
+neometis.uwb.edu:/DATA/apps   2113646592 1982045184  24210432  99% /usr/apps
+neometis.uwb.edu:/DATA/CSSDIV 2113646592 1982045184  24210432  99% /CSSDIV
+cssnfs2.uwb.edu:/nfsshare      821236736   37610496 783626240   5% /home
+tmpfs                            1626112          0   1626112   0% /run/user/1577478108
+tmpfs                            1626112          0   1626112   0% /run/user/1772536455
+tmpfs                            1626112          0   1626112   0% /run/user/1622675108
+tmpfs                            1626112          0   1626112   0% /run/user/1774755561
+tmpfs                            1626112          4   1626108   1% /run/user/16379876
+tmpfs                            1626112          0   1626112   0% /run/user/1463653561
+tmpfs                            1626112          4   1626108   1% /run/user/1673979392
+tmpfs                            1626112          0   1626112   0% /run/user/1771577455
+tmpfs                            1626112          0   1626112   0% /run/user/1840380795
+tmpfs                            1626112          0   1626112   0% /run/user/1825400561
+tmpfs                            1626112          0   1626112   0% /run/user/1468853561
+tmpfs                            1626112          0   1626112   0% /run/user/1620577455
+tmpfs                            1626112          0   1626112   0% /run/user/1242168455
+tmpfs                            1626112          0   1626112   0% /run/user/1872548561
+tmpfs                            1626112          0   1626112   0% /run/user/1534798455
+tmpfs                            1626112          0   1626112   0% /run/user/941524561
+tmpfs                            1626112          0   1626112   0% /run/user/1620681455
+tmpfs                            1626112          0   1626112   0% /run/user/1772837455
+tmpfs                            1626112          0   1626112   0% /run/user/1612482561
+tmpfs                            1626112          0   1626112   0% /run/user/1740681455
+tmpfs                            1626112          0   1626112   0% /run/user/1672848108
+tmpfs                            1626112          0   1626112   0% /run/user/1723277455
+tmpfs                            1626112          0   1626112   0% /run/user/1772541455
+tmpfs                            1626112          0   1626112   0% /run/user/1750339108
+tmpfs                            1626112          0   1626112   0% /run/user/1620554108
+tmpfs                            1626112          0   1626112   0% /run/user/1523920455
+tmpfs                            1626112          0   1626112   0% /run/user/1673357455
+tmpfs                            1626112          0   1626112   0% /run/user/1269338455
+tmpfs                            1626112          0   1626112   0% /run/user/1877128455
+tmpfs                            1626112          0   1626112   0% /run/user/1422384455
+tmpfs                            1626112          0   1626112   0% /run/user/1220258561
+tmpfs                            1626112          0   1626112   0% /run/user/1827738561
+=========================================================================================
+cssmpi2 command(who):.................................................................
+mfukuda  pts/3        May 21 23:51 (10.102.57.168)
+ccomai92_css434 pts/6        May 21 23:40 (10.102.55.161)
+soheli28_css533 pts/10       May 21 23:40 (10.102.58.225)
+mkhsu_css434 pts/18       May 21 19:30 (d-10-65-70-230.dhcp4.washington.edu)
+tremuell_css434 pts/25       May 21 22:40 (cssmpi1.uwb.edu)
+cssmpi2 command(ls):.................................................................
+BUILD.sh
+BUILD.sh~
+RUN_SERVER.sh
+RUN_SERVER.sh~
+ServerInterface.class
+ServerInterface.java
+TEST.sh
+TEST.sh~
+UnixAgent.java
+UnixAgent.java~
+UnixClient.class
+UnixClient.java
+UnixClient.java~
+UnixServer.class
+UnixServer.java
+UnixServer.java~
+UnixServer_Stub.class
+log.txt
+output.txt
+result.txt
+test.txt
+cssmpi2 command(ps):.................................................................
+  PID TTY          TIME CMD
+  370 pts/6    00:00:00 bash
+ 2233 pts/6    00:00:00 RUN_SERVER.sh
+ 2234 pts/6    00:00:00 rmiregistry
+ 2235 pts/6    00:00:00 java
+ 2278 pts/6    00:00:00 ps
+cssmpi2 command(df):.................................................................
+Filesystem                     1K-blocks       Used Available Use% Mounted on
+/dev/mapper/sysvg-root         410198332    5540180 404658152   2% /
+devtmpfs                         8118748          0   8118748   0% /dev
+tmpfs                            8130544          0   8130544   0% /dev/shm
+tmpfs                            8130544     247896   7882648   4% /run
+tmpfs                            8130544          0   8130544   0% /sys/fs/cgroup
+/dev/xvda1                        764580     275972    488608  37% /boot
+neometis.uwb.edu:/DATA/CSSDIV 2113646592 1982045184  24210432  99% /CSSDIV
+neometis.uwb.edu:/DATA/apps   2113646592 1982045184  24210432  99% /usr/apps
+cssnfs2.uwb.edu:/nfsshare      821236736   37610496 783626240   5% /home
+tmpfs                            1626112          0   1626112   0% /run/user/1673979392
+tmpfs                            1626112          0   1626112   0% /run/user/1774755561
+tmpfs                            1626112          0   1626112   0% /run/user/1771577455
+tmpfs                            1626112          0   1626112   0% /run/user/1840380795
+tmpfs                            1626112          0   1626112   0% /run/user/1772536455
+tmpfs                            1626112          0   1626112   0% /run/user/1534798455
+tmpfs                            1626112          0   1626112   0% /run/user/1620577455
+tmpfs                            1626112          0   1626112   0% /run/user/1723277455
+tmpfs                            1626112          0   1626112   0% /run/user/1740681455
+tmpfs                            1626112          0   1626112   0% /run/user/1825400561
+tmpfs                            1626112          0   1626112   0% /run/user/1622675108
+tmpfs                            1626112          0   1626112   0% /run/user/1750339108
+tmpfs                            1626112          0   1626112   0% /run/user/1577478108
+tmpfs                            1626112          0   1626112   0% /run/user/1242168455
+tmpfs                            1626112          0   1626112   0% /run/user/1523920455
+tmpfs                            1626112          0   1626112   0% /run/user/1672848108
+tmpfs                            1626112          0   1626112   0% /run/user/1875057238
+tmpfs                            1626112          0   1626112   0% /run/user/1673357455
+tmpfs                            1626112          0   1626112   0% /run/user/1877128455
+tmpfs                            1626112          0   1626112   0% /run/user/1422384455
+tmpfs                            1626112          0   1626112   0% /run/user/1620681455
+tmpfs                            1626112          0   1626112   0% /run/user/1827738561
+tmpfs                            1626112          0   1626112   0% /run/user/16379876
+=========================================================================================
+cssmpi3 command(who):.................................................................
+ccomai92_css434 pts/4        May 21 23:40 (10.102.55.161)
+soheli28_css533 pts/7        May 21 23:40 (10.102.58.225)
+mfukuda  pts/8        May 21 23:51 (10.102.57.168)
+mkhsu_css434 pts/13       May 21 19:30 (d-10-65-70-230.dhcp4.washington.edu)
+tremuell_css434 pts/17       May 21 22:59 (10.102.2.144)
+cssmpi3 command(ls):.................................................................
+BUILD.sh
+BUILD.sh~
+RUN_SERVER.sh
+RUN_SERVER.sh~
+ServerInterface.class
+ServerInterface.java
+TEST.sh
+TEST.sh~
+UnixAgent.java
+UnixAgent.java~
+UnixClient.class
+UnixClient.java
+UnixClient.java~
+UnixServer.class
+UnixServer.java
+UnixServer.java~
+UnixServer_Stub.class
+log.txt
+output.txt
+result.txt
+test.txt
+cssmpi3 command(ps):.................................................................
+  PID TTY          TIME CMD
+14408 pts/4    00:00:00 bash
+15645 pts/4    00:00:00 RUN_SERVER.sh
+15646 pts/4    00:00:00 rmiregistry
+15647 pts/4    00:00:00 java
+15733 pts/4    00:00:00 ps
+cssmpi3 command(df):.................................................................
+Filesystem                     1K-blocks       Used Available Use% Mounted on
+/dev/mapper/sysvg-root         410198332    5859512 404338820   2% /
+devtmpfs                         8118748          0   8118748   0% /dev
+tmpfs                            8130544          0   8130544   0% /dev/shm
+tmpfs                            8130544     206876   7923668   3% /run
+tmpfs                            8130544          0   8130544   0% /sys/fs/cgroup
+/dev/xvda1                        764580     275980    488600  37% /boot
+neometis.uwb.edu:/DATA/CSSDIV 2113646592 1982045184  24210432  99% /CSSDIV
+neometis.uwb.edu:/DATA/apps   2113646592 1982045184  24210432  99% /usr/apps
+cssnfs2.uwb.edu:/nfsshare      821236736   37610496 783626240   5% /home
+tmpfs                            1626112          0   1626112   0% /run/user/1463653561
+tmpfs                            1626112          0   1626112   0% /run/user/1771577455
+tmpfs                            1626112          0   1626112   0% /run/user/1242168455
+tmpfs                            1626112          0   1626112   0% /run/user/1840380795
+tmpfs                            1626112          0   1626112   0% /run/user/1772536455
+tmpfs                            1626112          0   1626112   0% /run/user/1534798455
+tmpfs                            1626112          0   1626112   0% /run/user/1872548561
+tmpfs                            1626112          0   1626112   0% /run/user/1673979392
+tmpfs                            1626112          0   1626112   0% /run/user/1772837455
+tmpfs                            1626112          0   1626112   0% /run/user/1620577455
+tmpfs                            1626112          0   1626112   0% /run/user/1723277455
+tmpfs                            1626112          0   1626112   0% /run/user/1740681455
+tmpfs                            1626112          0   1626112   0% /run/user/1750339108
+tmpfs                            1626112          0   1626112   0% /run/user/1622675108
+tmpfs                            1626112          0   1626112   0% /run/user/1577478108
+tmpfs                            1626112          0   1626112   0% /run/user/1523920455
+tmpfs                            1626112          0   1626112   0% /run/user/1672848108
+tmpfs                            1626112          0   1626112   0% /run/user/1673357455
+tmpfs                            1626112          0   1626112   0% /run/user/1422384455
+tmpfs                            1626112          0   1626112   0% /run/user/1620681455
+tmpfs                            1626112          0   1626112   0% /run/user/1827738561
+tmpfs                            1626112          0   1626112   0% /run/user/16379876
+=========================================================================================
+cssmpi1 command(who):.................................................................
+soheli28_css533 pts/6        May 21 23:38 (10.102.58.225)
+soheli28_css533 pts/12       May 21 23:38 (10.102.58.225)
+ccomai92_css434 pts/23       May 21 23:39 (10.102.55.161)
+mfukuda  pts/24       May 21 23:50 (10.102.57.168)
+mfukuda  pts/32       May 21 23:51 (10.102.57.168)
+tremuell_css434 pts/37       May 21 22:40 (10.102.2.144)
+tremuell_css434 pts/38       May 21 22:40 (10.102.2.144)
+tremuell_css434 pts/39       May 21 22:41 (10.102.2.144)
+mkhsu_css434 pts/41       May 21 19:30 (d-10-65-70-230.dhcp4.washington.edu)
+cssmpi1 command(ls):.................................................................
+BUILD.sh
+BUILD.sh~
+RUN_SERVER.sh
+RUN_SERVER.sh~
+ServerInterface.class
+ServerInterface.java
+TEST.sh
+TEST.sh~
+UnixAgent.java
+UnixAgent.java~
+UnixClient.class
+UnixClient.java
+UnixClient.java~
+UnixServer.class
+UnixServer.java
+UnixServer.java~
+UnixServer_Stub.class
+log.txt
+output.txt
+result.txt
+test.txt
+cssmpi1 command(ps):.................................................................
+  PID TTY          TIME CMD
+22975 pts/23   00:00:00 bash
+26163 pts/23   00:00:00 RUN_SERVER.sh
+26166 pts/23   00:00:00 java
+26259 pts/23   00:00:00 ps
+cssmpi1 command(df):.................................................................
+Filesystem                     1K-blocks       Used Available Use% Mounted on
+/dev/mapper/sysvg-root         410198332   12218648 397979684   3% /
+devtmpfs                         8118740          0   8118740   0% /dev
+tmpfs                            8130544          0   8130544   0% /dev/shm
+tmpfs                            8130544     281548   7848996   4% /run
+tmpfs                            8130544          0   8130544   0% /sys/fs/cgroup
+/dev/xvda1                        764580     276008    488572  37% /boot
+neometis.uwb.edu:/DATA/apps   2113646592 1982045184  24210432  99% /usr/apps
+neometis.uwb.edu:/DATA/CSSDIV 2113646592 1982045184  24210432  99% /CSSDIV
+cssnfs2.uwb.edu:/nfsshare      821236736   37610496 783626240   5% /home
+tmpfs                            1626112          0   1626112   0% /run/user/1577478108
+tmpfs                            1626112          0   1626112   0% /run/user/1772536455
+tmpfs                            1626112          0   1626112   0% /run/user/1622675108
+tmpfs                            1626112          0   1626112   0% /run/user/1774755561
+tmpfs                            1626112          4   1626108   1% /run/user/16379876
+tmpfs                            1626112          0   1626112   0% /run/user/1463653561
+tmpfs                            1626112          4   1626108   1% /run/user/1673979392
+tmpfs                            1626112          0   1626112   0% /run/user/1771577455
+tmpfs                            1626112          0   1626112   0% /run/user/1840380795
+tmpfs                            1626112          0   1626112   0% /run/user/1825400561
+tmpfs                            1626112          0   1626112   0% /run/user/1468853561
+tmpfs                            1626112          0   1626112   0% /run/user/1620577455
+tmpfs                            1626112          0   1626112   0% /run/user/1242168455
+tmpfs                            1626112          0   1626112   0% /run/user/1872548561
+tmpfs                            1626112          0   1626112   0% /run/user/1534798455
+tmpfs                            1626112          0   1626112   0% /run/user/941524561
+tmpfs                            1626112          0   1626112   0% /run/user/1620681455
+tmpfs                            1626112          0   1626112   0% /run/user/1772837455
+tmpfs                            1626112          0   1626112   0% /run/user/1612482561
+tmpfs                            1626112          0   1626112   0% /run/user/1740681455
+tmpfs                            1626112          0   1626112   0% /run/user/1672848108
+tmpfs                            1626112          0   1626112   0% /run/user/1723277455
+tmpfs                            1626112          0   1626112   0% /run/user/1772541455
+tmpfs                            1626112          0   1626112   0% /run/user/1750339108
+tmpfs                            1626112          0   1626112   0% /run/user/1620554108
+tmpfs                            1626112          0   1626112   0% /run/user/1523920455
+tmpfs                            1626112          0   1626112   0% /run/user/1673357455
+tmpfs                            1626112          0   1626112   0% /run/user/1269338455
+tmpfs                            1626112          0   1626112   0% /run/user/1877128455
+tmpfs                            1626112          0   1626112   0% /run/user/1422384455
+tmpfs                            1626112          0   1626112   0% /run/user/1220258561
+tmpfs                            1626112          0   1626112   0% /run/user/1827738561
+cssmpi1 command(who):.................................................................
+soheli28_css533 pts/6        May 21 23:38 (10.102.58.225)
+soheli28_css533 pts/12       May 21 23:38 (10.102.58.225)
+ccomai92_css434 pts/23       May 21 23:39 (10.102.55.161)
+mfukuda  pts/24       May 21 23:50 (10.102.57.168)
+mfukuda  pts/32       May 21 23:51 (10.102.57.168)
+tremuell_css434 pts/37       May 21 22:40 (10.102.2.144)
+tremuell_css434 pts/38       May 21 22:40 (10.102.2.144)
+tremuell_css434 pts/39       May 21 22:41 (10.102.2.144)
+mkhsu_css434 pts/41       May 21 19:30 (d-10-65-70-230.dhcp4.washington.edu)
+cssmpi1 command(ls):.................................................................
+BUILD.sh
+BUILD.sh~
+RUN_SERVER.sh
+RUN_SERVER.sh~
+ServerInterface.class
+ServerInterface.java
+TEST.sh
+TEST.sh~
+UnixAgent.java
+UnixAgent.java~
+UnixClient.class
+UnixClient.java
+UnixClient.java~
+UnixServer.class
+UnixServer.java
+UnixServer.java~
+UnixServer_Stub.class
+log.txt
+output.txt
+result.txt
+test.txt
+cssmpi1 command(ps):.................................................................
+  PID TTY          TIME CMD
+22975 pts/23   00:00:00 bash
+26163 pts/23   00:00:00 RUN_SERVER.sh
+26166 pts/23   00:00:00 java
+26263 pts/23   00:00:00 ps
+cssmpi1 command(df):.................................................................
+Filesystem                     1K-blocks       Used Available Use% Mounted on
+/dev/mapper/sysvg-root         410198332   12218648 397979684   3% /
+devtmpfs                         8118740          0   8118740   0% /dev
+tmpfs                            8130544          0   8130544   0% /dev/shm
+tmpfs                            8130544     281548   7848996   4% /run
+tmpfs                            8130544          0   8130544   0% /sys/fs/cgroup
+/dev/xvda1                        764580     276008    488572  37% /boot
+neometis.uwb.edu:/DATA/apps   2113646592 1982045184  24210432  99% /usr/apps
+neometis.uwb.edu:/DATA/CSSDIV 2113646592 1982045184  24210432  99% /CSSDIV
+cssnfs2.uwb.edu:/nfsshare      821236736   37610496 783626240   5% /home
+tmpfs                            1626112          0   1626112   0% /run/user/1577478108
+tmpfs                            1626112          0   1626112   0% /run/user/1772536455
+tmpfs                            1626112          0   1626112   0% /run/user/1622675108
+tmpfs                            1626112          0   1626112   0% /run/user/1774755561
+tmpfs                            1626112          4   1626108   1% /run/user/16379876
+tmpfs                            1626112          0   1626112   0% /run/user/1463653561
+tmpfs                            1626112          4   1626108   1% /run/user/1673979392
+tmpfs                            1626112          0   1626112   0% /run/user/1771577455
+tmpfs                            1626112          0   1626112   0% /run/user/1840380795
+tmpfs                            1626112          0   1626112   0% /run/user/1825400561
+tmpfs                            1626112          0   1626112   0% /run/user/1468853561
+tmpfs                            1626112          0   1626112   0% /run/user/1620577455
+tmpfs                            1626112          0   1626112   0% /run/user/1242168455
+tmpfs                            1626112          0   1626112   0% /run/user/1872548561
+tmpfs                            1626112          0   1626112   0% /run/user/1534798455
+tmpfs                            1626112          0   1626112   0% /run/user/941524561
+tmpfs                            1626112          0   1626112   0% /run/user/1620681455
+tmpfs                            1626112          0   1626112   0% /run/user/1772837455
+tmpfs                            1626112          0   1626112   0% /run/user/1612482561
+tmpfs                            1626112          0   1626112   0% /run/user/1740681455
+tmpfs                            1626112          0   1626112   0% /run/user/1672848108
+tmpfs                            1626112          0   1626112   0% /run/user/1723277455
+tmpfs                            1626112          0   1626112   0% /run/user/1772541455
+tmpfs                            1626112          0   1626112   0% /run/user/1750339108
+tmpfs                            1626112          0   1626112   0% /run/user/1620554108
+tmpfs                            1626112          0   1626112   0% /run/user/1523920455
+tmpfs                            1626112          0   1626112   0% /run/user/1673357455
+tmpfs                            1626112          0   1626112   0% /run/user/1269338455
+tmpfs                            1626112          0   1626112   0% /run/user/1877128455
+tmpfs                            1626112          0   1626112   0% /run/user/1422384455
+tmpfs                            1626112          0   1626112   0% /run/user/1220258561
+tmpfs                            1626112          0   1626112   0% /run/user/1827738561
+cssmpi1 command(who):.................................................................
+soheli28_css533 pts/6        May 21 23:38 (10.102.58.225)
+soheli28_css533 pts/12       May 21 23:38 (10.102.58.225)
+ccomai92_css434 pts/23       May 21 23:39 (10.102.55.161)
+mfukuda  pts/24       May 21 23:50 (10.102.57.168)
+mfukuda  pts/32       May 21 23:51 (10.102.57.168)
+tremuell_css434 pts/37       May 21 22:40 (10.102.2.144)
+tremuell_css434 pts/38       May 21 22:40 (10.102.2.144)
+tremuell_css434 pts/39       May 21 22:41 (10.102.2.144)
+mkhsu_css434 pts/41       May 21 19:30 (d-10-65-70-230.dhcp4.washington.edu)
+cssmpi1 command(ls):.................................................................
+BUILD.sh
+BUILD.sh~
+RUN_SERVER.sh
+RUN_SERVER.sh~
+ServerInterface.class
+ServerInterface.java
+TEST.sh
+TEST.sh~
+UnixAgent.java
+UnixAgent.java~
+UnixClient.class
+UnixClient.java
+UnixClient.java~
+UnixServer.class
+UnixServer.java
+UnixServer.java~
+UnixServer_Stub.class
+log.txt
+output.txt
+result.txt
+test.txt
+cssmpi1 command(ps):.................................................................
+  PID TTY          TIME CMD
+22975 pts/23   00:00:00 bash
+26163 pts/23   00:00:00 RUN_SERVER.sh
+26166 pts/23   00:00:00 java
+26267 pts/23   00:00:00 ps
+cssmpi1 command(df):.................................................................
+Filesystem                     1K-blocks       Used Available Use% Mounted on
+/dev/mapper/sysvg-root         410198332   12218648 397979684   3% /
+devtmpfs                         8118740          0   8118740   0% /dev
+tmpfs                            8130544          0   8130544   0% /dev/shm
+tmpfs                            8130544     281548   7848996   4% /run
+tmpfs                            8130544          0   8130544   0% /sys/fs/cgroup
+/dev/xvda1                        764580     276008    488572  37% /boot
+neometis.uwb.edu:/DATA/apps   2113646592 1982045184  24210432  99% /usr/apps
+neometis.uwb.edu:/DATA/CSSDIV 2113646592 1982045184  24210432  99% /CSSDIV
+cssnfs2.uwb.edu:/nfsshare      821236736   37610496 783626240   5% /home
+tmpfs                            1626112          0   1626112   0% /run/user/1577478108
+tmpfs                            1626112          0   1626112   0% /run/user/1772536455
+tmpfs                            1626112          0   1626112   0% /run/user/1622675108
+tmpfs                            1626112          0   1626112   0% /run/user/1774755561
+tmpfs                            1626112          4   1626108   1% /run/user/16379876
+tmpfs                            1626112          0   1626112   0% /run/user/1463653561
+tmpfs                            1626112          4   1626108   1% /run/user/1673979392
+tmpfs                            1626112          0   1626112   0% /run/user/1771577455
+tmpfs                            1626112          0   1626112   0% /run/user/1840380795
+tmpfs                            1626112          0   1626112   0% /run/user/1825400561
+tmpfs                            1626112          0   1626112   0% /run/user/1468853561
+tmpfs                            1626112          0   1626112   0% /run/user/1620577455
+tmpfs                            1626112          0   1626112   0% /run/user/1242168455
+tmpfs                            1626112          0   1626112   0% /run/user/1872548561
+tmpfs                            1626112          0   1626112   0% /run/user/1534798455
+tmpfs                            1626112          0   1626112   0% /run/user/941524561
+tmpfs                            1626112          0   1626112   0% /run/user/1620681455
+tmpfs                            1626112          0   1626112   0% /run/user/1772837455
+tmpfs                            1626112          0   1626112   0% /run/user/1612482561
+tmpfs                            1626112          0   1626112   0% /run/user/1740681455
+tmpfs                            1626112          0   1626112   0% /run/user/1672848108
+tmpfs                            1626112          0   1626112   0% /run/user/1723277455
+tmpfs                            1626112          0   1626112   0% /run/user/1772541455
+tmpfs                            1626112          0   1626112   0% /run/user/1750339108
+tmpfs                            1626112          0   1626112   0% /run/user/1620554108
+tmpfs                            1626112          0   1626112   0% /run/user/1523920455
+tmpfs                            1626112          0   1626112   0% /run/user/1673357455
+tmpfs                            1626112          0   1626112   0% /run/user/1269338455
+tmpfs                            1626112          0   1626112   0% /run/user/1877128455
+tmpfs                            1626112          0   1626112   0% /run/user/1422384455
+tmpfs                            1626112          0   1626112   0% /run/user/1220258561
+tmpfs                            1626112          0   1626112   0% /run/user/1827738561
+=========================================================================================
+cssmpi1 command(who):.................................................................
+soheli28_css533 pts/6        May 21 23:38 (10.102.58.225)
+soheli28_css533 pts/12       May 21 23:38 (10.102.58.225)
+ccomai92_css434 pts/23       May 21 23:39 (10.102.55.161)
+mfukuda  pts/24       May 21 23:50 (10.102.57.168)
+mfukuda  pts/32       May 21 23:51 (10.102.57.168)
+tremuell_css434 pts/37       May 21 22:40 (10.102.2.144)
+tremuell_css434 pts/38       May 21 22:40 (10.102.2.144)
+tremuell_css434 pts/39       May 21 22:41 (10.102.2.144)
+mkhsu_css434 pts/41       May 21 19:30 (d-10-65-70-230.dhcp4.washington.edu)
+cssmpi1 command(ls):.................................................................
+BUILD.sh
+BUILD.sh~
+RUN_SERVER.sh
+RUN_SERVER.sh~
+ServerInterface.class
+ServerInterface.java
+TEST.sh
+TEST.sh~
+UnixAgent.java
+UnixAgent.java~
+UnixClient.class
+UnixClient.java
+UnixClient.java~
+UnixServer.class
+UnixServer.java
+UnixServer.java~
+UnixServer_Stub.class
+log.txt
+output.txt
+result.txt
+test.txt
+cssmpi1 command(ps):.................................................................
+  PID TTY          TIME CMD
+22975 pts/23   00:00:00 bash
+26163 pts/23   00:00:00 RUN_SERVER.sh
+26166 pts/23   00:00:00 java
+26271 pts/23   00:00:00 ps
+cssmpi1 command(df):.................................................................
+Filesystem                     1K-blocks       Used Available Use% Mounted on
+/dev/mapper/sysvg-root         410198332   12218648 397979684   3% /
+devtmpfs                         8118740          0   8118740   0% /dev
+tmpfs                            8130544          0   8130544   0% /dev/shm
+tmpfs                            8130544     281548   7848996   4% /run
+tmpfs                            8130544          0   8130544   0% /sys/fs/cgroup
+/dev/xvda1                        764580     276008    488572  37% /boot
+neometis.uwb.edu:/DATA/apps   2113646592 1982045184  24210432  99% /usr/apps
+neometis.uwb.edu:/DATA/CSSDIV 2113646592 1982045184  24210432  99% /CSSDIV
+cssnfs2.uwb.edu:/nfsshare      821236736   37610496 783626240   5% /home
+tmpfs                            1626112          0   1626112   0% /run/user/1577478108
+tmpfs                            1626112          0   1626112   0% /run/user/1772536455
+tmpfs                            1626112          0   1626112   0% /run/user/1622675108
+tmpfs                            1626112          0   1626112   0% /run/user/1774755561
+tmpfs                            1626112          4   1626108   1% /run/user/16379876
+tmpfs                            1626112          0   1626112   0% /run/user/1463653561
+tmpfs                            1626112          4   1626108   1% /run/user/1673979392
+tmpfs                            1626112          0   1626112   0% /run/user/1771577455
+tmpfs                            1626112          0   1626112   0% /run/user/1840380795
+tmpfs                            1626112          0   1626112   0% /run/user/1825400561
+tmpfs                            1626112          0   1626112   0% /run/user/1468853561
+tmpfs                            1626112          0   1626112   0% /run/user/1620577455
+tmpfs                            1626112          0   1626112   0% /run/user/1242168455
+tmpfs                            1626112          0   1626112   0% /run/user/1872548561
+tmpfs                            1626112          0   1626112   0% /run/user/1534798455
+tmpfs                            1626112          0   1626112   0% /run/user/941524561
+tmpfs                            1626112          0   1626112   0% /run/user/1620681455
+tmpfs                            1626112          0   1626112   0% /run/user/1772837455
+tmpfs                            1626112          0   1626112   0% /run/user/1612482561
+tmpfs                            1626112          0   1626112   0% /run/user/1740681455
+tmpfs                            1626112          0   1626112   0% /run/user/1672848108
+tmpfs                            1626112          0   1626112   0% /run/user/1723277455
+tmpfs                            1626112          0   1626112   0% /run/user/1772541455
+tmpfs                            1626112          0   1626112   0% /run/user/1750339108
+tmpfs                            1626112          0   1626112   0% /run/user/1620554108
+tmpfs                            1626112          0   1626112   0% /run/user/1523920455
+tmpfs                            1626112          0   1626112   0% /run/user/1673357455
+tmpfs                            1626112          0   1626112   0% /run/user/1269338455
+tmpfs                            1626112          0   1626112   0% /run/user/1877128455
+tmpfs                            1626112          0   1626112   0% /run/user/1422384455
+tmpfs                            1626112          0   1626112   0% /run/user/1220258561
+tmpfs                            1626112          0   1626112   0% /run/user/1827738561
+cssmpi1 command(who):.................................................................
+soheli28_css533 pts/6        May 21 23:38 (10.102.58.225)
+soheli28_css533 pts/12       May 21 23:38 (10.102.58.225)
+ccomai92_css434 pts/23       May 21 23:39 (10.102.55.161)
+mfukuda  pts/24       May 21 23:50 (10.102.57.168)
+mfukuda  pts/32       May 21 23:51 (10.102.57.168)
+tremuell_css434 pts/37       May 21 22:40 (10.102.2.144)
+tremuell_css434 pts/38       May 21 22:40 (10.102.2.144)
+tremuell_css434 pts/39       May 21 22:41 (10.102.2.144)
+mkhsu_css434 pts/41       May 21 19:30 (d-10-65-70-230.dhcp4.washington.edu)
+cssmpi1 command(ls):.................................................................
+BUILD.sh
+BUILD.sh~
+RUN_SERVER.sh
+RUN_SERVER.sh~
+ServerInterface.class
+ServerInterface.java
+TEST.sh
+TEST.sh~
+UnixAgent.java
+UnixAgent.java~
+UnixClient.class
+UnixClient.java
+UnixClient.java~
+UnixServer.class
+UnixServer.java
+UnixServer.java~
+UnixServer_Stub.class
+log.txt
+output.txt
+result.txt
+test.txt
+cssmpi1 command(ps):.................................................................
+  PID TTY          TIME CMD
+22975 pts/23   00:00:00 bash
+26163 pts/23   00:00:00 RUN_SERVER.sh
+26166 pts/23   00:00:00 java
+26275 pts/23   00:00:00 ps
+cssmpi1 command(df):.................................................................
+Filesystem                     1K-blocks       Used Available Use% Mounted on
+/dev/mapper/sysvg-root         410198332   12218648 397979684   3% /
+devtmpfs                         8118740          0   8118740   0% /dev
+tmpfs                            8130544          0   8130544   0% /dev/shm
+tmpfs                            8130544     281548   7848996   4% /run
+tmpfs                            8130544          0   8130544   0% /sys/fs/cgroup
+/dev/xvda1                        764580     276008    488572  37% /boot
+neometis.uwb.edu:/DATA/apps   2113646592 1982045184  24210432  99% /usr/apps
+neometis.uwb.edu:/DATA/CSSDIV 2113646592 1982045184  24210432  99% /CSSDIV
+cssnfs2.uwb.edu:/nfsshare      821236736   37610496 783626240   5% /home
+tmpfs                            1626112          0   1626112   0% /run/user/1577478108
+tmpfs                            1626112          0   1626112   0% /run/user/1772536455
+tmpfs                            1626112          0   1626112   0% /run/user/1622675108
+tmpfs                            1626112          0   1626112   0% /run/user/1774755561
+tmpfs                            1626112          4   1626108   1% /run/user/16379876
+tmpfs                            1626112          0   1626112   0% /run/user/1463653561
+tmpfs                            1626112          4   1626108   1% /run/user/1673979392
+tmpfs                            1626112          0   1626112   0% /run/user/1771577455
+tmpfs                            1626112          0   1626112   0% /run/user/1840380795
+tmpfs                            1626112          0   1626112   0% /run/user/1825400561
+tmpfs                            1626112          0   1626112   0% /run/user/1468853561
+tmpfs                            1626112          0   1626112   0% /run/user/1620577455
+tmpfs                            1626112          0   1626112   0% /run/user/1242168455
+tmpfs                            1626112          0   1626112   0% /run/user/1872548561
+tmpfs                            1626112          0   1626112   0% /run/user/1534798455
+tmpfs                            1626112          0   1626112   0% /run/user/941524561
+tmpfs                            1626112          0   1626112   0% /run/user/1620681455
+tmpfs                            1626112          0   1626112   0% /run/user/1772837455
+tmpfs                            1626112          0   1626112   0% /run/user/1612482561
+tmpfs                            1626112          0   1626112   0% /run/user/1740681455
+tmpfs                            1626112          0   1626112   0% /run/user/1672848108
+tmpfs                            1626112          0   1626112   0% /run/user/1723277455
+tmpfs                            1626112          0   1626112   0% /run/user/1772541455
+tmpfs                            1626112          0   1626112   0% /run/user/1750339108
+tmpfs                            1626112          0   1626112   0% /run/user/1620554108
+tmpfs                            1626112          0   1626112   0% /run/user/1523920455
+tmpfs                            1626112          0   1626112   0% /run/user/1673357455
+tmpfs                            1626112          0   1626112   0% /run/user/1269338455
+tmpfs                            1626112          0   1626112   0% /run/user/1877128455
+tmpfs                            1626112          0   1626112   0% /run/user/1422384455
+tmpfs                            1626112          0   1626112   0% /run/user/1220258561
+tmpfs                            1626112          0   1626112   0% /run/user/1827738561
+cssmpi1 command(who):.................................................................
+soheli28_css533 pts/6        May 21 23:38 (10.102.58.225)
+soheli28_css533 pts/12       May 21 23:38 (10.102.58.225)
+ccomai92_css434 pts/23       May 21 23:39 (10.102.55.161)
+mfukuda  pts/24       May 21 23:50 (10.102.57.168)
+mfukuda  pts/32       May 21 23:51 (10.102.57.168)
+tremuell_css434 pts/37       May 21 22:40 (10.102.2.144)
+tremuell_css434 pts/38       May 21 22:40 (10.102.2.144)
+tremuell_css434 pts/39       May 21 22:41 (10.102.2.144)
+mkhsu_css434 pts/41       May 21 19:30 (d-10-65-70-230.dhcp4.washington.edu)
+cssmpi1 command(ls):.................................................................
+BUILD.sh
+BUILD.sh~
+RUN_SERVER.sh
+RUN_SERVER.sh~
+ServerInterface.class
+ServerInterface.java
+TEST.sh
+TEST.sh~
+UnixAgent.java
+UnixAgent.java~
+UnixClient.class
+UnixClient.java
+UnixClient.java~
+UnixServer.class
+UnixServer.java
+UnixServer.java~
+UnixServer_Stub.class
+log.txt
+output.txt
+result.txt
+test.txt
+cssmpi1 command(ps):.................................................................
+  PID TTY          TIME CMD
+22975 pts/23   00:00:00 bash
+26163 pts/23   00:00:00 RUN_SERVER.sh
+26166 pts/23   00:00:00 java
+26279 pts/23   00:00:00 ps
+cssmpi1 command(df):.................................................................
+Filesystem                     1K-blocks       Used Available Use% Mounted on
+/dev/mapper/sysvg-root         410198332   12218648 397979684   3% /
+devtmpfs                         8118740          0   8118740   0% /dev
+tmpfs                            8130544          0   8130544   0% /dev/shm
+tmpfs                            8130544     281548   7848996   4% /run
+tmpfs                            8130544          0   8130544   0% /sys/fs/cgroup
+/dev/xvda1                        764580     276008    488572  37% /boot
+neometis.uwb.edu:/DATA/apps   2113646592 1982045184  24210432  99% /usr/apps
+neometis.uwb.edu:/DATA/CSSDIV 2113646592 1982045184  24210432  99% /CSSDIV
+cssnfs2.uwb.edu:/nfsshare      821236736   37610496 783626240   5% /home
+tmpfs                            1626112          0   1626112   0% /run/user/1577478108
+tmpfs                            1626112          0   1626112   0% /run/user/1772536455
+tmpfs                            1626112          0   1626112   0% /run/user/1622675108
+tmpfs                            1626112          0   1626112   0% /run/user/1774755561
+tmpfs                            1626112          4   1626108   1% /run/user/16379876
+tmpfs                            1626112          0   1626112   0% /run/user/1463653561
+tmpfs                            1626112          4   1626108   1% /run/user/1673979392
+tmpfs                            1626112          0   1626112   0% /run/user/1771577455
+tmpfs                            1626112          0   1626112   0% /run/user/1840380795
+tmpfs                            1626112          0   1626112   0% /run/user/1825400561
+tmpfs                            1626112          0   1626112   0% /run/user/1468853561
+tmpfs                            1626112          0   1626112   0% /run/user/1620577455
+tmpfs                            1626112          0   1626112   0% /run/user/1242168455
+tmpfs                            1626112          0   1626112   0% /run/user/1872548561
+tmpfs                            1626112          0   1626112   0% /run/user/1534798455
+tmpfs                            1626112          0   1626112   0% /run/user/941524561
+tmpfs                            1626112          0   1626112   0% /run/user/1620681455
+tmpfs                            1626112          0   1626112   0% /run/user/1772837455
+tmpfs                            1626112          0   1626112   0% /run/user/1612482561
+tmpfs                            1626112          0   1626112   0% /run/user/1740681455
+tmpfs                            1626112          0   1626112   0% /run/user/1672848108
+tmpfs                            1626112          0   1626112   0% /run/user/1723277455
+tmpfs                            1626112          0   1626112   0% /run/user/1772541455
+tmpfs                            1626112          0   1626112   0% /run/user/1750339108
+tmpfs                            1626112          0   1626112   0% /run/user/1620554108
+tmpfs                            1626112          0   1626112   0% /run/user/1523920455
+tmpfs                            1626112          0   1626112   0% /run/user/1673357455
+tmpfs                            1626112          0   1626112   0% /run/user/1269338455
+tmpfs                            1626112          0   1626112   0% /run/user/1877128455
+tmpfs                            1626112          0   1626112   0% /run/user/1422384455
+tmpfs                            1626112          0   1626112   0% /run/user/1220258561
+tmpfs                            1626112          0   1626112   0% /run/user/1827738561
+=========================================================================================
+cssmpi2 command(who):.................................................................
+mfukuda  pts/3        May 21 23:51 (10.102.57.168)
+ccomai92_css434 pts/6        May 21 23:40 (10.102.55.161)
+soheli28_css533 pts/10       May 21 23:40 (10.102.58.225)
+mkhsu_css434 pts/18       May 21 19:30 (d-10-65-70-230.dhcp4.washington.edu)
+tremuell_css434 pts/25       May 21 22:40 (cssmpi1.uwb.edu)
+cssmpi2 command(ls):.................................................................
+BUILD.sh
+BUILD.sh~
+RUN_SERVER.sh
+RUN_SERVER.sh~
+ServerInterface.class
+ServerInterface.java
+TEST.sh
+TEST.sh~
+UnixAgent.java
+UnixAgent.java~
+UnixClient.class
+UnixClient.java
+UnixClient.java~
+UnixServer.class
+UnixServer.java
+UnixServer.java~
+UnixServer_Stub.class
+log.txt
+output.txt
+result.txt
+test.txt
+cssmpi2 command(ps):.................................................................
+  PID TTY          TIME CMD
+  370 pts/6    00:00:00 bash
+ 2233 pts/6    00:00:00 RUN_SERVER.sh
+ 2234 pts/6    00:00:00 rmiregistry
+ 2235 pts/6    00:00:00 java
+ 2282 pts/6    00:00:00 ps
+cssmpi2 command(df):.................................................................
+Filesystem                     1K-blocks       Used Available Use% Mounted on
+/dev/mapper/sysvg-root         410198332    5540180 404658152   2% /
+devtmpfs                         8118748          0   8118748   0% /dev
+tmpfs                            8130544          0   8130544   0% /dev/shm
+tmpfs                            8130544     247896   7882648   4% /run
+tmpfs                            8130544          0   8130544   0% /sys/fs/cgroup
+/dev/xvda1                        764580     275972    488608  37% /boot
+neometis.uwb.edu:/DATA/CSSDIV 2113646592 1982045184  24210432  99% /CSSDIV
+neometis.uwb.edu:/DATA/apps   2113646592 1982045184  24210432  99% /usr/apps
+cssnfs2.uwb.edu:/nfsshare      821236736   37610496 783626240   5% /home
+tmpfs                            1626112          0   1626112   0% /run/user/1673979392
+tmpfs                            1626112          0   1626112   0% /run/user/1774755561
+tmpfs                            1626112          0   1626112   0% /run/user/1771577455
+tmpfs                            1626112          0   1626112   0% /run/user/1840380795
+tmpfs                            1626112          0   1626112   0% /run/user/1772536455
+tmpfs                            1626112          0   1626112   0% /run/user/1534798455
+tmpfs                            1626112          0   1626112   0% /run/user/1620577455
+tmpfs                            1626112          0   1626112   0% /run/user/1723277455
+tmpfs                            1626112          0   1626112   0% /run/user/1740681455
+tmpfs                            1626112          0   1626112   0% /run/user/1825400561
+tmpfs                            1626112          0   1626112   0% /run/user/1622675108
+tmpfs                            1626112          0   1626112   0% /run/user/1750339108
+tmpfs                            1626112          0   1626112   0% /run/user/1577478108
+tmpfs                            1626112          0   1626112   0% /run/user/1242168455
+tmpfs                            1626112          0   1626112   0% /run/user/1523920455
+tmpfs                            1626112          0   1626112   0% /run/user/1672848108
+tmpfs                            1626112          0   1626112   0% /run/user/1875057238
+tmpfs                            1626112          0   1626112   0% /run/user/1673357455
+tmpfs                            1626112          0   1626112   0% /run/user/1877128455
+tmpfs                            1626112          0   1626112   0% /run/user/1422384455
+tmpfs                            1626112          0   1626112   0% /run/user/1620681455
+tmpfs                            1626112          0   1626112   0% /run/user/1827738561
+tmpfs                            1626112          0   1626112   0% /run/user/16379876
+cssmpi2 command(who):.................................................................
+mfukuda  pts/3        May 21 23:51 (10.102.57.168)
+ccomai92_css434 pts/6        May 21 23:40 (10.102.55.161)
+soheli28_css533 pts/10       May 21 23:40 (10.102.58.225)
+mkhsu_css434 pts/18       May 21 19:30 (d-10-65-70-230.dhcp4.washington.edu)
+tremuell_css434 pts/25       May 21 22:40 (cssmpi1.uwb.edu)
+cssmpi2 command(ls):.................................................................
+BUILD.sh
+BUILD.sh~
+RUN_SERVER.sh
+RUN_SERVER.sh~
+ServerInterface.class
+ServerInterface.java
+TEST.sh
+TEST.sh~
+UnixAgent.java
+UnixAgent.java~
+UnixClient.class
+UnixClient.java
+UnixClient.java~
+UnixServer.class
+UnixServer.java
+UnixServer.java~
+UnixServer_Stub.class
+log.txt
+output.txt
+result.txt
+test.txt
+cssmpi2 command(ps):.................................................................
+  PID TTY          TIME CMD
+  370 pts/6    00:00:00 bash
+ 2233 pts/6    00:00:00 RUN_SERVER.sh
+ 2234 pts/6    00:00:00 rmiregistry
+ 2235 pts/6    00:00:00 java
+ 2286 pts/6    00:00:00 ps
+cssmpi2 command(df):.................................................................
+Filesystem                     1K-blocks       Used Available Use% Mounted on
+/dev/mapper/sysvg-root         410198332    5540180 404658152   2% /
+devtmpfs                         8118748          0   8118748   0% /dev
+tmpfs                            8130544          0   8130544   0% /dev/shm
+tmpfs                            8130544     247896   7882648   4% /run
+tmpfs                            8130544          0   8130544   0% /sys/fs/cgroup
+/dev/xvda1                        764580     275972    488608  37% /boot
+neometis.uwb.edu:/DATA/CSSDIV 2113646592 1982045184  24210432  99% /CSSDIV
+neometis.uwb.edu:/DATA/apps   2113646592 1982045184  24210432  99% /usr/apps
+cssnfs2.uwb.edu:/nfsshare      821236736   37610496 783626240   5% /home
+tmpfs                            1626112          0   1626112   0% /run/user/1673979392
+tmpfs                            1626112          0   1626112   0% /run/user/1774755561
+tmpfs                            1626112          0   1626112   0% /run/user/1771577455
+tmpfs                            1626112          0   1626112   0% /run/user/1840380795
+tmpfs                            1626112          0   1626112   0% /run/user/1772536455
+tmpfs                            1626112          0   1626112   0% /run/user/1534798455
+tmpfs                            1626112          0   1626112   0% /run/user/1620577455
+tmpfs                            1626112          0   1626112   0% /run/user/1723277455
+tmpfs                            1626112          0   1626112   0% /run/user/1740681455
+tmpfs                            1626112          0   1626112   0% /run/user/1825400561
+tmpfs                            1626112          0   1626112   0% /run/user/1622675108
+tmpfs                            1626112          0   1626112   0% /run/user/1750339108
+tmpfs                            1626112          0   1626112   0% /run/user/1577478108
+tmpfs                            1626112          0   1626112   0% /run/user/1242168455
+tmpfs                            1626112          0   1626112   0% /run/user/1523920455
+tmpfs                            1626112          0   1626112   0% /run/user/1672848108
+tmpfs                            1626112          0   1626112   0% /run/user/1875057238
+tmpfs                            1626112          0   1626112   0% /run/user/1673357455
+tmpfs                            1626112          0   1626112   0% /run/user/1877128455
+tmpfs                            1626112          0   1626112   0% /run/user/1422384455
+tmpfs                            1626112          0   1626112   0% /run/user/1620681455
+tmpfs                            1626112          0   1626112   0% /run/user/1827738561
+tmpfs                            1626112          0   1626112   0% /run/user/16379876
+cssmpi2 command(who):.................................................................
+mfukuda  pts/3        May 21 23:51 (10.102.57.168)
+ccomai92_css434 pts/6        May 21 23:40 (10.102.55.161)
+soheli28_css533 pts/10       May 21 23:40 (10.102.58.225)
+mkhsu_css434 pts/18       May 21 19:30 (d-10-65-70-230.dhcp4.washington.edu)
+tremuell_css434 pts/25       May 21 22:40 (cssmpi1.uwb.edu)
+cssmpi2 command(ls):.................................................................
+BUILD.sh
+BUILD.sh~
+RUN_SERVER.sh
+RUN_SERVER.sh~
+ServerInterface.class
+ServerInterface.java
+TEST.sh
+TEST.sh~
+UnixAgent.java
+UnixAgent.java~
+UnixClient.class
+UnixClient.java
+UnixClient.java~
+UnixServer.class
+UnixServer.java
+UnixServer.java~
+UnixServer_Stub.class
+log.txt
+output.txt
+result.txt
+test.txt
+cssmpi2 command(ps):.................................................................
+  PID TTY          TIME CMD
+  370 pts/6    00:00:00 bash
+ 2233 pts/6    00:00:00 RUN_SERVER.sh
+ 2234 pts/6    00:00:00 rmiregistry
+ 2235 pts/6    00:00:00 java
+ 2290 pts/6    00:00:00 ps
+cssmpi2 command(df):.................................................................
+Filesystem                     1K-blocks       Used Available Use% Mounted on
+/dev/mapper/sysvg-root         410198332    5540180 404658152   2% /
+devtmpfs                         8118748          0   8118748   0% /dev
+tmpfs                            8130544          0   8130544   0% /dev/shm
+tmpfs                            8130544     247896   7882648   4% /run
+tmpfs                            8130544          0   8130544   0% /sys/fs/cgroup
+/dev/xvda1                        764580     275972    488608  37% /boot
+neometis.uwb.edu:/DATA/CSSDIV 2113646592 1982045184  24210432  99% /CSSDIV
+neometis.uwb.edu:/DATA/apps   2113646592 1982045184  24210432  99% /usr/apps
+cssnfs2.uwb.edu:/nfsshare      821236736   37610496 783626240   5% /home
+tmpfs                            1626112          0   1626112   0% /run/user/1673979392
+tmpfs                            1626112          0   1626112   0% /run/user/1774755561
+tmpfs                            1626112          0   1626112   0% /run/user/1771577455
+tmpfs                            1626112          0   1626112   0% /run/user/1840380795
+tmpfs                            1626112          0   1626112   0% /run/user/1772536455
+tmpfs                            1626112          0   1626112   0% /run/user/1534798455
+tmpfs                            1626112          0   1626112   0% /run/user/1620577455
+tmpfs                            1626112          0   1626112   0% /run/user/1723277455
+tmpfs                            1626112          0   1626112   0% /run/user/1740681455
+tmpfs                            1626112          0   1626112   0% /run/user/1825400561
+tmpfs                            1626112          0   1626112   0% /run/user/1622675108
+tmpfs                            1626112          0   1626112   0% /run/user/1750339108
+tmpfs                            1626112          0   1626112   0% /run/user/1577478108
+tmpfs                            1626112          0   1626112   0% /run/user/1242168455
+tmpfs                            1626112          0   1626112   0% /run/user/1523920455
+tmpfs                            1626112          0   1626112   0% /run/user/1672848108
+tmpfs                            1626112          0   1626112   0% /run/user/1875057238
+tmpfs                            1626112          0   1626112   0% /run/user/1673357455
+tmpfs                            1626112          0   1626112   0% /run/user/1877128455
+tmpfs                            1626112          0   1626112   0% /run/user/1422384455
+tmpfs                            1626112          0   1626112   0% /run/user/1620681455
+tmpfs                            1626112          0   1626112   0% /run/user/1827738561
+tmpfs                            1626112          0   1626112   0% /run/user/16379876
+=========================================================================================
+cssmpi1 command(who):.................................................................
+soheli28_css533 pts/6        May 21 23:38 (10.102.58.225)
+soheli28_css533 pts/12       May 21 23:38 (10.102.58.225)
+ccomai92_css434 pts/23       May 21 23:39 (10.102.55.161)
+mfukuda  pts/24       May 21 23:50 (10.102.57.168)
+mfukuda  pts/32       May 21 23:51 (10.102.57.168)
+tremuell_css434 pts/37       May 21 22:40 (10.102.2.144)
+tremuell_css434 pts/38       May 21 22:40 (10.102.2.144)
+tremuell_css434 pts/39       May 21 22:41 (10.102.2.144)
+mkhsu_css434 pts/41       May 21 19:30 (d-10-65-70-230.dhcp4.washington.edu)
+cssmpi1 command(ls):.................................................................
+BUILD.sh
+BUILD.sh~
+RUN_SERVER.sh
+RUN_SERVER.sh~
+ServerInterface.class
+ServerInterface.java
+TEST.sh
+TEST.sh~
+UnixAgent.java
+UnixAgent.java~
+UnixClient.class
+UnixClient.java
+UnixClient.java~
+UnixServer.class
+UnixServer.java
+UnixServer.java~
+UnixServer_Stub.class
+log.txt
+output.txt
+result.txt
+test.txt
+cssmpi1 command(ps):.................................................................
+  PID TTY          TIME CMD
+22975 pts/23   00:00:00 bash
+26163 pts/23   00:00:00 RUN_SERVER.sh
+26166 pts/23   00:00:00 java
+26283 pts/23   00:00:00 ps
+cssmpi1 command(df):.................................................................
+Filesystem                     1K-blocks       Used Available Use% Mounted on
+/dev/mapper/sysvg-root         410198332   12218648 397979684   3% /
+devtmpfs                         8118740          0   8118740   0% /dev
+tmpfs                            8130544          0   8130544   0% /dev/shm
+tmpfs                            8130544     281548   7848996   4% /run
+tmpfs                            8130544          0   8130544   0% /sys/fs/cgroup
+/dev/xvda1                        764580     276008    488572  37% /boot
+neometis.uwb.edu:/DATA/apps   2113646592 1982045184  24210432  99% /usr/apps
+neometis.uwb.edu:/DATA/CSSDIV 2113646592 1982045184  24210432  99% /CSSDIV
+cssnfs2.uwb.edu:/nfsshare      821236736   37610496 783626240   5% /home
+tmpfs                            1626112          0   1626112   0% /run/user/1577478108
+tmpfs                            1626112          0   1626112   0% /run/user/1772536455
+tmpfs                            1626112          0   1626112   0% /run/user/1622675108
+tmpfs                            1626112          0   1626112   0% /run/user/1774755561
+tmpfs                            1626112          4   1626108   1% /run/user/16379876
+tmpfs                            1626112          0   1626112   0% /run/user/1463653561
+tmpfs                            1626112          4   1626108   1% /run/user/1673979392
+tmpfs                            1626112          0   1626112   0% /run/user/1771577455
+tmpfs                            1626112          0   1626112   0% /run/user/1840380795
+tmpfs                            1626112          0   1626112   0% /run/user/1825400561
+tmpfs                            1626112          0   1626112   0% /run/user/1468853561
+tmpfs                            1626112          0   1626112   0% /run/user/1620577455
+tmpfs                            1626112          0   1626112   0% /run/user/1242168455
+tmpfs                            1626112          0   1626112   0% /run/user/1872548561
+tmpfs                            1626112          0   1626112   0% /run/user/1534798455
+tmpfs                            1626112          0   1626112   0% /run/user/941524561
+tmpfs                            1626112          0   1626112   0% /run/user/1620681455
+tmpfs                            1626112          0   1626112   0% /run/user/1772837455
+tmpfs                            1626112          0   1626112   0% /run/user/1612482561
+tmpfs                            1626112          0   1626112   0% /run/user/1740681455
+tmpfs                            1626112          0   1626112   0% /run/user/1672848108
+tmpfs                            1626112          0   1626112   0% /run/user/1723277455
+tmpfs                            1626112          0   1626112   0% /run/user/1772541455
+tmpfs                            1626112          0   1626112   0% /run/user/1750339108
+tmpfs                            1626112          0   1626112   0% /run/user/1620554108
+tmpfs                            1626112          0   1626112   0% /run/user/1523920455
+tmpfs                            1626112          0   1626112   0% /run/user/1673357455
+tmpfs                            1626112          0   1626112   0% /run/user/1269338455
+tmpfs                            1626112          0   1626112   0% /run/user/1877128455
+tmpfs                            1626112          0   1626112   0% /run/user/1422384455
+tmpfs                            1626112          0   1626112   0% /run/user/1220258561
+tmpfs                            1626112          0   1626112   0% /run/user/1827738561
+cssmpi1 command(who):.................................................................
+soheli28_css533 pts/6        May 21 23:38 (10.102.58.225)
+soheli28_css533 pts/12       May 21 23:38 (10.102.58.225)
+ccomai92_css434 pts/23       May 21 23:39 (10.102.55.161)
+mfukuda  pts/24       May 21 23:50 (10.102.57.168)
+mfukuda  pts/32       May 21 23:51 (10.102.57.168)
+tremuell_css434 pts/37       May 21 22:40 (10.102.2.144)
+tremuell_css434 pts/38       May 21 22:40 (10.102.2.144)
+tremuell_css434 pts/39       May 21 22:41 (10.102.2.144)
+mkhsu_css434 pts/41       May 21 19:30 (d-10-65-70-230.dhcp4.washington.edu)
+cssmpi1 command(ls):.................................................................
+BUILD.sh
+BUILD.sh~
+RUN_SERVER.sh
+RUN_SERVER.sh~
+ServerInterface.class
+ServerInterface.java
+TEST.sh
+TEST.sh~
+UnixAgent.java
+UnixAgent.java~
+UnixClient.class
+UnixClient.java
+UnixClient.java~
+UnixServer.class
+UnixServer.java
+UnixServer.java~
+UnixServer_Stub.class
+log.txt
+output.txt
+result.txt
+test.txt
+cssmpi1 command(ps):.................................................................
+  PID TTY          TIME CMD
+22975 pts/23   00:00:00 bash
+26163 pts/23   00:00:00 RUN_SERVER.sh
+26166 pts/23   00:00:00 java
+26287 pts/23   00:00:00 ps
+cssmpi1 command(df):.................................................................
+Filesystem                     1K-blocks       Used Available Use% Mounted on
+/dev/mapper/sysvg-root         410198332   12218648 397979684   3% /
+devtmpfs                         8118740          0   8118740   0% /dev
+tmpfs                            8130544          0   8130544   0% /dev/shm
+tmpfs                            8130544     281548   7848996   4% /run
+tmpfs                            8130544          0   8130544   0% /sys/fs/cgroup
+/dev/xvda1                        764580     276008    488572  37% /boot
+neometis.uwb.edu:/DATA/apps   2113646592 1982045184  24210432  99% /usr/apps
+neometis.uwb.edu:/DATA/CSSDIV 2113646592 1982045184  24210432  99% /CSSDIV
+cssnfs2.uwb.edu:/nfsshare      821236736   37610496 783626240   5% /home
+tmpfs                            1626112          0   1626112   0% /run/user/1577478108
+tmpfs                            1626112          0   1626112   0% /run/user/1772536455
+tmpfs                            1626112          0   1626112   0% /run/user/1622675108
+tmpfs                            1626112          0   1626112   0% /run/user/1774755561
+tmpfs                            1626112          4   1626108   1% /run/user/16379876
+tmpfs                            1626112          0   1626112   0% /run/user/1463653561
+tmpfs                            1626112          4   1626108   1% /run/user/1673979392
+tmpfs                            1626112          0   1626112   0% /run/user/1771577455
+tmpfs                            1626112          0   1626112   0% /run/user/1840380795
+tmpfs                            1626112          0   1626112   0% /run/user/1825400561
+tmpfs                            1626112          0   1626112   0% /run/user/1468853561
+tmpfs                            1626112          0   1626112   0% /run/user/1620577455
+tmpfs                            1626112          0   1626112   0% /run/user/1242168455
+tmpfs                            1626112          0   1626112   0% /run/user/1872548561
+tmpfs                            1626112          0   1626112   0% /run/user/1534798455
+tmpfs                            1626112          0   1626112   0% /run/user/941524561
+tmpfs                            1626112          0   1626112   0% /run/user/1620681455
+tmpfs                            1626112          0   1626112   0% /run/user/1772837455
+tmpfs                            1626112          0   1626112   0% /run/user/1612482561
+tmpfs                            1626112          0   1626112   0% /run/user/1740681455
+tmpfs                            1626112          0   1626112   0% /run/user/1672848108
+tmpfs                            1626112          0   1626112   0% /run/user/1723277455
+tmpfs                            1626112          0   1626112   0% /run/user/1772541455
+tmpfs                            1626112          0   1626112   0% /run/user/1750339108
+tmpfs                            1626112          0   1626112   0% /run/user/1620554108
+tmpfs                            1626112          0   1626112   0% /run/user/1523920455
+tmpfs                            1626112          0   1626112   0% /run/user/1673357455
+tmpfs                            1626112          0   1626112   0% /run/user/1269338455
+tmpfs                            1626112          0   1626112   0% /run/user/1877128455
+tmpfs                            1626112          0   1626112   0% /run/user/1422384455
+tmpfs                            1626112          0   1626112   0% /run/user/1220258561
+tmpfs                            1626112          0   1626112   0% /run/user/1827738561
+cssmpi1 command(who):.................................................................
+soheli28_css533 pts/6        May 21 23:38 (10.102.58.225)
+soheli28_css533 pts/12       May 21 23:38 (10.102.58.225)
+ccomai92_css434 pts/23       May 21 23:39 (10.102.55.161)
+mfukuda  pts/24       May 21 23:50 (10.102.57.168)
+mfukuda  pts/32       May 21 23:51 (10.102.57.168)
+tremuell_css434 pts/37       May 21 22:40 (10.102.2.144)
+tremuell_css434 pts/38       May 21 22:40 (10.102.2.144)
+tremuell_css434 pts/39       May 21 22:41 (10.102.2.144)
+mkhsu_css434 pts/41       May 21 19:30 (d-10-65-70-230.dhcp4.washington.edu)
+cssmpi1 command(ls):.................................................................
+BUILD.sh
+BUILD.sh~
+RUN_SERVER.sh
+RUN_SERVER.sh~
+ServerInterface.class
+ServerInterface.java
+TEST.sh
+TEST.sh~
+UnixAgent.java
+UnixAgent.java~
+UnixClient.class
+UnixClient.java
+UnixClient.java~
+UnixServer.class
+UnixServer.java
+UnixServer.java~
+UnixServer_Stub.class
+log.txt
+output.txt
+result.txt
+test.txt
+cssmpi1 command(ps):.................................................................
+  PID TTY          TIME CMD
+22975 pts/23   00:00:00 bash
+26163 pts/23   00:00:00 RUN_SERVER.sh
+26166 pts/23   00:00:00 java
+26291 pts/23   00:00:00 ps
+cssmpi1 command(df):.................................................................
+Filesystem                     1K-blocks       Used Available Use% Mounted on
+/dev/mapper/sysvg-root         410198332   12218648 397979684   3% /
+devtmpfs                         8118740          0   8118740   0% /dev
+tmpfs                            8130544          0   8130544   0% /dev/shm
+tmpfs                            8130544     281548   7848996   4% /run
+tmpfs                            8130544          0   8130544   0% /sys/fs/cgroup
+/dev/xvda1                        764580     276008    488572  37% /boot
+neometis.uwb.edu:/DATA/apps   2113646592 1982045184  24210432  99% /usr/apps
+neometis.uwb.edu:/DATA/CSSDIV 2113646592 1982045184  24210432  99% /CSSDIV
+cssnfs2.uwb.edu:/nfsshare      821236736   37610496 783626240   5% /home
+tmpfs                            1626112          0   1626112   0% /run/user/1577478108
+tmpfs                            1626112          0   1626112   0% /run/user/1772536455
+tmpfs                            1626112          0   1626112   0% /run/user/1622675108
+tmpfs                            1626112          0   1626112   0% /run/user/1774755561
+tmpfs                            1626112          4   1626108   1% /run/user/16379876
+tmpfs                            1626112          0   1626112   0% /run/user/1463653561
+tmpfs                            1626112          4   1626108   1% /run/user/1673979392
+tmpfs                            1626112          0   1626112   0% /run/user/1771577455
+tmpfs                            1626112          0   1626112   0% /run/user/1840380795
+tmpfs                            1626112          0   1626112   0% /run/user/1825400561
+tmpfs                            1626112          0   1626112   0% /run/user/1468853561
+tmpfs                            1626112          0   1626112   0% /run/user/1620577455
+tmpfs                            1626112          0   1626112   0% /run/user/1242168455
+tmpfs                            1626112          0   1626112   0% /run/user/1872548561
+tmpfs                            1626112          0   1626112   0% /run/user/1534798455
+tmpfs                            1626112          0   1626112   0% /run/user/941524561
+tmpfs                            1626112          0   1626112   0% /run/user/1620681455
+tmpfs                            1626112          0   1626112   0% /run/user/1772837455
+tmpfs                            1626112          0   1626112   0% /run/user/1612482561
+tmpfs                            1626112          0   1626112   0% /run/user/1740681455
+tmpfs                            1626112          0   1626112   0% /run/user/1672848108
+tmpfs                            1626112          0   1626112   0% /run/user/1723277455
+tmpfs                            1626112          0   1626112   0% /run/user/1772541455
+tmpfs                            1626112          0   1626112   0% /run/user/1750339108
+tmpfs                            1626112          0   1626112   0% /run/user/1620554108
+tmpfs                            1626112          0   1626112   0% /run/user/1523920455
+tmpfs                            1626112          0   1626112   0% /run/user/1673357455
+tmpfs                            1626112          0   1626112   0% /run/user/1269338455
+tmpfs                            1626112          0   1626112   0% /run/user/1877128455
+tmpfs                            1626112          0   1626112   0% /run/user/1422384455
+tmpfs                            1626112          0   1626112   0% /run/user/1220258561
+tmpfs                            1626112          0   1626112   0% /run/user/1827738561
+=========================================================================================
+cssmpi2 command(who):.................................................................
+mfukuda  pts/3        May 21 23:51 (10.102.57.168)
+ccomai92_css434 pts/6        May 21 23:40 (10.102.55.161)
+soheli28_css533 pts/10       May 21 23:40 (10.102.58.225)
+mkhsu_css434 pts/18       May 21 19:30 (d-10-65-70-230.dhcp4.washington.edu)
+tremuell_css434 pts/25       May 21 22:40 (cssmpi1.uwb.edu)
+cssmpi2 command(ls):.................................................................
+BUILD.sh
+BUILD.sh~
+RUN_SERVER.sh
+RUN_SERVER.sh~
+ServerInterface.class
+ServerInterface.java
+TEST.sh
+TEST.sh~
+UnixAgent.java
+UnixAgent.java~
+UnixClient.class
+UnixClient.java
+UnixClient.java~
+UnixServer.class
+UnixServer.java
+UnixServer.java~
+UnixServer_Stub.class
+log.txt
+output.txt
+result.txt
+test.txt
+cssmpi2 command(ps):.................................................................
+  PID TTY          TIME CMD
+  370 pts/6    00:00:00 bash
+ 2233 pts/6    00:00:00 RUN_SERVER.sh
+ 2234 pts/6    00:00:00 rmiregistry
+ 2235 pts/6    00:00:00 java
+ 2294 pts/6    00:00:00 ps
+cssmpi2 command(df):.................................................................
+Filesystem                     1K-blocks       Used Available Use% Mounted on
+/dev/mapper/sysvg-root         410198332    5540180 404658152   2% /
+devtmpfs                         8118748          0   8118748   0% /dev
+tmpfs                            8130544          0   8130544   0% /dev/shm
+tmpfs                            8130544     247896   7882648   4% /run
+tmpfs                            8130544          0   8130544   0% /sys/fs/cgroup
+/dev/xvda1                        764580     275972    488608  37% /boot
+neometis.uwb.edu:/DATA/CSSDIV 2113646592 1982045184  24210432  99% /CSSDIV
+neometis.uwb.edu:/DATA/apps   2113646592 1982045184  24210432  99% /usr/apps
+cssnfs2.uwb.edu:/nfsshare      821236736   37610496 783626240   5% /home
+tmpfs                            1626112          0   1626112   0% /run/user/1673979392
+tmpfs                            1626112          0   1626112   0% /run/user/1774755561
+tmpfs                            1626112          0   1626112   0% /run/user/1771577455
+tmpfs                            1626112          0   1626112   0% /run/user/1840380795
+tmpfs                            1626112          0   1626112   0% /run/user/1772536455
+tmpfs                            1626112          0   1626112   0% /run/user/1534798455
+tmpfs                            1626112          0   1626112   0% /run/user/1620577455
+tmpfs                            1626112          0   1626112   0% /run/user/1723277455
+tmpfs                            1626112          0   1626112   0% /run/user/1740681455
+tmpfs                            1626112          0   1626112   0% /run/user/1825400561
+tmpfs                            1626112          0   1626112   0% /run/user/1622675108
+tmpfs                            1626112          0   1626112   0% /run/user/1750339108
+tmpfs                            1626112          0   1626112   0% /run/user/1577478108
+tmpfs                            1626112          0   1626112   0% /run/user/1242168455
+tmpfs                            1626112          0   1626112   0% /run/user/1523920455
+tmpfs                            1626112          0   1626112   0% /run/user/1672848108
+tmpfs                            1626112          0   1626112   0% /run/user/1875057238
+tmpfs                            1626112          0   1626112   0% /run/user/1673357455
+tmpfs                            1626112          0   1626112   0% /run/user/1877128455
+tmpfs                            1626112          0   1626112   0% /run/user/1422384455
+tmpfs                            1626112          0   1626112   0% /run/user/1620681455
+tmpfs                            1626112          0   1626112   0% /run/user/1827738561
+tmpfs                            1626112          0   1626112   0% /run/user/16379876
+cssmpi2 command(who):.................................................................
+mfukuda  pts/3        May 21 23:51 (10.102.57.168)
+ccomai92_css434 pts/6        May 21 23:40 (10.102.55.161)
+soheli28_css533 pts/10       May 21 23:40 (10.102.58.225)
+mkhsu_css434 pts/18       May 21 19:30 (d-10-65-70-230.dhcp4.washington.edu)
+tremuell_css434 pts/25       May 21 22:40 (cssmpi1.uwb.edu)
+cssmpi2 command(ls):.................................................................
+BUILD.sh
+BUILD.sh~
+RUN_SERVER.sh
+RUN_SERVER.sh~
+ServerInterface.class
+ServerInterface.java
+TEST.sh
+TEST.sh~
+UnixAgent.java
+UnixAgent.java~
+UnixClient.class
+UnixClient.java
+UnixClient.java~
+UnixServer.class
+UnixServer.java
+UnixServer.java~
+UnixServer_Stub.class
+log.txt
+output.txt
+result.txt
+test.txt
+cssmpi2 command(ps):.................................................................
+  PID TTY          TIME CMD
+  370 pts/6    00:00:00 bash
+ 2233 pts/6    00:00:00 RUN_SERVER.sh
+ 2234 pts/6    00:00:00 rmiregistry
+ 2235 pts/6    00:00:00 java
+ 2299 pts/6    00:00:00 ps
+cssmpi2 command(df):.................................................................
+Filesystem                     1K-blocks       Used Available Use% Mounted on
+/dev/mapper/sysvg-root         410198332    5540180 404658152   2% /
+devtmpfs                         8118748          0   8118748   0% /dev
+tmpfs                            8130544          0   8130544   0% /dev/shm
+tmpfs                            8130544     247896   7882648   4% /run
+tmpfs                            8130544          0   8130544   0% /sys/fs/cgroup
+/dev/xvda1                        764580     275972    488608  37% /boot
+neometis.uwb.edu:/DATA/CSSDIV 2113646592 1982045184  24210432  99% /CSSDIV
+neometis.uwb.edu:/DATA/apps   2113646592 1982045184  24210432  99% /usr/apps
+cssnfs2.uwb.edu:/nfsshare      821236736   37610496 783626240   5% /home
+tmpfs                            1626112          0   1626112   0% /run/user/1673979392
+tmpfs                            1626112          0   1626112   0% /run/user/1774755561
+tmpfs                            1626112          0   1626112   0% /run/user/1771577455
+tmpfs                            1626112          0   1626112   0% /run/user/1840380795
+tmpfs                            1626112          0   1626112   0% /run/user/1772536455
+tmpfs                            1626112          0   1626112   0% /run/user/1534798455
+tmpfs                            1626112          0   1626112   0% /run/user/1620577455
+tmpfs                            1626112          0   1626112   0% /run/user/1723277455
+tmpfs                            1626112          0   1626112   0% /run/user/1740681455
+tmpfs                            1626112          0   1626112   0% /run/user/1825400561
+tmpfs                            1626112          0   1626112   0% /run/user/1622675108
+tmpfs                            1626112          0   1626112   0% /run/user/1750339108
+tmpfs                            1626112          0   1626112   0% /run/user/1577478108
+tmpfs                            1626112          0   1626112   0% /run/user/1242168455
+tmpfs                            1626112          0   1626112   0% /run/user/1523920455
+tmpfs                            1626112          0   1626112   0% /run/user/1672848108
+tmpfs                            1626112          0   1626112   0% /run/user/1875057238
+tmpfs                            1626112          0   1626112   0% /run/user/1673357455
+tmpfs                            1626112          0   1626112   0% /run/user/1877128455
+tmpfs                            1626112          0   1626112   0% /run/user/1422384455
+tmpfs                            1626112          0   1626112   0% /run/user/1620681455
+tmpfs                            1626112          0   1626112   0% /run/user/1827738561
+tmpfs                            1626112          0   1626112   0% /run/user/16379876
+cssmpi2 command(who):.................................................................
+mfukuda  pts/3        May 21 23:51 (10.102.57.168)
+ccomai92_css434 pts/6        May 21 23:40 (10.102.55.161)
+soheli28_css533 pts/10       May 21 23:40 (10.102.58.225)
+mkhsu_css434 pts/18       May 21 19:30 (d-10-65-70-230.dhcp4.washington.edu)
+tremuell_css434 pts/25       May 21 22:40 (cssmpi1.uwb.edu)
+cssmpi2 command(ls):.................................................................
+BUILD.sh
+BUILD.sh~
+RUN_SERVER.sh
+RUN_SERVER.sh~
+ServerInterface.class
+ServerInterface.java
+TEST.sh
+TEST.sh~
+UnixAgent.java
+UnixAgent.java~
+UnixClient.class
+UnixClient.java
+UnixClient.java~
+UnixServer.class
+UnixServer.java
+UnixServer.java~
+UnixServer_Stub.class
+log.txt
+output.txt
+result.txt
+test.txt
+cssmpi2 command(ps):.................................................................
+  PID TTY          TIME CMD
+  370 pts/6    00:00:00 bash
+ 2233 pts/6    00:00:00 RUN_SERVER.sh
+ 2234 pts/6    00:00:00 rmiregistry
+ 2235 pts/6    00:00:00 java
+ 2303 pts/6    00:00:00 ps
+cssmpi2 command(df):.................................................................
+Filesystem                     1K-blocks       Used Available Use% Mounted on
+/dev/mapper/sysvg-root         410198332    5540180 404658152   2% /
+devtmpfs                         8118748          0   8118748   0% /dev
+tmpfs                            8130544          0   8130544   0% /dev/shm
+tmpfs                            8130544     247896   7882648   4% /run
+tmpfs                            8130544          0   8130544   0% /sys/fs/cgroup
+/dev/xvda1                        764580     275972    488608  37% /boot
+neometis.uwb.edu:/DATA/CSSDIV 2113646592 1982045184  24210432  99% /CSSDIV
+neometis.uwb.edu:/DATA/apps   2113646592 1982045184  24210432  99% /usr/apps
+cssnfs2.uwb.edu:/nfsshare      821236736   37610496 783626240   5% /home
+tmpfs                            1626112          0   1626112   0% /run/user/1673979392
+tmpfs                            1626112          0   1626112   0% /run/user/1774755561
+tmpfs                            1626112          0   1626112   0% /run/user/1771577455
+tmpfs                            1626112          0   1626112   0% /run/user/1840380795
+tmpfs                            1626112          0   1626112   0% /run/user/1772536455
+tmpfs                            1626112          0   1626112   0% /run/user/1534798455
+tmpfs                            1626112          0   1626112   0% /run/user/1620577455
+tmpfs                            1626112          0   1626112   0% /run/user/1723277455
+tmpfs                            1626112          0   1626112   0% /run/user/1740681455
+tmpfs                            1626112          0   1626112   0% /run/user/1825400561
+tmpfs                            1626112          0   1626112   0% /run/user/1622675108
+tmpfs                            1626112          0   1626112   0% /run/user/1750339108
+tmpfs                            1626112          0   1626112   0% /run/user/1577478108
+tmpfs                            1626112          0   1626112   0% /run/user/1242168455
+tmpfs                            1626112          0   1626112   0% /run/user/1523920455
+tmpfs                            1626112          0   1626112   0% /run/user/1672848108
+tmpfs                            1626112          0   1626112   0% /run/user/1875057238
+tmpfs                            1626112          0   1626112   0% /run/user/1673357455
+tmpfs                            1626112          0   1626112   0% /run/user/1877128455
+tmpfs                            1626112          0   1626112   0% /run/user/1422384455
+tmpfs                            1626112          0   1626112   0% /run/user/1620681455
+tmpfs                            1626112          0   1626112   0% /run/user/1827738561
+tmpfs                            1626112          0   1626112   0% /run/user/16379876
+=========================================================================================
+cssmpi3 command(who):.................................................................
+ccomai92_css434 pts/4        May 21 23:40 (10.102.55.161)
+soheli28_css533 pts/7        May 21 23:40 (10.102.58.225)
+mfukuda  pts/8        May 21 23:51 (10.102.57.168)
+mkhsu_css434 pts/13       May 21 19:30 (d-10-65-70-230.dhcp4.washington.edu)
+tremuell_css434 pts/17       May 21 22:59 (10.102.2.144)
+cssmpi3 command(ls):.................................................................
+BUILD.sh
+BUILD.sh~
+RUN_SERVER.sh
+RUN_SERVER.sh~
+ServerInterface.class
+ServerInterface.java
+TEST.sh
+TEST.sh~
+UnixAgent.java
+UnixAgent.java~
+UnixClient.class
+UnixClient.java
+UnixClient.java~
+UnixServer.class
+UnixServer.java
+UnixServer.java~
+UnixServer_Stub.class
+log.txt
+output.txt
+result.txt
+test.txt
+cssmpi3 command(ps):.................................................................
+  PID TTY          TIME CMD
+14408 pts/4    00:00:00 bash
+15645 pts/4    00:00:00 RUN_SERVER.sh
+15646 pts/4    00:00:00 rmiregistry
+15647 pts/4    00:00:00 java
+15737 pts/4    00:00:00 ps
+cssmpi3 command(df):.................................................................
+Filesystem                     1K-blocks       Used Available Use% Mounted on
+/dev/mapper/sysvg-root         410198332    5859512 404338820   2% /
+devtmpfs                         8118748          0   8118748   0% /dev
+tmpfs                            8130544          0   8130544   0% /dev/shm
+tmpfs                            8130544     206876   7923668   3% /run
+tmpfs                            8130544          0   8130544   0% /sys/fs/cgroup
+/dev/xvda1                        764580     275980    488600  37% /boot
+neometis.uwb.edu:/DATA/CSSDIV 2113646592 1982045184  24210432  99% /CSSDIV
+neometis.uwb.edu:/DATA/apps   2113646592 1982045184  24210432  99% /usr/apps
+cssnfs2.uwb.edu:/nfsshare      821236736   37610496 783626240   5% /home
+tmpfs                            1626112          0   1626112   0% /run/user/1463653561
+tmpfs                            1626112          0   1626112   0% /run/user/1771577455
+tmpfs                            1626112          0   1626112   0% /run/user/1242168455
+tmpfs                            1626112          0   1626112   0% /run/user/1840380795
+tmpfs                            1626112          0   1626112   0% /run/user/1772536455
+tmpfs                            1626112          0   1626112   0% /run/user/1534798455
+tmpfs                            1626112          0   1626112   0% /run/user/1872548561
+tmpfs                            1626112          0   1626112   0% /run/user/1673979392
+tmpfs                            1626112          0   1626112   0% /run/user/1772837455
+tmpfs                            1626112          0   1626112   0% /run/user/1620577455
+tmpfs                            1626112          0   1626112   0% /run/user/1723277455
+tmpfs                            1626112          0   1626112   0% /run/user/1740681455
+tmpfs                            1626112          0   1626112   0% /run/user/1750339108
+tmpfs                            1626112          0   1626112   0% /run/user/1622675108
+tmpfs                            1626112          0   1626112   0% /run/user/1577478108
+tmpfs                            1626112          0   1626112   0% /run/user/1523920455
+tmpfs                            1626112          0   1626112   0% /run/user/1672848108
+tmpfs                            1626112          0   1626112   0% /run/user/1673357455
+tmpfs                            1626112          0   1626112   0% /run/user/1422384455
+tmpfs                            1626112          0   1626112   0% /run/user/1620681455
+tmpfs                            1626112          0   1626112   0% /run/user/1827738561
+tmpfs                            1626112          0   1626112   0% /run/user/16379876
+cssmpi3 command(who):.................................................................
+ccomai92_css434 pts/4        May 21 23:40 (10.102.55.161)
+soheli28_css533 pts/7        May 21 23:40 (10.102.58.225)
+mfukuda  pts/8        May 21 23:51 (10.102.57.168)
+mkhsu_css434 pts/13       May 21 19:30 (d-10-65-70-230.dhcp4.washington.edu)
+tremuell_css434 pts/17       May 21 22:59 (10.102.2.144)
+cssmpi3 command(ls):.................................................................
+BUILD.sh
+BUILD.sh~
+RUN_SERVER.sh
+RUN_SERVER.sh~
+ServerInterface.class
+ServerInterface.java
+TEST.sh
+TEST.sh~
+UnixAgent.java
+UnixAgent.java~
+UnixClient.class
+UnixClient.java
+UnixClient.java~
+UnixServer.class
+UnixServer.java
+UnixServer.java~
+UnixServer_Stub.class
+log.txt
+output.txt
+result.txt
+test.txt
+cssmpi3 command(ps):.................................................................
+  PID TTY          TIME CMD
+14408 pts/4    00:00:00 bash
+15645 pts/4    00:00:00 RUN_SERVER.sh
+15646 pts/4    00:00:00 rmiregistry
+15647 pts/4    00:00:00 java
+15741 pts/4    00:00:00 ps
+cssmpi3 command(df):.................................................................
+Filesystem                     1K-blocks       Used Available Use% Mounted on
+/dev/mapper/sysvg-root         410198332    5859512 404338820   2% /
+devtmpfs                         8118748          0   8118748   0% /dev
+tmpfs                            8130544          0   8130544   0% /dev/shm
+tmpfs                            8130544     206876   7923668   3% /run
+tmpfs                            8130544          0   8130544   0% /sys/fs/cgroup
+/dev/xvda1                        764580     275980    488600  37% /boot
+neometis.uwb.edu:/DATA/CSSDIV 2113646592 1982045184  24210432  99% /CSSDIV
+neometis.uwb.edu:/DATA/apps   2113646592 1982045184  24210432  99% /usr/apps
+cssnfs2.uwb.edu:/nfsshare      821236736   37610496 783626240   5% /home
+tmpfs                            1626112          0   1626112   0% /run/user/1463653561
+tmpfs                            1626112          0   1626112   0% /run/user/1771577455
+tmpfs                            1626112          0   1626112   0% /run/user/1242168455
+tmpfs                            1626112          0   1626112   0% /run/user/1840380795
+tmpfs                            1626112          0   1626112   0% /run/user/1772536455
+tmpfs                            1626112          0   1626112   0% /run/user/1534798455
+tmpfs                            1626112          0   1626112   0% /run/user/1872548561
+tmpfs                            1626112          0   1626112   0% /run/user/1673979392
+tmpfs                            1626112          0   1626112   0% /run/user/1772837455
+tmpfs                            1626112          0   1626112   0% /run/user/1620577455
+tmpfs                            1626112          0   1626112   0% /run/user/1723277455
+tmpfs                            1626112          0   1626112   0% /run/user/1740681455
+tmpfs                            1626112          0   1626112   0% /run/user/1750339108
+tmpfs                            1626112          0   1626112   0% /run/user/1622675108
+tmpfs                            1626112          0   1626112   0% /run/user/1577478108
+tmpfs                            1626112          0   1626112   0% /run/user/1523920455
+tmpfs                            1626112          0   1626112   0% /run/user/1672848108
+tmpfs                            1626112          0   1626112   0% /run/user/1673357455
+tmpfs                            1626112          0   1626112   0% /run/user/1422384455
+tmpfs                            1626112          0   1626112   0% /run/user/1620681455
+tmpfs                            1626112          0   1626112   0% /run/user/1827738561
+tmpfs                            1626112          0   1626112   0% /run/user/16379876
+cssmpi3 command(who):.................................................................
+ccomai92_css434 pts/4        May 21 23:40 (10.102.55.161)
+soheli28_css533 pts/7        May 21 23:40 (10.102.58.225)
+mfukuda  pts/8        May 21 23:51 (10.102.57.168)
+mkhsu_css434 pts/13       May 21 19:30 (d-10-65-70-230.dhcp4.washington.edu)
+tremuell_css434 pts/17       May 21 22:59 (10.102.2.144)
+cssmpi3 command(ls):.................................................................
+BUILD.sh
+BUILD.sh~
+RUN_SERVER.sh
+RUN_SERVER.sh~
+ServerInterface.class
+ServerInterface.java
+TEST.sh
+TEST.sh~
+UnixAgent.java
+UnixAgent.java~
+UnixClient.class
+UnixClient.java
+UnixClient.java~
+UnixServer.class
+UnixServer.java
+UnixServer.java~
+UnixServer_Stub.class
+log.txt
+output.txt
+result.txt
+test.txt
+cssmpi3 command(ps):.................................................................
+  PID TTY          TIME CMD
+14408 pts/4    00:00:00 bash
+15645 pts/4    00:00:00 RUN_SERVER.sh
+15646 pts/4    00:00:00 rmiregistry
+15647 pts/4    00:00:00 java
+15745 pts/4    00:00:00 ps
+cssmpi3 command(df):.................................................................
+Filesystem                     1K-blocks       Used Available Use% Mounted on
+/dev/mapper/sysvg-root         410198332    5859512 404338820   2% /
+devtmpfs                         8118748          0   8118748   0% /dev
+tmpfs                            8130544          0   8130544   0% /dev/shm
+tmpfs                            8130544     206876   7923668   3% /run
+tmpfs                            8130544          0   8130544   0% /sys/fs/cgroup
+/dev/xvda1                        764580     275980    488600  37% /boot
+neometis.uwb.edu:/DATA/CSSDIV 2113646592 1982045184  24210432  99% /CSSDIV
+neometis.uwb.edu:/DATA/apps   2113646592 1982045184  24210432  99% /usr/apps
+cssnfs2.uwb.edu:/nfsshare      821236736   37610496 783626240   5% /home
+tmpfs                            1626112          0   1626112   0% /run/user/1463653561
+tmpfs                            1626112          0   1626112   0% /run/user/1771577455
+tmpfs                            1626112          0   1626112   0% /run/user/1242168455
+tmpfs                            1626112          0   1626112   0% /run/user/1840380795
+tmpfs                            1626112          0   1626112   0% /run/user/1772536455
+tmpfs                            1626112          0   1626112   0% /run/user/1534798455
+tmpfs                            1626112          0   1626112   0% /run/user/1872548561
+tmpfs                            1626112          0   1626112   0% /run/user/1673979392
+tmpfs                            1626112          0   1626112   0% /run/user/1772837455
+tmpfs                            1626112          0   1626112   0% /run/user/1620577455
+tmpfs                            1626112          0   1626112   0% /run/user/1723277455
+tmpfs                            1626112          0   1626112   0% /run/user/1740681455
+tmpfs                            1626112          0   1626112   0% /run/user/1750339108
+tmpfs                            1626112          0   1626112   0% /run/user/1622675108
+tmpfs                            1626112          0   1626112   0% /run/user/1577478108
+tmpfs                            1626112          0   1626112   0% /run/user/1523920455
+tmpfs                            1626112          0   1626112   0% /run/user/1672848108
+tmpfs                            1626112          0   1626112   0% /run/user/1673357455
+tmpfs                            1626112          0   1626112   0% /run/user/1422384455
+tmpfs                            1626112          0   1626112   0% /run/user/1620681455
+tmpfs                            1626112          0   1626112   0% /run/user/1827738561
+tmpfs                            1626112          0   1626112   0% /run/user/16379876
