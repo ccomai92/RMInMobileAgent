@@ -1,12 +1,21 @@
 run UWPlace from UWAgent.UWPlace with port# = 15347
-Hop to cssmpi1
-Hop to cssmpi1
-End of Trip
 Print/Count: print, nServers: 1, Server1: cssmpi1, Command1: who, Command2: ls, Command3: ps, Command4: df
+=========================================================================================
+cssmpi1 command(who):.................................................................
 kharam_css434 pts/6        May 22 11:18 (vergil11.u.washington.edu)
-ccomai92_css434 pts/12       May 22 11:39 (d-10-156-21-170.dhcp4.washington.edu)
-krpana_css434 pts/23       May 22 11:24 (10.102.48.87)
-gordeeva_css434 pts/24       May 22 11:49 (10.102.62.29)
+ggoziker_css434 pts/12       May 22 14:52 (d-10-156-17-194.dhcp4.washington.edu)
+krpana_css434 pts/23       May 22 12:21 (10.102.48.87)
+sachau_css533 pts/24       May 22 14:52 (10.102.63.10)
+sachau_css533 pts/34       May 22 14:52 (10.102.63.10)
+panthers_css434 pts/32       May 22 13:33 (d-10-156-17-193.dhcp4.washington.edu)
+pravee99_css533 pts/37       May 22 14:04 (10.102.60.19)
+bailec93_css434 pts/38       May 22 15:26 (d-10-156-11-52.dhcp4.washington.edu)
+samsp_css434 pts/39       May 22 15:32 (d-10-156-30-28.dhcp4.washington.edu)
+leec351_css533 pts/41       May 22 15:56 (10.102.57.181)
+ccomai92_css434 pts/42       May 22 15:48 (d-10-156-21-170.dhcp4.washington.edu)
+pravee99_css533 pts/45       May 22 15:39 (10.102.60.19)
+kharam_css434 pts/46       May 22 16:03 (d-10-156-30-100.dhcp4.washington.edu)
+cssmpi1 command(ls):.................................................................
 AnAgent.class
 AnAgent.java
 MyAgent.class
@@ -30,21 +39,23 @@ runUWPlace.sh
 runUnixAgent.sh
 runUnixAgent.sh~
 runWhoAgent.sh
+cssmpi1 command(ps):.................................................................
   PID TTY          TIME CMD
- 8956 pts/12   00:00:00 bash
-14703 pts/12   00:00:00 runUWPlace.sh
-14704 pts/12   00:00:01 java
-15384 pts/12   00:00:00 ps
+14481 pts/42   00:00:00 bash
+16639 pts/42   00:00:00 runUWPlace.sh
+16640 pts/42   00:00:02 java
+18178 pts/42   00:00:00 ps
+cssmpi1 command(df):.................................................................
 Filesystem                     1K-blocks       Used Available Use% Mounted on
-/dev/mapper/sysvg-root         410198332   12222172 397976160   3% /
+/dev/mapper/sysvg-root         410198332   12223756 397974576   3% /
 devtmpfs                         8118740          0   8118740   0% /dev
 tmpfs                            8130544          0   8130544   0% /dev/shm
-tmpfs                            8130544     281292   7849252   4% /run
+tmpfs                            8130544     281780   7848764   4% /run
 tmpfs                            8130544          0   8130544   0% /sys/fs/cgroup
 /dev/xvda1                        764580     276008    488572  37% /boot
 neometis.uwb.edu:/DATA/apps   2113646592 1982045184  24210432  99% /usr/apps
 neometis.uwb.edu:/DATA/CSSDIV 2113646592 1982045184  24210432  99% /CSSDIV
-cssnfs2.uwb.edu:/nfsshare      821236736   37867520 783369216   5% /home
+cssnfs2.uwb.edu:/nfsshare      821236736   37875712 783361024   5% /home
 tmpfs                            1626112          0   1626112   0% /run/user/1577478108
 tmpfs                            1626112          0   1626112   0% /run/user/1772536455
 tmpfs                            1626112          0   1626112   0% /run/user/1622675108
@@ -77,13 +88,28 @@ tmpfs                            1626112          0   1626112   0% /run/user/187
 tmpfs                            1626112          0   1626112   0% /run/user/1422384455
 tmpfs                            1626112          0   1626112   0% /run/user/1220258561
 tmpfs                            1626112          0   1626112   0% /run/user/1775511288
-Execution Time: 85
-End of Trip
+tmpfs                            1626112          0   1626112   0% /run/user/1876423455
+tmpfs                            1626112          0   1626112   0% /run/user/1623532455
+tmpfs                            1626112          0   1626112   0% /run/user/1875335455
+tmpfs                            1626112          0   1626112   0% /run/user/1775087561
+Execution Time: 88
 Print/Count: print, nServers: 2, Server1: cssmpi1, Server2: cssmpi2, Command1: who, Command2: ls, Command3: ps, Command4: df
+=========================================================================================
+cssmpi1 command(who):.................................................................
 kharam_css434 pts/6        May 22 11:18 (vergil11.u.washington.edu)
-ccomai92_css434 pts/12       May 22 11:39 (d-10-156-21-170.dhcp4.washington.edu)
-krpana_css434 pts/23       May 22 11:24 (10.102.48.87)
-gordeeva_css434 pts/24       May 22 11:49 (10.102.62.29)
+ggoziker_css434 pts/12       May 22 14:52 (d-10-156-17-194.dhcp4.washington.edu)
+krpana_css434 pts/23       May 22 12:21 (10.102.48.87)
+sachau_css533 pts/24       May 22 14:52 (10.102.63.10)
+sachau_css533 pts/34       May 22 14:52 (10.102.63.10)
+panthers_css434 pts/32       May 22 13:33 (d-10-156-17-193.dhcp4.washington.edu)
+pravee99_css533 pts/37       May 22 14:04 (10.102.60.19)
+bailec93_css434 pts/38       May 22 15:26 (d-10-156-11-52.dhcp4.washington.edu)
+samsp_css434 pts/39       May 22 15:32 (d-10-156-30-28.dhcp4.washington.edu)
+leec351_css533 pts/41       May 22 15:56 (10.102.57.181)
+ccomai92_css434 pts/42       May 22 15:48 (d-10-156-21-170.dhcp4.washington.edu)
+pravee99_css533 pts/45       May 22 15:39 (10.102.60.19)
+kharam_css434 pts/46       May 22 16:03 (d-10-156-30-100.dhcp4.washington.edu)
+cssmpi1 command(ls):.................................................................
 AnAgent.class
 AnAgent.java
 MyAgent.class
@@ -107,21 +133,23 @@ runUWPlace.sh
 runUnixAgent.sh
 runUnixAgent.sh~
 runWhoAgent.sh
+cssmpi1 command(ps):.................................................................
   PID TTY          TIME CMD
- 8956 pts/12   00:00:00 bash
-14703 pts/12   00:00:00 runUWPlace.sh
-14704 pts/12   00:00:01 java
-15390 pts/12   00:00:00 ps
+14481 pts/42   00:00:00 bash
+16639 pts/42   00:00:00 runUWPlace.sh
+16640 pts/42   00:00:02 java
+18184 pts/42   00:00:00 ps
+cssmpi1 command(df):.................................................................
 Filesystem                     1K-blocks       Used Available Use% Mounted on
-/dev/mapper/sysvg-root         410198332   12222172 397976160   3% /
+/dev/mapper/sysvg-root         410198332   12223756 397974576   3% /
 devtmpfs                         8118740          0   8118740   0% /dev
 tmpfs                            8130544          0   8130544   0% /dev/shm
-tmpfs                            8130544     281292   7849252   4% /run
+tmpfs                            8130544     281780   7848764   4% /run
 tmpfs                            8130544          0   8130544   0% /sys/fs/cgroup
 /dev/xvda1                        764580     276008    488572  37% /boot
 neometis.uwb.edu:/DATA/apps   2113646592 1982045184  24210432  99% /usr/apps
 neometis.uwb.edu:/DATA/CSSDIV 2113646592 1982045184  24210432  99% /CSSDIV
-cssnfs2.uwb.edu:/nfsshare      821236736   37867520 783369216   5% /home
+cssnfs2.uwb.edu:/nfsshare      821236736   37875712 783361024   5% /home
 tmpfs                            1626112          0   1626112   0% /run/user/1577478108
 tmpfs                            1626112          0   1626112   0% /run/user/1772536455
 tmpfs                            1626112          0   1626112   0% /run/user/1622675108
@@ -154,10 +182,21 @@ tmpfs                            1626112          0   1626112   0% /run/user/187
 tmpfs                            1626112          0   1626112   0% /run/user/1422384455
 tmpfs                            1626112          0   1626112   0% /run/user/1220258561
 tmpfs                            1626112          0   1626112   0% /run/user/1775511288
+tmpfs                            1626112          0   1626112   0% /run/user/1876423455
+tmpfs                            1626112          0   1626112   0% /run/user/1623532455
+tmpfs                            1626112          0   1626112   0% /run/user/1875335455
+tmpfs                            1626112          0   1626112   0% /run/user/1775087561
+=========================================================================================
+cssmpi2 command(who):.................................................................
 kharam_css434 pts/3        May 22 11:20 (vergil11.u.washington.edu)
-saltzp_css533 pts/10       May 22 12:18 (10.102.61.61)
-ccomai92_css434 pts/18       May 22 11:40 (d-10-156-21-170.dhcp4.washington.edu)
-gordeeva_css434 pts/19       May 22 11:49 (10.102.62.29)
+saltzp_css533 pts/10       May 22 14:22 (10.102.61.61)
+bailec93_css434 pts/18       May 22 15:27 (d-10-156-11-52.dhcp4.washington.edu)
+sachau_css533 pts/19       May 22 15:30 (10.102.63.10)
+panthers_css434 pts/25       May 22 13:36 (d-10-156-17-193.dhcp4.washington.edu)
+samsp_css434 pts/26       May 22 15:32 (d-10-156-30-28.dhcp4.washington.edu)
+pravee99_css533 pts/27       May 22 15:39 (10.102.60.19)
+ccomai92_css434 pts/29       May 22 15:48 (d-10-156-21-170.dhcp4.washington.edu)
+cssmpi2 command(ls):.................................................................
 AnAgent.class
 AnAgent.java
 MyAgent.class
@@ -181,21 +220,23 @@ runUWPlace.sh
 runUnixAgent.sh
 runUnixAgent.sh~
 runWhoAgent.sh
+cssmpi2 command(ps):.................................................................
   PID TTY          TIME CMD
- 2967 pts/18   00:00:00 bash
- 5894 pts/18   00:00:00 runUWPlace.sh
- 5895 pts/18   00:00:01 java
- 6343 pts/18   00:00:00 ps
+18111 pts/29   00:00:00 bash
+19078 pts/29   00:00:00 runUWPlace.sh
+19079 pts/29   00:00:01 java
+19668 pts/29   00:00:00 ps
+cssmpi2 command(df):.................................................................
 Filesystem                     1K-blocks       Used Available Use% Mounted on
-/dev/mapper/sysvg-root         410198332    5540740 404657592   2% /
+/dev/mapper/sysvg-root         410198332    5541044 404657288   2% /
 devtmpfs                         8118748          0   8118748   0% /dev
 tmpfs                            8130544          0   8130544   0% /dev/shm
-tmpfs                            8130544     247936   7882608   4% /run
+tmpfs                            8130544     248128   7882416   4% /run
 tmpfs                            8130544          0   8130544   0% /sys/fs/cgroup
 /dev/xvda1                        764580     275972    488608  37% /boot
 neometis.uwb.edu:/DATA/CSSDIV 2113646592 1982045184  24210432  99% /CSSDIV
 neometis.uwb.edu:/DATA/apps   2113646592 1982045184  24210432  99% /usr/apps
-cssnfs2.uwb.edu:/nfsshare      821236736   37867520 783369216   5% /home
+cssnfs2.uwb.edu:/nfsshare      821236736   37875712 783361024   5% /home
 tmpfs                            1626112          0   1626112   0% /run/user/1673979392
 tmpfs                            1626112          0   1626112   0% /run/user/1774755561
 tmpfs                            1626112          0   1626112   0% /run/user/1771577455
@@ -218,15 +259,28 @@ tmpfs                            1626112          0   1626112   0% /run/user/187
 tmpfs                            1626112          0   1626112   0% /run/user/1422384455
 tmpfs                            1626112          0   1626112   0% /run/user/1620681455
 tmpfs                            1626112          0   1626112   0% /run/user/1775511288
+tmpfs                            1626112          0   1626112   0% /run/user/1876423455
 tmpfs                            1626112          0   1626112   0% /run/user/1463653561
-Execution Time: 101
-Hop to cssmpi1
-End of Trip
+tmpfs                            1626112          0   1626112   0% /run/user/1875335455
+tmpfs                            1626112          0   1626112   0% /run/user/1220258561
+Execution Time: 94
 Print/Count: print, nServers: 3, Server1: cssmpi1, Server2: cssmpi2, Server3: cssmpi3, Command1: who, Command2: ls, Command3: ps, Command4: df
+=========================================================================================
+cssmpi1 command(who):.................................................................
 kharam_css434 pts/6        May 22 11:18 (vergil11.u.washington.edu)
-ccomai92_css434 pts/12       May 22 11:39 (d-10-156-21-170.dhcp4.washington.edu)
-krpana_css434 pts/23       May 22 11:24 (10.102.48.87)
-gordeeva_css434 pts/24       May 22 11:49 (10.102.62.29)
+ggoziker_css434 pts/12       May 22 14:52 (d-10-156-17-194.dhcp4.washington.edu)
+krpana_css434 pts/23       May 22 12:21 (10.102.48.87)
+sachau_css533 pts/24       May 22 14:52 (10.102.63.10)
+sachau_css533 pts/34       May 22 14:52 (10.102.63.10)
+panthers_css434 pts/32       May 22 13:33 (d-10-156-17-193.dhcp4.washington.edu)
+pravee99_css533 pts/37       May 22 14:04 (10.102.60.19)
+bailec93_css434 pts/38       May 22 15:26 (d-10-156-11-52.dhcp4.washington.edu)
+samsp_css434 pts/39       May 22 15:32 (d-10-156-30-28.dhcp4.washington.edu)
+leec351_css533 pts/41       May 22 15:56 (10.102.57.181)
+ccomai92_css434 pts/42       May 22 15:48 (d-10-156-21-170.dhcp4.washington.edu)
+pravee99_css533 pts/45       May 22 15:39 (10.102.60.19)
+kharam_css434 pts/46       May 22 16:03 (d-10-156-30-100.dhcp4.washington.edu)
+cssmpi1 command(ls):.................................................................
 AnAgent.class
 AnAgent.java
 MyAgent.class
@@ -250,21 +304,23 @@ runUWPlace.sh
 runUnixAgent.sh
 runUnixAgent.sh~
 runWhoAgent.sh
+cssmpi1 command(ps):.................................................................
   PID TTY          TIME CMD
- 8956 pts/12   00:00:00 bash
-14703 pts/12   00:00:00 runUWPlace.sh
-14704 pts/12   00:00:01 java
-15396 pts/12   00:00:00 ps
+14481 pts/42   00:00:00 bash
+16639 pts/42   00:00:00 runUWPlace.sh
+16640 pts/42   00:00:02 java
+18190 pts/42   00:00:00 ps
+cssmpi1 command(df):.................................................................
 Filesystem                     1K-blocks       Used Available Use% Mounted on
-/dev/mapper/sysvg-root         410198332   12222172 397976160   3% /
+/dev/mapper/sysvg-root         410198332   12223756 397974576   3% /
 devtmpfs                         8118740          0   8118740   0% /dev
 tmpfs                            8130544          0   8130544   0% /dev/shm
-tmpfs                            8130544     281292   7849252   4% /run
+tmpfs                            8130544     281780   7848764   4% /run
 tmpfs                            8130544          0   8130544   0% /sys/fs/cgroup
 /dev/xvda1                        764580     276008    488572  37% /boot
 neometis.uwb.edu:/DATA/apps   2113646592 1982045184  24210432  99% /usr/apps
 neometis.uwb.edu:/DATA/CSSDIV 2113646592 1982045184  24210432  99% /CSSDIV
-cssnfs2.uwb.edu:/nfsshare      821236736   37867520 783369216   5% /home
+cssnfs2.uwb.edu:/nfsshare      821236736   37875712 783361024   5% /home
 tmpfs                            1626112          0   1626112   0% /run/user/1577478108
 tmpfs                            1626112          0   1626112   0% /run/user/1772536455
 tmpfs                            1626112          0   1626112   0% /run/user/1622675108
@@ -297,10 +353,21 @@ tmpfs                            1626112          0   1626112   0% /run/user/187
 tmpfs                            1626112          0   1626112   0% /run/user/1422384455
 tmpfs                            1626112          0   1626112   0% /run/user/1220258561
 tmpfs                            1626112          0   1626112   0% /run/user/1775511288
+tmpfs                            1626112          0   1626112   0% /run/user/1876423455
+tmpfs                            1626112          0   1626112   0% /run/user/1623532455
+tmpfs                            1626112          0   1626112   0% /run/user/1875335455
+tmpfs                            1626112          0   1626112   0% /run/user/1775087561
+=========================================================================================
+cssmpi2 command(who):.................................................................
 kharam_css434 pts/3        May 22 11:20 (vergil11.u.washington.edu)
-saltzp_css533 pts/10       May 22 12:18 (10.102.61.61)
-ccomai92_css434 pts/18       May 22 11:40 (d-10-156-21-170.dhcp4.washington.edu)
-gordeeva_css434 pts/19       May 22 11:49 (10.102.62.29)
+saltzp_css533 pts/10       May 22 14:22 (10.102.61.61)
+bailec93_css434 pts/18       May 22 15:27 (d-10-156-11-52.dhcp4.washington.edu)
+sachau_css533 pts/19       May 22 15:30 (10.102.63.10)
+panthers_css434 pts/25       May 22 13:36 (d-10-156-17-193.dhcp4.washington.edu)
+samsp_css434 pts/26       May 22 15:32 (d-10-156-30-28.dhcp4.washington.edu)
+pravee99_css533 pts/27       May 22 15:39 (10.102.60.19)
+ccomai92_css434 pts/29       May 22 15:48 (d-10-156-21-170.dhcp4.washington.edu)
+cssmpi2 command(ls):.................................................................
 AnAgent.class
 AnAgent.java
 MyAgent.class
@@ -324,21 +391,23 @@ runUWPlace.sh
 runUnixAgent.sh
 runUnixAgent.sh~
 runWhoAgent.sh
+cssmpi2 command(ps):.................................................................
   PID TTY          TIME CMD
- 2967 pts/18   00:00:00 bash
- 5894 pts/18   00:00:00 runUWPlace.sh
- 5895 pts/18   00:00:01 java
- 6349 pts/18   00:00:00 ps
+18111 pts/29   00:00:00 bash
+19078 pts/29   00:00:00 runUWPlace.sh
+19079 pts/29   00:00:02 java
+19674 pts/29   00:00:00 ps
+cssmpi2 command(df):.................................................................
 Filesystem                     1K-blocks       Used Available Use% Mounted on
-/dev/mapper/sysvg-root         410198332    5540740 404657592   2% /
+/dev/mapper/sysvg-root         410198332    5541044 404657288   2% /
 devtmpfs                         8118748          0   8118748   0% /dev
 tmpfs                            8130544          0   8130544   0% /dev/shm
-tmpfs                            8130544     247936   7882608   4% /run
+tmpfs                            8130544     248128   7882416   4% /run
 tmpfs                            8130544          0   8130544   0% /sys/fs/cgroup
 /dev/xvda1                        764580     275972    488608  37% /boot
 neometis.uwb.edu:/DATA/CSSDIV 2113646592 1982045184  24210432  99% /CSSDIV
 neometis.uwb.edu:/DATA/apps   2113646592 1982045184  24210432  99% /usr/apps
-cssnfs2.uwb.edu:/nfsshare      821236736   37867520 783369216   5% /home
+cssnfs2.uwb.edu:/nfsshare      821236736   37875712 783361024   5% /home
 tmpfs                            1626112          0   1626112   0% /run/user/1673979392
 tmpfs                            1626112          0   1626112   0% /run/user/1774755561
 tmpfs                            1626112          0   1626112   0% /run/user/1771577455
@@ -361,11 +430,20 @@ tmpfs                            1626112          0   1626112   0% /run/user/187
 tmpfs                            1626112          0   1626112   0% /run/user/1422384455
 tmpfs                            1626112          0   1626112   0% /run/user/1620681455
 tmpfs                            1626112          0   1626112   0% /run/user/1775511288
+tmpfs                            1626112          0   1626112   0% /run/user/1876423455
 tmpfs                            1626112          0   1626112   0% /run/user/1463653561
+tmpfs                            1626112          0   1626112   0% /run/user/1875335455
+tmpfs                            1626112          0   1626112   0% /run/user/1220258561
+=========================================================================================
+cssmpi3 command(who):.................................................................
 kharam_css434 pts/7        May 22 11:20 (vergil11.u.washington.edu)
-ccomai92_css434 pts/8        May 22 11:40 (d-10-156-21-170.dhcp4.washington.edu)
-saltzp_css533 pts/13       May 22 12:18 (10.102.61.61)
-gordeeva_css434 pts/17       May 22 11:51 (10.102.62.29)
+bailec93_css434 pts/8        May 22 15:26 (d-10-156-11-52.dhcp4.washington.edu)
+saltzp_css533 pts/13       May 22 14:22 (10.102.61.61)
+samsp_css434 pts/17       May 22 15:33 (d-10-156-30-28.dhcp4.washington.edu)
+panthers_css434 pts/23       May 22 13:37 (d-10-156-17-193.dhcp4.washington.edu)
+pravee99_css533 pts/24       May 22 15:40 (10.102.60.19)
+ccomai92_css434 pts/27       May 22 15:48 (d-10-156-21-170.dhcp4.washington.edu)
+cssmpi3 command(ls):.................................................................
 AnAgent.class
 AnAgent.java
 MyAgent.class
@@ -389,21 +467,23 @@ runUWPlace.sh
 runUnixAgent.sh
 runUnixAgent.sh~
 runWhoAgent.sh
+cssmpi3 command(ps):.................................................................
   PID TTY          TIME CMD
-17888 pts/8    00:00:00 bash
-20144 pts/8    00:00:00 runUWPlace.sh
-20145 pts/8    00:00:01 java
-20561 pts/8    00:00:00 ps
+ 1115 pts/27   00:00:00 runUWPlace.sh
+ 1116 pts/27   00:00:01 java
+ 1509 pts/27   00:00:00 ps
+32626 pts/27   00:00:00 bash
+cssmpi3 command(df):.................................................................
 Filesystem                     1K-blocks       Used Available Use% Mounted on
-/dev/mapper/sysvg-root         410198332    5860972 404337360   2% /
+/dev/mapper/sysvg-root         410198332    5860092 404338240   2% /
 devtmpfs                         8118748          0   8118748   0% /dev
 tmpfs                            8130544          0   8130544   0% /dev/shm
-tmpfs                            8130544     206860   7923684   3% /run
+tmpfs                            8130544     207020   7923524   3% /run
 tmpfs                            8130544          0   8130544   0% /sys/fs/cgroup
 /dev/xvda1                        764580     275980    488600  37% /boot
 neometis.uwb.edu:/DATA/CSSDIV 2113646592 1982045184  24210432  99% /CSSDIV
 neometis.uwb.edu:/DATA/apps   2113646592 1982045184  24210432  99% /usr/apps
-cssnfs2.uwb.edu:/nfsshare      821236736   37867520 783369216   5% /home
+cssnfs2.uwb.edu:/nfsshare      821236736   37875712 783361024   5% /home
 tmpfs                            1626112          0   1626112   0% /run/user/1463653561
 tmpfs                            1626112          0   1626112   0% /run/user/1771577455
 tmpfs                            1626112          0   1626112   0% /run/user/1242168455
@@ -425,14 +505,27 @@ tmpfs                            1626112          0   1626112   0% /run/user/167
 tmpfs                            1626112          0   1626112   0% /run/user/1422384455
 tmpfs                            1626112          0   1626112   0% /run/user/1620681455
 tmpfs                            1626112          0   1626112   0% /run/user/1775511288
+tmpfs                            1626112          0   1626112   0% /run/user/1876423455
+tmpfs                            1626112          0   1626112   0% /run/user/1875335455
+tmpfs                            1626112          0   1626112   0% /run/user/1825400561
 Execution Time: 129
-Hop to cssmpi1
-End of Trip
 Print/Count: print, nServers: 1, Server1: cssmpi1, Command1: who, Command2: ls, Command3: ps, Command4: df, Command5: who, Command6: ls, Command7: ps, Command8: df, Command9: who, Command10: ls, Command11: ps, Command12: df
+=========================================================================================
+cssmpi1 command(who):.................................................................
 kharam_css434 pts/6        May 22 11:18 (vergil11.u.washington.edu)
-ccomai92_css434 pts/12       May 22 11:39 (d-10-156-21-170.dhcp4.washington.edu)
-krpana_css434 pts/23       May 22 11:24 (10.102.48.87)
-gordeeva_css434 pts/24       May 22 11:49 (10.102.62.29)
+ggoziker_css434 pts/12       May 22 14:52 (d-10-156-17-194.dhcp4.washington.edu)
+krpana_css434 pts/23       May 22 12:21 (10.102.48.87)
+sachau_css533 pts/24       May 22 14:52 (10.102.63.10)
+sachau_css533 pts/34       May 22 14:52 (10.102.63.10)
+panthers_css434 pts/32       May 22 13:33 (d-10-156-17-193.dhcp4.washington.edu)
+pravee99_css533 pts/37       May 22 14:04 (10.102.60.19)
+bailec93_css434 pts/38       May 22 15:26 (d-10-156-11-52.dhcp4.washington.edu)
+samsp_css434 pts/39       May 22 15:32 (d-10-156-30-28.dhcp4.washington.edu)
+leec351_css533 pts/41       May 22 15:56 (10.102.57.181)
+ccomai92_css434 pts/42       May 22 15:48 (d-10-156-21-170.dhcp4.washington.edu)
+pravee99_css533 pts/45       May 22 15:39 (10.102.60.19)
+kharam_css434 pts/46       May 22 16:03 (d-10-156-30-100.dhcp4.washington.edu)
+cssmpi1 command(ls):.................................................................
 AnAgent.class
 AnAgent.java
 MyAgent.class
@@ -456,21 +549,23 @@ runUWPlace.sh
 runUnixAgent.sh
 runUnixAgent.sh~
 runWhoAgent.sh
+cssmpi1 command(ps):.................................................................
   PID TTY          TIME CMD
- 8956 pts/12   00:00:00 bash
-14703 pts/12   00:00:00 runUWPlace.sh
-14704 pts/12   00:00:01 java
-15402 pts/12   00:00:00 ps
+14481 pts/42   00:00:00 bash
+16639 pts/42   00:00:00 runUWPlace.sh
+16640 pts/42   00:00:02 java
+18196 pts/42   00:00:00 ps
+cssmpi1 command(df):.................................................................
 Filesystem                     1K-blocks       Used Available Use% Mounted on
-/dev/mapper/sysvg-root         410198332   12222172 397976160   3% /
+/dev/mapper/sysvg-root         410198332   12223756 397974576   3% /
 devtmpfs                         8118740          0   8118740   0% /dev
 tmpfs                            8130544          0   8130544   0% /dev/shm
-tmpfs                            8130544     281292   7849252   4% /run
+tmpfs                            8130544     281780   7848764   4% /run
 tmpfs                            8130544          0   8130544   0% /sys/fs/cgroup
 /dev/xvda1                        764580     276008    488572  37% /boot
 neometis.uwb.edu:/DATA/apps   2113646592 1982045184  24210432  99% /usr/apps
 neometis.uwb.edu:/DATA/CSSDIV 2113646592 1982045184  24210432  99% /CSSDIV
-cssnfs2.uwb.edu:/nfsshare      821236736   37867520 783369216   5% /home
+cssnfs2.uwb.edu:/nfsshare      821236736   37875712 783361024   5% /home
 tmpfs                            1626112          0   1626112   0% /run/user/1577478108
 tmpfs                            1626112          0   1626112   0% /run/user/1772536455
 tmpfs                            1626112          0   1626112   0% /run/user/1622675108
@@ -503,10 +598,25 @@ tmpfs                            1626112          0   1626112   0% /run/user/187
 tmpfs                            1626112          0   1626112   0% /run/user/1422384455
 tmpfs                            1626112          0   1626112   0% /run/user/1220258561
 tmpfs                            1626112          0   1626112   0% /run/user/1775511288
+tmpfs                            1626112          0   1626112   0% /run/user/1876423455
+tmpfs                            1626112          0   1626112   0% /run/user/1623532455
+tmpfs                            1626112          0   1626112   0% /run/user/1875335455
+tmpfs                            1626112          0   1626112   0% /run/user/1775087561
+cssmpi1 command(who):.................................................................
 kharam_css434 pts/6        May 22 11:18 (vergil11.u.washington.edu)
-ccomai92_css434 pts/12       May 22 11:39 (d-10-156-21-170.dhcp4.washington.edu)
-krpana_css434 pts/23       May 22 11:24 (10.102.48.87)
-gordeeva_css434 pts/24       May 22 11:49 (10.102.62.29)
+ggoziker_css434 pts/12       May 22 14:52 (d-10-156-17-194.dhcp4.washington.edu)
+krpana_css434 pts/23       May 22 12:21 (10.102.48.87)
+sachau_css533 pts/24       May 22 14:52 (10.102.63.10)
+sachau_css533 pts/34       May 22 14:52 (10.102.63.10)
+panthers_css434 pts/32       May 22 13:33 (d-10-156-17-193.dhcp4.washington.edu)
+pravee99_css533 pts/37       May 22 14:04 (10.102.60.19)
+bailec93_css434 pts/38       May 22 15:26 (d-10-156-11-52.dhcp4.washington.edu)
+samsp_css434 pts/39       May 22 15:32 (d-10-156-30-28.dhcp4.washington.edu)
+leec351_css533 pts/41       May 22 15:56 (10.102.57.181)
+ccomai92_css434 pts/42       May 22 15:48 (d-10-156-21-170.dhcp4.washington.edu)
+pravee99_css533 pts/45       May 22 15:39 (10.102.60.19)
+kharam_css434 pts/46       May 22 16:03 (d-10-156-30-100.dhcp4.washington.edu)
+cssmpi1 command(ls):.................................................................
 AnAgent.class
 AnAgent.java
 MyAgent.class
@@ -530,21 +640,23 @@ runUWPlace.sh
 runUnixAgent.sh
 runUnixAgent.sh~
 runWhoAgent.sh
+cssmpi1 command(ps):.................................................................
   PID TTY          TIME CMD
- 8956 pts/12   00:00:00 bash
-14703 pts/12   00:00:00 runUWPlace.sh
-14704 pts/12   00:00:01 java
-15406 pts/12   00:00:00 ps
+14481 pts/42   00:00:00 bash
+16639 pts/42   00:00:00 runUWPlace.sh
+16640 pts/42   00:00:02 java
+18200 pts/42   00:00:00 ps
+cssmpi1 command(df):.................................................................
 Filesystem                     1K-blocks       Used Available Use% Mounted on
-/dev/mapper/sysvg-root         410198332   12222172 397976160   3% /
+/dev/mapper/sysvg-root         410198332   12223756 397974576   3% /
 devtmpfs                         8118740          0   8118740   0% /dev
 tmpfs                            8130544          0   8130544   0% /dev/shm
-tmpfs                            8130544     281292   7849252   4% /run
+tmpfs                            8130544     281780   7848764   4% /run
 tmpfs                            8130544          0   8130544   0% /sys/fs/cgroup
 /dev/xvda1                        764580     276008    488572  37% /boot
 neometis.uwb.edu:/DATA/apps   2113646592 1982045184  24210432  99% /usr/apps
 neometis.uwb.edu:/DATA/CSSDIV 2113646592 1982045184  24210432  99% /CSSDIV
-cssnfs2.uwb.edu:/nfsshare      821236736   37867520 783369216   5% /home
+cssnfs2.uwb.edu:/nfsshare      821236736   37875712 783361024   5% /home
 tmpfs                            1626112          0   1626112   0% /run/user/1577478108
 tmpfs                            1626112          0   1626112   0% /run/user/1772536455
 tmpfs                            1626112          0   1626112   0% /run/user/1622675108
@@ -577,10 +689,25 @@ tmpfs                            1626112          0   1626112   0% /run/user/187
 tmpfs                            1626112          0   1626112   0% /run/user/1422384455
 tmpfs                            1626112          0   1626112   0% /run/user/1220258561
 tmpfs                            1626112          0   1626112   0% /run/user/1775511288
+tmpfs                            1626112          0   1626112   0% /run/user/1876423455
+tmpfs                            1626112          0   1626112   0% /run/user/1623532455
+tmpfs                            1626112          0   1626112   0% /run/user/1875335455
+tmpfs                            1626112          0   1626112   0% /run/user/1775087561
+cssmpi1 command(who):.................................................................
 kharam_css434 pts/6        May 22 11:18 (vergil11.u.washington.edu)
-ccomai92_css434 pts/12       May 22 11:39 (d-10-156-21-170.dhcp4.washington.edu)
-krpana_css434 pts/23       May 22 11:24 (10.102.48.87)
-gordeeva_css434 pts/24       May 22 11:49 (10.102.62.29)
+ggoziker_css434 pts/12       May 22 14:52 (d-10-156-17-194.dhcp4.washington.edu)
+krpana_css434 pts/23       May 22 12:21 (10.102.48.87)
+sachau_css533 pts/24       May 22 14:52 (10.102.63.10)
+sachau_css533 pts/34       May 22 14:52 (10.102.63.10)
+panthers_css434 pts/32       May 22 13:33 (d-10-156-17-193.dhcp4.washington.edu)
+pravee99_css533 pts/37       May 22 14:04 (10.102.60.19)
+bailec93_css434 pts/38       May 22 15:26 (d-10-156-11-52.dhcp4.washington.edu)
+samsp_css434 pts/39       May 22 15:32 (d-10-156-30-28.dhcp4.washington.edu)
+leec351_css533 pts/41       May 22 15:56 (10.102.57.181)
+ccomai92_css434 pts/42       May 22 15:48 (d-10-156-21-170.dhcp4.washington.edu)
+pravee99_css533 pts/45       May 22 15:39 (10.102.60.19)
+kharam_css434 pts/46       May 22 16:03 (d-10-156-30-100.dhcp4.washington.edu)
+cssmpi1 command(ls):.................................................................
 AnAgent.class
 AnAgent.java
 MyAgent.class
@@ -604,21 +731,23 @@ runUWPlace.sh
 runUnixAgent.sh
 runUnixAgent.sh~
 runWhoAgent.sh
+cssmpi1 command(ps):.................................................................
   PID TTY          TIME CMD
- 8956 pts/12   00:00:00 bash
-14703 pts/12   00:00:00 runUWPlace.sh
-14704 pts/12   00:00:01 java
-15410 pts/12   00:00:00 ps
+14481 pts/42   00:00:00 bash
+16639 pts/42   00:00:00 runUWPlace.sh
+16640 pts/42   00:00:02 java
+18204 pts/42   00:00:00 ps
+cssmpi1 command(df):.................................................................
 Filesystem                     1K-blocks       Used Available Use% Mounted on
-/dev/mapper/sysvg-root         410198332   12222172 397976160   3% /
+/dev/mapper/sysvg-root         410198332   12223756 397974576   3% /
 devtmpfs                         8118740          0   8118740   0% /dev
 tmpfs                            8130544          0   8130544   0% /dev/shm
-tmpfs                            8130544     281292   7849252   4% /run
+tmpfs                            8130544     281780   7848764   4% /run
 tmpfs                            8130544          0   8130544   0% /sys/fs/cgroup
 /dev/xvda1                        764580     276008    488572  37% /boot
 neometis.uwb.edu:/DATA/apps   2113646592 1982045184  24210432  99% /usr/apps
 neometis.uwb.edu:/DATA/CSSDIV 2113646592 1982045184  24210432  99% /CSSDIV
-cssnfs2.uwb.edu:/nfsshare      821236736   37867520 783369216   5% /home
+cssnfs2.uwb.edu:/nfsshare      821236736   37875712 783361024   5% /home
 tmpfs                            1626112          0   1626112   0% /run/user/1577478108
 tmpfs                            1626112          0   1626112   0% /run/user/1772536455
 tmpfs                            1626112          0   1626112   0% /run/user/1622675108
@@ -651,14 +780,28 @@ tmpfs                            1626112          0   1626112   0% /run/user/187
 tmpfs                            1626112          0   1626112   0% /run/user/1422384455
 tmpfs                            1626112          0   1626112   0% /run/user/1220258561
 tmpfs                            1626112          0   1626112   0% /run/user/1775511288
-Execution Time: 103
-Hop to cssmpi1
-End of Trip
+tmpfs                            1626112          0   1626112   0% /run/user/1876423455
+tmpfs                            1626112          0   1626112   0% /run/user/1623532455
+tmpfs                            1626112          0   1626112   0% /run/user/1875335455
+tmpfs                            1626112          0   1626112   0% /run/user/1775087561
+Execution Time: 98
 Print/Count: print, nServers: 2, Server1: cssmpi1, Server2: cssmpi2, Command1: who, Command2: ls, Command3: ps, Command4: df, Command5: who, Command6: ls, Command7: ps, Command8: df, Command9: who, Command10: ls, Command11: ps, Command12: df
+=========================================================================================
+cssmpi1 command(who):.................................................................
 kharam_css434 pts/6        May 22 11:18 (vergil11.u.washington.edu)
-ccomai92_css434 pts/12       May 22 11:39 (d-10-156-21-170.dhcp4.washington.edu)
-krpana_css434 pts/23       May 22 11:24 (10.102.48.87)
-gordeeva_css434 pts/24       May 22 11:49 (10.102.62.29)
+ggoziker_css434 pts/12       May 22 14:52 (d-10-156-17-194.dhcp4.washington.edu)
+krpana_css434 pts/23       May 22 12:21 (10.102.48.87)
+sachau_css533 pts/24       May 22 14:52 (10.102.63.10)
+sachau_css533 pts/34       May 22 14:52 (10.102.63.10)
+panthers_css434 pts/32       May 22 13:33 (d-10-156-17-193.dhcp4.washington.edu)
+pravee99_css533 pts/37       May 22 14:04 (10.102.60.19)
+bailec93_css434 pts/38       May 22 15:26 (d-10-156-11-52.dhcp4.washington.edu)
+samsp_css434 pts/39       May 22 15:32 (d-10-156-30-28.dhcp4.washington.edu)
+leec351_css533 pts/41       May 22 15:56 (10.102.57.181)
+ccomai92_css434 pts/42       May 22 15:48 (d-10-156-21-170.dhcp4.washington.edu)
+pravee99_css533 pts/45       May 22 15:39 (10.102.60.19)
+kharam_css434 pts/46       May 22 16:03 (d-10-156-30-100.dhcp4.washington.edu)
+cssmpi1 command(ls):.................................................................
 AnAgent.class
 AnAgent.java
 MyAgent.class
@@ -682,21 +825,23 @@ runUWPlace.sh
 runUnixAgent.sh
 runUnixAgent.sh~
 runWhoAgent.sh
+cssmpi1 command(ps):.................................................................
   PID TTY          TIME CMD
- 8956 pts/12   00:00:00 bash
-14703 pts/12   00:00:00 runUWPlace.sh
-14704 pts/12   00:00:02 java
-15416 pts/12   00:00:00 ps
+14481 pts/42   00:00:00 bash
+16639 pts/42   00:00:00 runUWPlace.sh
+16640 pts/42   00:00:02 java
+18210 pts/42   00:00:00 ps
+cssmpi1 command(df):.................................................................
 Filesystem                     1K-blocks       Used Available Use% Mounted on
-/dev/mapper/sysvg-root         410198332   12222172 397976160   3% /
+/dev/mapper/sysvg-root         410198332   12223756 397974576   3% /
 devtmpfs                         8118740          0   8118740   0% /dev
 tmpfs                            8130544          0   8130544   0% /dev/shm
-tmpfs                            8130544     281292   7849252   4% /run
+tmpfs                            8130544     281780   7848764   4% /run
 tmpfs                            8130544          0   8130544   0% /sys/fs/cgroup
 /dev/xvda1                        764580     276008    488572  37% /boot
 neometis.uwb.edu:/DATA/apps   2113646592 1982045184  24210432  99% /usr/apps
 neometis.uwb.edu:/DATA/CSSDIV 2113646592 1982045184  24210432  99% /CSSDIV
-cssnfs2.uwb.edu:/nfsshare      821236736   37867520 783369216   5% /home
+cssnfs2.uwb.edu:/nfsshare      821236736   37875712 783361024   5% /home
 tmpfs                            1626112          0   1626112   0% /run/user/1577478108
 tmpfs                            1626112          0   1626112   0% /run/user/1772536455
 tmpfs                            1626112          0   1626112   0% /run/user/1622675108
@@ -729,10 +874,25 @@ tmpfs                            1626112          0   1626112   0% /run/user/187
 tmpfs                            1626112          0   1626112   0% /run/user/1422384455
 tmpfs                            1626112          0   1626112   0% /run/user/1220258561
 tmpfs                            1626112          0   1626112   0% /run/user/1775511288
+tmpfs                            1626112          0   1626112   0% /run/user/1876423455
+tmpfs                            1626112          0   1626112   0% /run/user/1623532455
+tmpfs                            1626112          0   1626112   0% /run/user/1875335455
+tmpfs                            1626112          0   1626112   0% /run/user/1775087561
+cssmpi1 command(who):.................................................................
 kharam_css434 pts/6        May 22 11:18 (vergil11.u.washington.edu)
-ccomai92_css434 pts/12       May 22 11:39 (d-10-156-21-170.dhcp4.washington.edu)
-krpana_css434 pts/23       May 22 11:24 (10.102.48.87)
-gordeeva_css434 pts/24       May 22 11:49 (10.102.62.29)
+ggoziker_css434 pts/12       May 22 14:52 (d-10-156-17-194.dhcp4.washington.edu)
+krpana_css434 pts/23       May 22 12:21 (10.102.48.87)
+sachau_css533 pts/24       May 22 14:52 (10.102.63.10)
+sachau_css533 pts/34       May 22 14:52 (10.102.63.10)
+panthers_css434 pts/32       May 22 13:33 (d-10-156-17-193.dhcp4.washington.edu)
+pravee99_css533 pts/37       May 22 14:04 (10.102.60.19)
+bailec93_css434 pts/38       May 22 15:26 (d-10-156-11-52.dhcp4.washington.edu)
+samsp_css434 pts/39       May 22 15:32 (d-10-156-30-28.dhcp4.washington.edu)
+leec351_css533 pts/41       May 22 15:56 (10.102.57.181)
+ccomai92_css434 pts/42       May 22 15:48 (d-10-156-21-170.dhcp4.washington.edu)
+pravee99_css533 pts/45       May 22 15:39 (10.102.60.19)
+kharam_css434 pts/46       May 22 16:03 (d-10-156-30-100.dhcp4.washington.edu)
+cssmpi1 command(ls):.................................................................
 AnAgent.class
 AnAgent.java
 MyAgent.class
@@ -756,21 +916,23 @@ runUWPlace.sh
 runUnixAgent.sh
 runUnixAgent.sh~
 runWhoAgent.sh
+cssmpi1 command(ps):.................................................................
   PID TTY          TIME CMD
- 8956 pts/12   00:00:00 bash
-14703 pts/12   00:00:00 runUWPlace.sh
-14704 pts/12   00:00:02 java
-15420 pts/12   00:00:00 ps
+14481 pts/42   00:00:00 bash
+16639 pts/42   00:00:00 runUWPlace.sh
+16640 pts/42   00:00:02 java
+18214 pts/42   00:00:00 ps
+cssmpi1 command(df):.................................................................
 Filesystem                     1K-blocks       Used Available Use% Mounted on
-/dev/mapper/sysvg-root         410198332   12222172 397976160   3% /
+/dev/mapper/sysvg-root         410198332   12223756 397974576   3% /
 devtmpfs                         8118740          0   8118740   0% /dev
 tmpfs                            8130544          0   8130544   0% /dev/shm
-tmpfs                            8130544     281292   7849252   4% /run
+tmpfs                            8130544     281780   7848764   4% /run
 tmpfs                            8130544          0   8130544   0% /sys/fs/cgroup
 /dev/xvda1                        764580     276008    488572  37% /boot
 neometis.uwb.edu:/DATA/apps   2113646592 1982045184  24210432  99% /usr/apps
 neometis.uwb.edu:/DATA/CSSDIV 2113646592 1982045184  24210432  99% /CSSDIV
-cssnfs2.uwb.edu:/nfsshare      821236736   37867520 783369216   5% /home
+cssnfs2.uwb.edu:/nfsshare      821236736   37875712 783361024   5% /home
 tmpfs                            1626112          0   1626112   0% /run/user/1577478108
 tmpfs                            1626112          0   1626112   0% /run/user/1772536455
 tmpfs                            1626112          0   1626112   0% /run/user/1622675108
@@ -803,10 +965,25 @@ tmpfs                            1626112          0   1626112   0% /run/user/187
 tmpfs                            1626112          0   1626112   0% /run/user/1422384455
 tmpfs                            1626112          0   1626112   0% /run/user/1220258561
 tmpfs                            1626112          0   1626112   0% /run/user/1775511288
+tmpfs                            1626112          0   1626112   0% /run/user/1876423455
+tmpfs                            1626112          0   1626112   0% /run/user/1623532455
+tmpfs                            1626112          0   1626112   0% /run/user/1875335455
+tmpfs                            1626112          0   1626112   0% /run/user/1775087561
+cssmpi1 command(who):.................................................................
 kharam_css434 pts/6        May 22 11:18 (vergil11.u.washington.edu)
-ccomai92_css434 pts/12       May 22 11:39 (d-10-156-21-170.dhcp4.washington.edu)
-krpana_css434 pts/23       May 22 11:24 (10.102.48.87)
-gordeeva_css434 pts/24       May 22 11:49 (10.102.62.29)
+ggoziker_css434 pts/12       May 22 14:52 (d-10-156-17-194.dhcp4.washington.edu)
+krpana_css434 pts/23       May 22 12:21 (10.102.48.87)
+sachau_css533 pts/24       May 22 14:52 (10.102.63.10)
+sachau_css533 pts/34       May 22 14:52 (10.102.63.10)
+panthers_css434 pts/32       May 22 13:33 (d-10-156-17-193.dhcp4.washington.edu)
+pravee99_css533 pts/37       May 22 14:04 (10.102.60.19)
+bailec93_css434 pts/38       May 22 15:26 (d-10-156-11-52.dhcp4.washington.edu)
+samsp_css434 pts/39       May 22 15:32 (d-10-156-30-28.dhcp4.washington.edu)
+leec351_css533 pts/41       May 22 15:56 (10.102.57.181)
+ccomai92_css434 pts/42       May 22 15:48 (d-10-156-21-170.dhcp4.washington.edu)
+pravee99_css533 pts/45       May 22 15:39 (10.102.60.19)
+kharam_css434 pts/46       May 22 16:03 (d-10-156-30-100.dhcp4.washington.edu)
+cssmpi1 command(ls):.................................................................
 AnAgent.class
 AnAgent.java
 MyAgent.class
@@ -830,21 +1007,23 @@ runUWPlace.sh
 runUnixAgent.sh
 runUnixAgent.sh~
 runWhoAgent.sh
+cssmpi1 command(ps):.................................................................
   PID TTY          TIME CMD
- 8956 pts/12   00:00:00 bash
-14703 pts/12   00:00:00 runUWPlace.sh
-14704 pts/12   00:00:02 java
-15424 pts/12   00:00:00 ps
+14481 pts/42   00:00:00 bash
+16639 pts/42   00:00:00 runUWPlace.sh
+16640 pts/42   00:00:02 java
+18218 pts/42   00:00:00 ps
+cssmpi1 command(df):.................................................................
 Filesystem                     1K-blocks       Used Available Use% Mounted on
-/dev/mapper/sysvg-root         410198332   12222172 397976160   3% /
+/dev/mapper/sysvg-root         410198332   12223756 397974576   3% /
 devtmpfs                         8118740          0   8118740   0% /dev
 tmpfs                            8130544          0   8130544   0% /dev/shm
-tmpfs                            8130544     281292   7849252   4% /run
+tmpfs                            8130544     281780   7848764   4% /run
 tmpfs                            8130544          0   8130544   0% /sys/fs/cgroup
 /dev/xvda1                        764580     276008    488572  37% /boot
 neometis.uwb.edu:/DATA/apps   2113646592 1982045184  24210432  99% /usr/apps
 neometis.uwb.edu:/DATA/CSSDIV 2113646592 1982045184  24210432  99% /CSSDIV
-cssnfs2.uwb.edu:/nfsshare      821236736   37867520 783369216   5% /home
+cssnfs2.uwb.edu:/nfsshare      821236736   37875712 783361024   5% /home
 tmpfs                            1626112          0   1626112   0% /run/user/1577478108
 tmpfs                            1626112          0   1626112   0% /run/user/1772536455
 tmpfs                            1626112          0   1626112   0% /run/user/1622675108
@@ -877,10 +1056,21 @@ tmpfs                            1626112          0   1626112   0% /run/user/187
 tmpfs                            1626112          0   1626112   0% /run/user/1422384455
 tmpfs                            1626112          0   1626112   0% /run/user/1220258561
 tmpfs                            1626112          0   1626112   0% /run/user/1775511288
+tmpfs                            1626112          0   1626112   0% /run/user/1876423455
+tmpfs                            1626112          0   1626112   0% /run/user/1623532455
+tmpfs                            1626112          0   1626112   0% /run/user/1875335455
+tmpfs                            1626112          0   1626112   0% /run/user/1775087561
+=========================================================================================
+cssmpi2 command(who):.................................................................
 kharam_css434 pts/3        May 22 11:20 (vergil11.u.washington.edu)
-saltzp_css533 pts/10       May 22 12:18 (10.102.61.61)
-ccomai92_css434 pts/18       May 22 11:40 (d-10-156-21-170.dhcp4.washington.edu)
-gordeeva_css434 pts/19       May 22 11:49 (10.102.62.29)
+saltzp_css533 pts/10       May 22 14:22 (10.102.61.61)
+bailec93_css434 pts/18       May 22 15:27 (d-10-156-11-52.dhcp4.washington.edu)
+sachau_css533 pts/19       May 22 15:30 (10.102.63.10)
+panthers_css434 pts/25       May 22 13:36 (d-10-156-17-193.dhcp4.washington.edu)
+samsp_css434 pts/26       May 22 15:32 (d-10-156-30-28.dhcp4.washington.edu)
+pravee99_css533 pts/27       May 22 15:39 (10.102.60.19)
+ccomai92_css434 pts/29       May 22 15:48 (d-10-156-21-170.dhcp4.washington.edu)
+cssmpi2 command(ls):.................................................................
 AnAgent.class
 AnAgent.java
 MyAgent.class
@@ -904,21 +1094,23 @@ runUWPlace.sh
 runUnixAgent.sh
 runUnixAgent.sh~
 runWhoAgent.sh
+cssmpi2 command(ps):.................................................................
   PID TTY          TIME CMD
- 2967 pts/18   00:00:00 bash
- 5894 pts/18   00:00:00 runUWPlace.sh
- 5895 pts/18   00:00:01 java
- 6355 pts/18   00:00:00 ps
+18111 pts/29   00:00:00 bash
+19078 pts/29   00:00:00 runUWPlace.sh
+19079 pts/29   00:00:02 java
+19680 pts/29   00:00:00 ps
+cssmpi2 command(df):.................................................................
 Filesystem                     1K-blocks       Used Available Use% Mounted on
-/dev/mapper/sysvg-root         410198332    5540740 404657592   2% /
+/dev/mapper/sysvg-root         410198332    5541044 404657288   2% /
 devtmpfs                         8118748          0   8118748   0% /dev
 tmpfs                            8130544          0   8130544   0% /dev/shm
-tmpfs                            8130544     247936   7882608   4% /run
+tmpfs                            8130544     248128   7882416   4% /run
 tmpfs                            8130544          0   8130544   0% /sys/fs/cgroup
 /dev/xvda1                        764580     275972    488608  37% /boot
 neometis.uwb.edu:/DATA/CSSDIV 2113646592 1982045184  24210432  99% /CSSDIV
 neometis.uwb.edu:/DATA/apps   2113646592 1982045184  24210432  99% /usr/apps
-cssnfs2.uwb.edu:/nfsshare      821236736   37867520 783369216   5% /home
+cssnfs2.uwb.edu:/nfsshare      821236736   37875712 783361024   5% /home
 tmpfs                            1626112          0   1626112   0% /run/user/1673979392
 tmpfs                            1626112          0   1626112   0% /run/user/1774755561
 tmpfs                            1626112          0   1626112   0% /run/user/1771577455
@@ -941,11 +1133,20 @@ tmpfs                            1626112          0   1626112   0% /run/user/187
 tmpfs                            1626112          0   1626112   0% /run/user/1422384455
 tmpfs                            1626112          0   1626112   0% /run/user/1620681455
 tmpfs                            1626112          0   1626112   0% /run/user/1775511288
+tmpfs                            1626112          0   1626112   0% /run/user/1876423455
 tmpfs                            1626112          0   1626112   0% /run/user/1463653561
+tmpfs                            1626112          0   1626112   0% /run/user/1875335455
+tmpfs                            1626112          0   1626112   0% /run/user/1220258561
+cssmpi2 command(who):.................................................................
 kharam_css434 pts/3        May 22 11:20 (vergil11.u.washington.edu)
-saltzp_css533 pts/10       May 22 12:18 (10.102.61.61)
-ccomai92_css434 pts/18       May 22 11:40 (d-10-156-21-170.dhcp4.washington.edu)
-gordeeva_css434 pts/19       May 22 11:49 (10.102.62.29)
+saltzp_css533 pts/10       May 22 14:22 (10.102.61.61)
+bailec93_css434 pts/18       May 22 15:27 (d-10-156-11-52.dhcp4.washington.edu)
+sachau_css533 pts/19       May 22 15:30 (10.102.63.10)
+panthers_css434 pts/25       May 22 13:36 (d-10-156-17-193.dhcp4.washington.edu)
+samsp_css434 pts/26       May 22 15:32 (d-10-156-30-28.dhcp4.washington.edu)
+pravee99_css533 pts/27       May 22 15:39 (10.102.60.19)
+ccomai92_css434 pts/29       May 22 15:48 (d-10-156-21-170.dhcp4.washington.edu)
+cssmpi2 command(ls):.................................................................
 AnAgent.class
 AnAgent.java
 MyAgent.class
@@ -969,21 +1170,23 @@ runUWPlace.sh
 runUnixAgent.sh
 runUnixAgent.sh~
 runWhoAgent.sh
+cssmpi2 command(ps):.................................................................
   PID TTY          TIME CMD
- 2967 pts/18   00:00:00 bash
- 5894 pts/18   00:00:00 runUWPlace.sh
- 5895 pts/18   00:00:01 java
- 6359 pts/18   00:00:00 ps
+18111 pts/29   00:00:00 bash
+19078 pts/29   00:00:00 runUWPlace.sh
+19079 pts/29   00:00:02 java
+19684 pts/29   00:00:00 ps
+cssmpi2 command(df):.................................................................
 Filesystem                     1K-blocks       Used Available Use% Mounted on
-/dev/mapper/sysvg-root         410198332    5540740 404657592   2% /
+/dev/mapper/sysvg-root         410198332    5541044 404657288   2% /
 devtmpfs                         8118748          0   8118748   0% /dev
 tmpfs                            8130544          0   8130544   0% /dev/shm
-tmpfs                            8130544     247936   7882608   4% /run
+tmpfs                            8130544     248128   7882416   4% /run
 tmpfs                            8130544          0   8130544   0% /sys/fs/cgroup
 /dev/xvda1                        764580     275972    488608  37% /boot
 neometis.uwb.edu:/DATA/CSSDIV 2113646592 1982045184  24210432  99% /CSSDIV
 neometis.uwb.edu:/DATA/apps   2113646592 1982045184  24210432  99% /usr/apps
-cssnfs2.uwb.edu:/nfsshare      821236736   37867520 783369216   5% /home
+cssnfs2.uwb.edu:/nfsshare      821236736   37875712 783361024   5% /home
 tmpfs                            1626112          0   1626112   0% /run/user/1673979392
 tmpfs                            1626112          0   1626112   0% /run/user/1774755561
 tmpfs                            1626112          0   1626112   0% /run/user/1771577455
@@ -1006,11 +1209,20 @@ tmpfs                            1626112          0   1626112   0% /run/user/187
 tmpfs                            1626112          0   1626112   0% /run/user/1422384455
 tmpfs                            1626112          0   1626112   0% /run/user/1620681455
 tmpfs                            1626112          0   1626112   0% /run/user/1775511288
+tmpfs                            1626112          0   1626112   0% /run/user/1876423455
 tmpfs                            1626112          0   1626112   0% /run/user/1463653561
+tmpfs                            1626112          0   1626112   0% /run/user/1875335455
+tmpfs                            1626112          0   1626112   0% /run/user/1220258561
+cssmpi2 command(who):.................................................................
 kharam_css434 pts/3        May 22 11:20 (vergil11.u.washington.edu)
-saltzp_css533 pts/10       May 22 12:18 (10.102.61.61)
-ccomai92_css434 pts/18       May 22 11:40 (d-10-156-21-170.dhcp4.washington.edu)
-gordeeva_css434 pts/19       May 22 11:49 (10.102.62.29)
+saltzp_css533 pts/10       May 22 14:22 (10.102.61.61)
+bailec93_css434 pts/18       May 22 15:27 (d-10-156-11-52.dhcp4.washington.edu)
+sachau_css533 pts/19       May 22 15:30 (10.102.63.10)
+panthers_css434 pts/25       May 22 13:36 (d-10-156-17-193.dhcp4.washington.edu)
+samsp_css434 pts/26       May 22 15:32 (d-10-156-30-28.dhcp4.washington.edu)
+pravee99_css533 pts/27       May 22 15:39 (10.102.60.19)
+ccomai92_css434 pts/29       May 22 15:48 (d-10-156-21-170.dhcp4.washington.edu)
+cssmpi2 command(ls):.................................................................
 AnAgent.class
 AnAgent.java
 MyAgent.class
@@ -1034,21 +1246,23 @@ runUWPlace.sh
 runUnixAgent.sh
 runUnixAgent.sh~
 runWhoAgent.sh
+cssmpi2 command(ps):.................................................................
   PID TTY          TIME CMD
- 2967 pts/18   00:00:00 bash
- 5894 pts/18   00:00:00 runUWPlace.sh
- 5895 pts/18   00:00:01 java
- 6363 pts/18   00:00:00 ps
+18111 pts/29   00:00:00 bash
+19078 pts/29   00:00:00 runUWPlace.sh
+19079 pts/29   00:00:02 java
+19688 pts/29   00:00:00 ps
+cssmpi2 command(df):.................................................................
 Filesystem                     1K-blocks       Used Available Use% Mounted on
-/dev/mapper/sysvg-root         410198332    5540740 404657592   2% /
+/dev/mapper/sysvg-root         410198332    5541044 404657288   2% /
 devtmpfs                         8118748          0   8118748   0% /dev
 tmpfs                            8130544          0   8130544   0% /dev/shm
-tmpfs                            8130544     247936   7882608   4% /run
+tmpfs                            8130544     248128   7882416   4% /run
 tmpfs                            8130544          0   8130544   0% /sys/fs/cgroup
 /dev/xvda1                        764580     275972    488608  37% /boot
 neometis.uwb.edu:/DATA/CSSDIV 2113646592 1982045184  24210432  99% /CSSDIV
 neometis.uwb.edu:/DATA/apps   2113646592 1982045184  24210432  99% /usr/apps
-cssnfs2.uwb.edu:/nfsshare      821236736   37867520 783369216   5% /home
+cssnfs2.uwb.edu:/nfsshare      821236736   37875712 783361024   5% /home
 tmpfs                            1626112          0   1626112   0% /run/user/1673979392
 tmpfs                            1626112          0   1626112   0% /run/user/1774755561
 tmpfs                            1626112          0   1626112   0% /run/user/1771577455
@@ -1071,20 +1285,28 @@ tmpfs                            1626112          0   1626112   0% /run/user/187
 tmpfs                            1626112          0   1626112   0% /run/user/1422384455
 tmpfs                            1626112          0   1626112   0% /run/user/1620681455
 tmpfs                            1626112          0   1626112   0% /run/user/1775511288
+tmpfs                            1626112          0   1626112   0% /run/user/1876423455
 tmpfs                            1626112          0   1626112   0% /run/user/1463653561
-Execution Time: 173
-Hop to cssmpi1
-#: UnixAgent 0 exiting; sending exit message to parent (id -1)
-#: UnixAgent 0 exiting; sending exit message to parent (id -1)
-#: UnixAgent 0 exiting; sending exit message to parent (id -1)
-Hop to cssmpi1
-#: UnixAgent 0 exiting; sending exit message to parent (id -1)
-End of Trip
+tmpfs                            1626112          0   1626112   0% /run/user/1875335455
+tmpfs                            1626112          0   1626112   0% /run/user/1220258561
+Execution Time: 191
 Print/Count: print, nServers: 3, Server1: cssmpi1, Server2: cssmpi2, Server3: cssmpi3, Command1: who, Command2: ls, Command3: ps, Command4: df, Command5: who, Command6: ls, Command7: ps, Command8: df, Command9: who, Command10: ls, Command11: ps, Command12: df
+=========================================================================================
+cssmpi1 command(who):.................................................................
 kharam_css434 pts/6        May 22 11:18 (vergil11.u.washington.edu)
-ccomai92_css434 pts/12       May 22 11:39 (d-10-156-21-170.dhcp4.washington.edu)
-krpana_css434 pts/23       May 22 11:24 (10.102.48.87)
-gordeeva_css434 pts/24       May 22 11:49 (10.102.62.29)
+ggoziker_css434 pts/12       May 22 14:52 (d-10-156-17-194.dhcp4.washington.edu)
+krpana_css434 pts/23       May 22 12:21 (10.102.48.87)
+sachau_css533 pts/24       May 22 14:52 (10.102.63.10)
+sachau_css533 pts/34       May 22 14:52 (10.102.63.10)
+panthers_css434 pts/32       May 22 13:33 (d-10-156-17-193.dhcp4.washington.edu)
+pravee99_css533 pts/37       May 22 14:04 (10.102.60.19)
+bailec93_css434 pts/38       May 22 15:26 (d-10-156-11-52.dhcp4.washington.edu)
+samsp_css434 pts/39       May 22 15:32 (d-10-156-30-28.dhcp4.washington.edu)
+leec351_css533 pts/41       May 22 15:56 (10.102.57.181)
+ccomai92_css434 pts/42       May 22 15:48 (d-10-156-21-170.dhcp4.washington.edu)
+pravee99_css533 pts/45       May 22 15:39 (10.102.60.19)
+kharam_css434 pts/46       May 22 16:03 (d-10-156-30-100.dhcp4.washington.edu)
+cssmpi1 command(ls):.................................................................
 AnAgent.class
 AnAgent.java
 MyAgent.class
@@ -1108,21 +1330,23 @@ runUWPlace.sh
 runUnixAgent.sh
 runUnixAgent.sh~
 runWhoAgent.sh
+cssmpi1 command(ps):.................................................................
   PID TTY          TIME CMD
- 8956 pts/12   00:00:00 bash
-14703 pts/12   00:00:00 runUWPlace.sh
-14704 pts/12   00:00:02 java
-15431 pts/12   00:00:00 ps
+14481 pts/42   00:00:00 bash
+16639 pts/42   00:00:00 runUWPlace.sh
+16640 pts/42   00:00:02 java
+18224 pts/42   00:00:00 ps
+cssmpi1 command(df):.................................................................
 Filesystem                     1K-blocks       Used Available Use% Mounted on
-/dev/mapper/sysvg-root         410198332   12222172 397976160   3% /
+/dev/mapper/sysvg-root         410198332   12223756 397974576   3% /
 devtmpfs                         8118740          0   8118740   0% /dev
 tmpfs                            8130544          0   8130544   0% /dev/shm
-tmpfs                            8130544     281292   7849252   4% /run
+tmpfs                            8130544     281780   7848764   4% /run
 tmpfs                            8130544          0   8130544   0% /sys/fs/cgroup
 /dev/xvda1                        764580     276008    488572  37% /boot
 neometis.uwb.edu:/DATA/apps   2113646592 1982045184  24210432  99% /usr/apps
 neometis.uwb.edu:/DATA/CSSDIV 2113646592 1982045184  24210432  99% /CSSDIV
-cssnfs2.uwb.edu:/nfsshare      821236736   37867520 783369216   5% /home
+cssnfs2.uwb.edu:/nfsshare      821236736   37875712 783361024   5% /home
 tmpfs                            1626112          0   1626112   0% /run/user/1577478108
 tmpfs                            1626112          0   1626112   0% /run/user/1772536455
 tmpfs                            1626112          0   1626112   0% /run/user/1622675108
@@ -1155,10 +1379,25 @@ tmpfs                            1626112          0   1626112   0% /run/user/187
 tmpfs                            1626112          0   1626112   0% /run/user/1422384455
 tmpfs                            1626112          0   1626112   0% /run/user/1220258561
 tmpfs                            1626112          0   1626112   0% /run/user/1775511288
+tmpfs                            1626112          0   1626112   0% /run/user/1876423455
+tmpfs                            1626112          0   1626112   0% /run/user/1623532455
+tmpfs                            1626112          0   1626112   0% /run/user/1875335455
+tmpfs                            1626112          0   1626112   0% /run/user/1775087561
+cssmpi1 command(who):.................................................................
 kharam_css434 pts/6        May 22 11:18 (vergil11.u.washington.edu)
-ccomai92_css434 pts/12       May 22 11:39 (d-10-156-21-170.dhcp4.washington.edu)
-krpana_css434 pts/23       May 22 11:24 (10.102.48.87)
-gordeeva_css434 pts/24       May 22 11:49 (10.102.62.29)
+ggoziker_css434 pts/12       May 22 14:52 (d-10-156-17-194.dhcp4.washington.edu)
+krpana_css434 pts/23       May 22 12:21 (10.102.48.87)
+sachau_css533 pts/24       May 22 14:52 (10.102.63.10)
+sachau_css533 pts/34       May 22 14:52 (10.102.63.10)
+panthers_css434 pts/32       May 22 13:33 (d-10-156-17-193.dhcp4.washington.edu)
+pravee99_css533 pts/37       May 22 14:04 (10.102.60.19)
+bailec93_css434 pts/38       May 22 15:26 (d-10-156-11-52.dhcp4.washington.edu)
+samsp_css434 pts/39       May 22 15:32 (d-10-156-30-28.dhcp4.washington.edu)
+leec351_css533 pts/41       May 22 15:56 (10.102.57.181)
+ccomai92_css434 pts/42       May 22 15:48 (d-10-156-21-170.dhcp4.washington.edu)
+pravee99_css533 pts/45       May 22 15:39 (10.102.60.19)
+kharam_css434 pts/46       May 22 16:03 (d-10-156-30-100.dhcp4.washington.edu)
+cssmpi1 command(ls):.................................................................
 AnAgent.class
 AnAgent.java
 MyAgent.class
@@ -1182,21 +1421,23 @@ runUWPlace.sh
 runUnixAgent.sh
 runUnixAgent.sh~
 runWhoAgent.sh
+cssmpi1 command(ps):.................................................................
   PID TTY          TIME CMD
- 8956 pts/12   00:00:00 bash
-14703 pts/12   00:00:00 runUWPlace.sh
-14704 pts/12   00:00:02 java
-15435 pts/12   00:00:00 ps
+14481 pts/42   00:00:00 bash
+16639 pts/42   00:00:00 runUWPlace.sh
+16640 pts/42   00:00:02 java
+18228 pts/42   00:00:00 ps
+cssmpi1 command(df):.................................................................
 Filesystem                     1K-blocks       Used Available Use% Mounted on
-/dev/mapper/sysvg-root         410198332   12222172 397976160   3% /
+/dev/mapper/sysvg-root         410198332   12223756 397974576   3% /
 devtmpfs                         8118740          0   8118740   0% /dev
 tmpfs                            8130544          0   8130544   0% /dev/shm
-tmpfs                            8130544     281292   7849252   4% /run
+tmpfs                            8130544     281780   7848764   4% /run
 tmpfs                            8130544          0   8130544   0% /sys/fs/cgroup
 /dev/xvda1                        764580     276008    488572  37% /boot
 neometis.uwb.edu:/DATA/apps   2113646592 1982045184  24210432  99% /usr/apps
 neometis.uwb.edu:/DATA/CSSDIV 2113646592 1982045184  24210432  99% /CSSDIV
-cssnfs2.uwb.edu:/nfsshare      821236736   37867520 783369216   5% /home
+cssnfs2.uwb.edu:/nfsshare      821236736   37875712 783361024   5% /home
 tmpfs                            1626112          0   1626112   0% /run/user/1577478108
 tmpfs                            1626112          0   1626112   0% /run/user/1772536455
 tmpfs                            1626112          0   1626112   0% /run/user/1622675108
@@ -1229,10 +1470,25 @@ tmpfs                            1626112          0   1626112   0% /run/user/187
 tmpfs                            1626112          0   1626112   0% /run/user/1422384455
 tmpfs                            1626112          0   1626112   0% /run/user/1220258561
 tmpfs                            1626112          0   1626112   0% /run/user/1775511288
+tmpfs                            1626112          0   1626112   0% /run/user/1876423455
+tmpfs                            1626112          0   1626112   0% /run/user/1623532455
+tmpfs                            1626112          0   1626112   0% /run/user/1875335455
+tmpfs                            1626112          0   1626112   0% /run/user/1775087561
+cssmpi1 command(who):.................................................................
 kharam_css434 pts/6        May 22 11:18 (vergil11.u.washington.edu)
-ccomai92_css434 pts/12       May 22 11:39 (d-10-156-21-170.dhcp4.washington.edu)
-krpana_css434 pts/23       May 22 11:24 (10.102.48.87)
-gordeeva_css434 pts/24       May 22 11:49 (10.102.62.29)
+ggoziker_css434 pts/12       May 22 14:52 (d-10-156-17-194.dhcp4.washington.edu)
+krpana_css434 pts/23       May 22 12:21 (10.102.48.87)
+sachau_css533 pts/24       May 22 14:52 (10.102.63.10)
+sachau_css533 pts/34       May 22 14:52 (10.102.63.10)
+panthers_css434 pts/32       May 22 13:33 (d-10-156-17-193.dhcp4.washington.edu)
+pravee99_css533 pts/37       May 22 14:04 (10.102.60.19)
+bailec93_css434 pts/38       May 22 15:26 (d-10-156-11-52.dhcp4.washington.edu)
+samsp_css434 pts/39       May 22 15:32 (d-10-156-30-28.dhcp4.washington.edu)
+leec351_css533 pts/41       May 22 15:56 (10.102.57.181)
+ccomai92_css434 pts/42       May 22 15:48 (d-10-156-21-170.dhcp4.washington.edu)
+pravee99_css533 pts/45       May 22 15:39 (10.102.60.19)
+kharam_css434 pts/46       May 22 16:03 (d-10-156-30-100.dhcp4.washington.edu)
+cssmpi1 command(ls):.................................................................
 AnAgent.class
 AnAgent.java
 MyAgent.class
@@ -1256,21 +1512,23 @@ runUWPlace.sh
 runUnixAgent.sh
 runUnixAgent.sh~
 runWhoAgent.sh
+cssmpi1 command(ps):.................................................................
   PID TTY          TIME CMD
- 8956 pts/12   00:00:00 bash
-14703 pts/12   00:00:00 runUWPlace.sh
-14704 pts/12   00:00:02 java
-15439 pts/12   00:00:00 ps
+14481 pts/42   00:00:00 bash
+16639 pts/42   00:00:00 runUWPlace.sh
+16640 pts/42   00:00:02 java
+18232 pts/42   00:00:00 ps
+cssmpi1 command(df):.................................................................
 Filesystem                     1K-blocks       Used Available Use% Mounted on
-/dev/mapper/sysvg-root         410198332   12222172 397976160   3% /
+/dev/mapper/sysvg-root         410198332   12223756 397974576   3% /
 devtmpfs                         8118740          0   8118740   0% /dev
 tmpfs                            8130544          0   8130544   0% /dev/shm
-tmpfs                            8130544     281292   7849252   4% /run
+tmpfs                            8130544     281780   7848764   4% /run
 tmpfs                            8130544          0   8130544   0% /sys/fs/cgroup
 /dev/xvda1                        764580     276008    488572  37% /boot
 neometis.uwb.edu:/DATA/apps   2113646592 1982045184  24210432  99% /usr/apps
 neometis.uwb.edu:/DATA/CSSDIV 2113646592 1982045184  24210432  99% /CSSDIV
-cssnfs2.uwb.edu:/nfsshare      821236736   37867520 783369216   5% /home
+cssnfs2.uwb.edu:/nfsshare      821236736   37875712 783361024   5% /home
 tmpfs                            1626112          0   1626112   0% /run/user/1577478108
 tmpfs                            1626112          0   1626112   0% /run/user/1772536455
 tmpfs                            1626112          0   1626112   0% /run/user/1622675108
@@ -1303,10 +1561,21 @@ tmpfs                            1626112          0   1626112   0% /run/user/187
 tmpfs                            1626112          0   1626112   0% /run/user/1422384455
 tmpfs                            1626112          0   1626112   0% /run/user/1220258561
 tmpfs                            1626112          0   1626112   0% /run/user/1775511288
+tmpfs                            1626112          0   1626112   0% /run/user/1876423455
+tmpfs                            1626112          0   1626112   0% /run/user/1623532455
+tmpfs                            1626112          0   1626112   0% /run/user/1875335455
+tmpfs                            1626112          0   1626112   0% /run/user/1775087561
+=========================================================================================
+cssmpi2 command(who):.................................................................
 kharam_css434 pts/3        May 22 11:20 (vergil11.u.washington.edu)
-saltzp_css533 pts/10       May 22 12:18 (10.102.61.61)
-ccomai92_css434 pts/18       May 22 11:40 (d-10-156-21-170.dhcp4.washington.edu)
-gordeeva_css434 pts/19       May 22 11:49 (10.102.62.29)
+saltzp_css533 pts/10       May 22 14:22 (10.102.61.61)
+bailec93_css434 pts/18       May 22 15:27 (d-10-156-11-52.dhcp4.washington.edu)
+sachau_css533 pts/19       May 22 15:30 (10.102.63.10)
+panthers_css434 pts/25       May 22 13:36 (d-10-156-17-193.dhcp4.washington.edu)
+samsp_css434 pts/26       May 22 15:32 (d-10-156-30-28.dhcp4.washington.edu)
+pravee99_css533 pts/27       May 22 15:39 (10.102.60.19)
+ccomai92_css434 pts/29       May 22 15:48 (d-10-156-21-170.dhcp4.washington.edu)
+cssmpi2 command(ls):.................................................................
 AnAgent.class
 AnAgent.java
 MyAgent.class
@@ -1330,21 +1599,23 @@ runUWPlace.sh
 runUnixAgent.sh
 runUnixAgent.sh~
 runWhoAgent.sh
+cssmpi2 command(ps):.................................................................
   PID TTY          TIME CMD
- 2967 pts/18   00:00:00 bash
- 5894 pts/18   00:00:00 runUWPlace.sh
- 5895 pts/18   00:00:01 java
- 6369 pts/18   00:00:00 ps
+18111 pts/29   00:00:00 bash
+19078 pts/29   00:00:00 runUWPlace.sh
+19079 pts/29   00:00:02 java
+19694 pts/29   00:00:00 ps
+cssmpi2 command(df):.................................................................
 Filesystem                     1K-blocks       Used Available Use% Mounted on
-/dev/mapper/sysvg-root         410198332    5540740 404657592   2% /
+/dev/mapper/sysvg-root         410198332    5541044 404657288   2% /
 devtmpfs                         8118748          0   8118748   0% /dev
 tmpfs                            8130544          0   8130544   0% /dev/shm
-tmpfs                            8130544     247936   7882608   4% /run
+tmpfs                            8130544     248128   7882416   4% /run
 tmpfs                            8130544          0   8130544   0% /sys/fs/cgroup
 /dev/xvda1                        764580     275972    488608  37% /boot
 neometis.uwb.edu:/DATA/CSSDIV 2113646592 1982045184  24210432  99% /CSSDIV
 neometis.uwb.edu:/DATA/apps   2113646592 1982045184  24210432  99% /usr/apps
-cssnfs2.uwb.edu:/nfsshare      821236736   37867520 783369216   5% /home
+cssnfs2.uwb.edu:/nfsshare      821236736   37875712 783361024   5% /home
 tmpfs                            1626112          0   1626112   0% /run/user/1673979392
 tmpfs                            1626112          0   1626112   0% /run/user/1774755561
 tmpfs                            1626112          0   1626112   0% /run/user/1771577455
@@ -1367,11 +1638,20 @@ tmpfs                            1626112          0   1626112   0% /run/user/187
 tmpfs                            1626112          0   1626112   0% /run/user/1422384455
 tmpfs                            1626112          0   1626112   0% /run/user/1620681455
 tmpfs                            1626112          0   1626112   0% /run/user/1775511288
+tmpfs                            1626112          0   1626112   0% /run/user/1876423455
 tmpfs                            1626112          0   1626112   0% /run/user/1463653561
+tmpfs                            1626112          0   1626112   0% /run/user/1875335455
+tmpfs                            1626112          0   1626112   0% /run/user/1220258561
+cssmpi2 command(who):.................................................................
 kharam_css434 pts/3        May 22 11:20 (vergil11.u.washington.edu)
-saltzp_css533 pts/10       May 22 12:18 (10.102.61.61)
-ccomai92_css434 pts/18       May 22 11:40 (d-10-156-21-170.dhcp4.washington.edu)
-gordeeva_css434 pts/19       May 22 11:49 (10.102.62.29)
+saltzp_css533 pts/10       May 22 14:22 (10.102.61.61)
+bailec93_css434 pts/18       May 22 15:27 (d-10-156-11-52.dhcp4.washington.edu)
+sachau_css533 pts/19       May 22 15:30 (10.102.63.10)
+panthers_css434 pts/25       May 22 13:36 (d-10-156-17-193.dhcp4.washington.edu)
+samsp_css434 pts/26       May 22 15:32 (d-10-156-30-28.dhcp4.washington.edu)
+pravee99_css533 pts/27       May 22 15:39 (10.102.60.19)
+ccomai92_css434 pts/29       May 22 15:48 (d-10-156-21-170.dhcp4.washington.edu)
+cssmpi2 command(ls):.................................................................
 AnAgent.class
 AnAgent.java
 MyAgent.class
@@ -1395,21 +1675,23 @@ runUWPlace.sh
 runUnixAgent.sh
 runUnixAgent.sh~
 runWhoAgent.sh
+cssmpi2 command(ps):.................................................................
   PID TTY          TIME CMD
- 2967 pts/18   00:00:00 bash
- 5894 pts/18   00:00:00 runUWPlace.sh
- 5895 pts/18   00:00:01 java
- 6373 pts/18   00:00:00 ps
+18111 pts/29   00:00:00 bash
+19078 pts/29   00:00:00 runUWPlace.sh
+19079 pts/29   00:00:02 java
+19698 pts/29   00:00:00 ps
+cssmpi2 command(df):.................................................................
 Filesystem                     1K-blocks       Used Available Use% Mounted on
-/dev/mapper/sysvg-root         410198332    5540740 404657592   2% /
+/dev/mapper/sysvg-root         410198332    5541044 404657288   2% /
 devtmpfs                         8118748          0   8118748   0% /dev
 tmpfs                            8130544          0   8130544   0% /dev/shm
-tmpfs                            8130544     247936   7882608   4% /run
+tmpfs                            8130544     248128   7882416   4% /run
 tmpfs                            8130544          0   8130544   0% /sys/fs/cgroup
 /dev/xvda1                        764580     275972    488608  37% /boot
 neometis.uwb.edu:/DATA/CSSDIV 2113646592 1982045184  24210432  99% /CSSDIV
 neometis.uwb.edu:/DATA/apps   2113646592 1982045184  24210432  99% /usr/apps
-cssnfs2.uwb.edu:/nfsshare      821236736   37867520 783369216   5% /home
+cssnfs2.uwb.edu:/nfsshare      821236736   37875712 783361024   5% /home
 tmpfs                            1626112          0   1626112   0% /run/user/1673979392
 tmpfs                            1626112          0   1626112   0% /run/user/1774755561
 tmpfs                            1626112          0   1626112   0% /run/user/1771577455
@@ -1432,11 +1714,20 @@ tmpfs                            1626112          0   1626112   0% /run/user/187
 tmpfs                            1626112          0   1626112   0% /run/user/1422384455
 tmpfs                            1626112          0   1626112   0% /run/user/1620681455
 tmpfs                            1626112          0   1626112   0% /run/user/1775511288
+tmpfs                            1626112          0   1626112   0% /run/user/1876423455
 tmpfs                            1626112          0   1626112   0% /run/user/1463653561
+tmpfs                            1626112          0   1626112   0% /run/user/1875335455
+tmpfs                            1626112          0   1626112   0% /run/user/1220258561
+cssmpi2 command(who):.................................................................
 kharam_css434 pts/3        May 22 11:20 (vergil11.u.washington.edu)
-saltzp_css533 pts/10       May 22 12:18 (10.102.61.61)
-ccomai92_css434 pts/18       May 22 11:40 (d-10-156-21-170.dhcp4.washington.edu)
-gordeeva_css434 pts/19       May 22 11:49 (10.102.62.29)
+saltzp_css533 pts/10       May 22 14:22 (10.102.61.61)
+bailec93_css434 pts/18       May 22 15:27 (d-10-156-11-52.dhcp4.washington.edu)
+sachau_css533 pts/19       May 22 15:30 (10.102.63.10)
+panthers_css434 pts/25       May 22 13:36 (d-10-156-17-193.dhcp4.washington.edu)
+samsp_css434 pts/26       May 22 15:32 (d-10-156-30-28.dhcp4.washington.edu)
+pravee99_css533 pts/27       May 22 15:39 (10.102.60.19)
+ccomai92_css434 pts/29       May 22 15:48 (d-10-156-21-170.dhcp4.washington.edu)
+cssmpi2 command(ls):.................................................................
 AnAgent.class
 AnAgent.java
 MyAgent.class
@@ -1460,21 +1751,23 @@ runUWPlace.sh
 runUnixAgent.sh
 runUnixAgent.sh~
 runWhoAgent.sh
+cssmpi2 command(ps):.................................................................
   PID TTY          TIME CMD
- 2967 pts/18   00:00:00 bash
- 5894 pts/18   00:00:00 runUWPlace.sh
- 5895 pts/18   00:00:01 java
- 6377 pts/18   00:00:00 ps
+18111 pts/29   00:00:00 bash
+19078 pts/29   00:00:00 runUWPlace.sh
+19079 pts/29   00:00:02 java
+19702 pts/29   00:00:00 ps
+cssmpi2 command(df):.................................................................
 Filesystem                     1K-blocks       Used Available Use% Mounted on
-/dev/mapper/sysvg-root         410198332    5540740 404657592   2% /
+/dev/mapper/sysvg-root         410198332    5541044 404657288   2% /
 devtmpfs                         8118748          0   8118748   0% /dev
 tmpfs                            8130544          0   8130544   0% /dev/shm
-tmpfs                            8130544     247936   7882608   4% /run
+tmpfs                            8130544     248128   7882416   4% /run
 tmpfs                            8130544          0   8130544   0% /sys/fs/cgroup
 /dev/xvda1                        764580     275972    488608  37% /boot
 neometis.uwb.edu:/DATA/CSSDIV 2113646592 1982045184  24210432  99% /CSSDIV
 neometis.uwb.edu:/DATA/apps   2113646592 1982045184  24210432  99% /usr/apps
-cssnfs2.uwb.edu:/nfsshare      821236736   37867520 783369216   5% /home
+cssnfs2.uwb.edu:/nfsshare      821236736   37875712 783361024   5% /home
 tmpfs                            1626112          0   1626112   0% /run/user/1673979392
 tmpfs                            1626112          0   1626112   0% /run/user/1774755561
 tmpfs                            1626112          0   1626112   0% /run/user/1771577455
@@ -1497,11 +1790,20 @@ tmpfs                            1626112          0   1626112   0% /run/user/187
 tmpfs                            1626112          0   1626112   0% /run/user/1422384455
 tmpfs                            1626112          0   1626112   0% /run/user/1620681455
 tmpfs                            1626112          0   1626112   0% /run/user/1775511288
+tmpfs                            1626112          0   1626112   0% /run/user/1876423455
 tmpfs                            1626112          0   1626112   0% /run/user/1463653561
+tmpfs                            1626112          0   1626112   0% /run/user/1875335455
+tmpfs                            1626112          0   1626112   0% /run/user/1220258561
+=========================================================================================
+cssmpi3 command(who):.................................................................
 kharam_css434 pts/7        May 22 11:20 (vergil11.u.washington.edu)
-ccomai92_css434 pts/8        May 22 11:40 (d-10-156-21-170.dhcp4.washington.edu)
-saltzp_css533 pts/13       May 22 12:18 (10.102.61.61)
-gordeeva_css434 pts/17       May 22 11:51 (10.102.62.29)
+bailec93_css434 pts/8        May 22 15:26 (d-10-156-11-52.dhcp4.washington.edu)
+saltzp_css533 pts/13       May 22 14:22 (10.102.61.61)
+samsp_css434 pts/17       May 22 15:33 (d-10-156-30-28.dhcp4.washington.edu)
+panthers_css434 pts/23       May 22 13:37 (d-10-156-17-193.dhcp4.washington.edu)
+pravee99_css533 pts/24       May 22 15:40 (10.102.60.19)
+ccomai92_css434 pts/27       May 22 15:48 (d-10-156-21-170.dhcp4.washington.edu)
+cssmpi3 command(ls):.................................................................
 AnAgent.class
 AnAgent.java
 MyAgent.class
@@ -1525,21 +1827,23 @@ runUWPlace.sh
 runUnixAgent.sh
 runUnixAgent.sh~
 runWhoAgent.sh
+cssmpi3 command(ps):.................................................................
   PID TTY          TIME CMD
-17888 pts/8    00:00:00 bash
-20144 pts/8    00:00:00 runUWPlace.sh
-20145 pts/8    00:00:01 java
-20567 pts/8    00:00:00 ps
+ 1115 pts/27   00:00:00 runUWPlace.sh
+ 1116 pts/27   00:00:01 java
+ 1515 pts/27   00:00:00 ps
+32626 pts/27   00:00:00 bash
+cssmpi3 command(df):.................................................................
 Filesystem                     1K-blocks       Used Available Use% Mounted on
-/dev/mapper/sysvg-root         410198332    5860972 404337360   2% /
+/dev/mapper/sysvg-root         410198332    5860092 404338240   2% /
 devtmpfs                         8118748          0   8118748   0% /dev
 tmpfs                            8130544          0   8130544   0% /dev/shm
-tmpfs                            8130544     206860   7923684   3% /run
+tmpfs                            8130544     207020   7923524   3% /run
 tmpfs                            8130544          0   8130544   0% /sys/fs/cgroup
 /dev/xvda1                        764580     275980    488600  37% /boot
 neometis.uwb.edu:/DATA/CSSDIV 2113646592 1982045184  24210432  99% /CSSDIV
 neometis.uwb.edu:/DATA/apps   2113646592 1982045184  24210432  99% /usr/apps
-cssnfs2.uwb.edu:/nfsshare      821236736   37867520 783369216   5% /home
+cssnfs2.uwb.edu:/nfsshare      821236736   37875712 783361024   5% /home
 tmpfs                            1626112          0   1626112   0% /run/user/1463653561
 tmpfs                            1626112          0   1626112   0% /run/user/1771577455
 tmpfs                            1626112          0   1626112   0% /run/user/1242168455
@@ -1561,10 +1865,18 @@ tmpfs                            1626112          0   1626112   0% /run/user/167
 tmpfs                            1626112          0   1626112   0% /run/user/1422384455
 tmpfs                            1626112          0   1626112   0% /run/user/1620681455
 tmpfs                            1626112          0   1626112   0% /run/user/1775511288
+tmpfs                            1626112          0   1626112   0% /run/user/1876423455
+tmpfs                            1626112          0   1626112   0% /run/user/1875335455
+tmpfs                            1626112          0   1626112   0% /run/user/1825400561
+cssmpi3 command(who):.................................................................
 kharam_css434 pts/7        May 22 11:20 (vergil11.u.washington.edu)
-ccomai92_css434 pts/8        May 22 11:40 (d-10-156-21-170.dhcp4.washington.edu)
-saltzp_css533 pts/13       May 22 12:18 (10.102.61.61)
-gordeeva_css434 pts/17       May 22 11:51 (10.102.62.29)
+bailec93_css434 pts/8        May 22 15:26 (d-10-156-11-52.dhcp4.washington.edu)
+saltzp_css533 pts/13       May 22 14:22 (10.102.61.61)
+samsp_css434 pts/17       May 22 15:33 (d-10-156-30-28.dhcp4.washington.edu)
+panthers_css434 pts/23       May 22 13:37 (d-10-156-17-193.dhcp4.washington.edu)
+pravee99_css533 pts/24       May 22 15:40 (10.102.60.19)
+ccomai92_css434 pts/27       May 22 15:48 (d-10-156-21-170.dhcp4.washington.edu)
+cssmpi3 command(ls):.................................................................
 AnAgent.class
 AnAgent.java
 MyAgent.class
@@ -1588,21 +1900,23 @@ runUWPlace.sh
 runUnixAgent.sh
 runUnixAgent.sh~
 runWhoAgent.sh
+cssmpi3 command(ps):.................................................................
   PID TTY          TIME CMD
-17888 pts/8    00:00:00 bash
-20144 pts/8    00:00:00 runUWPlace.sh
-20145 pts/8    00:00:01 java
-20571 pts/8    00:00:00 ps
+ 1115 pts/27   00:00:00 runUWPlace.sh
+ 1116 pts/27   00:00:01 java
+ 1519 pts/27   00:00:00 ps
+32626 pts/27   00:00:00 bash
+cssmpi3 command(df):.................................................................
 Filesystem                     1K-blocks       Used Available Use% Mounted on
-/dev/mapper/sysvg-root         410198332    5860972 404337360   2% /
+/dev/mapper/sysvg-root         410198332    5860092 404338240   2% /
 devtmpfs                         8118748          0   8118748   0% /dev
 tmpfs                            8130544          0   8130544   0% /dev/shm
-tmpfs                            8130544     206860   7923684   3% /run
+tmpfs                            8130544     207020   7923524   3% /run
 tmpfs                            8130544          0   8130544   0% /sys/fs/cgroup
 /dev/xvda1                        764580     275980    488600  37% /boot
 neometis.uwb.edu:/DATA/CSSDIV 2113646592 1982045184  24210432  99% /CSSDIV
 neometis.uwb.edu:/DATA/apps   2113646592 1982045184  24210432  99% /usr/apps
-cssnfs2.uwb.edu:/nfsshare      821236736   37867520 783369216   5% /home
+cssnfs2.uwb.edu:/nfsshare      821236736   37875712 783361024   5% /home
 tmpfs                            1626112          0   1626112   0% /run/user/1463653561
 tmpfs                            1626112          0   1626112   0% /run/user/1771577455
 tmpfs                            1626112          0   1626112   0% /run/user/1242168455
@@ -1624,10 +1938,18 @@ tmpfs                            1626112          0   1626112   0% /run/user/167
 tmpfs                            1626112          0   1626112   0% /run/user/1422384455
 tmpfs                            1626112          0   1626112   0% /run/user/1620681455
 tmpfs                            1626112          0   1626112   0% /run/user/1775511288
+tmpfs                            1626112          0   1626112   0% /run/user/1876423455
+tmpfs                            1626112          0   1626112   0% /run/user/1875335455
+tmpfs                            1626112          0   1626112   0% /run/user/1825400561
+cssmpi3 command(who):.................................................................
 kharam_css434 pts/7        May 22 11:20 (vergil11.u.washington.edu)
-ccomai92_css434 pts/8        May 22 11:40 (d-10-156-21-170.dhcp4.washington.edu)
-saltzp_css533 pts/13       May 22 12:18 (10.102.61.61)
-gordeeva_css434 pts/17       May 22 11:51 (10.102.62.29)
+bailec93_css434 pts/8        May 22 15:26 (d-10-156-11-52.dhcp4.washington.edu)
+saltzp_css533 pts/13       May 22 14:22 (10.102.61.61)
+samsp_css434 pts/17       May 22 15:33 (d-10-156-30-28.dhcp4.washington.edu)
+panthers_css434 pts/23       May 22 13:37 (d-10-156-17-193.dhcp4.washington.edu)
+pravee99_css533 pts/24       May 22 15:40 (10.102.60.19)
+ccomai92_css434 pts/27       May 22 15:48 (d-10-156-21-170.dhcp4.washington.edu)
+cssmpi3 command(ls):.................................................................
 AnAgent.class
 AnAgent.java
 MyAgent.class
@@ -1651,21 +1973,23 @@ runUWPlace.sh
 runUnixAgent.sh
 runUnixAgent.sh~
 runWhoAgent.sh
+cssmpi3 command(ps):.................................................................
   PID TTY          TIME CMD
-17888 pts/8    00:00:00 bash
-20144 pts/8    00:00:00 runUWPlace.sh
-20145 pts/8    00:00:01 java
-20575 pts/8    00:00:00 ps
+ 1115 pts/27   00:00:00 runUWPlace.sh
+ 1116 pts/27   00:00:01 java
+ 1523 pts/27   00:00:00 ps
+32626 pts/27   00:00:00 bash
+cssmpi3 command(df):.................................................................
 Filesystem                     1K-blocks       Used Available Use% Mounted on
-/dev/mapper/sysvg-root         410198332    5860972 404337360   2% /
+/dev/mapper/sysvg-root         410198332    5860092 404338240   2% /
 devtmpfs                         8118748          0   8118748   0% /dev
 tmpfs                            8130544          0   8130544   0% /dev/shm
-tmpfs                            8130544     206860   7923684   3% /run
+tmpfs                            8130544     207020   7923524   3% /run
 tmpfs                            8130544          0   8130544   0% /sys/fs/cgroup
 /dev/xvda1                        764580     275980    488600  37% /boot
 neometis.uwb.edu:/DATA/CSSDIV 2113646592 1982045184  24210432  99% /CSSDIV
 neometis.uwb.edu:/DATA/apps   2113646592 1982045184  24210432  99% /usr/apps
-cssnfs2.uwb.edu:/nfsshare      821236736   37867520 783369216   5% /home
+cssnfs2.uwb.edu:/nfsshare      821236736   37875712 783361024   5% /home
 tmpfs                            1626112          0   1626112   0% /run/user/1463653561
 tmpfs                            1626112          0   1626112   0% /run/user/1771577455
 tmpfs                            1626112          0   1626112   0% /run/user/1242168455
@@ -1687,32 +2011,16 @@ tmpfs                            1626112          0   1626112   0% /run/user/167
 tmpfs                            1626112          0   1626112   0% /run/user/1422384455
 tmpfs                            1626112          0   1626112   0% /run/user/1620681455
 tmpfs                            1626112          0   1626112   0% /run/user/1775511288
-Execution Time: 234
-End of Trip
+tmpfs                            1626112          0   1626112   0% /run/user/1876423455
+tmpfs                            1626112          0   1626112   0% /run/user/1875335455
+tmpfs                            1626112          0   1626112   0% /run/user/1825400561
+Execution Time: 264
 Print/Count: count, nServers: 1, Server1: cssmpi1, Command1: grep -o 123 ../files/text1.txt
 Count: 359
-Execution Time: 130
-#: UnixAgent 0 exiting; sending exit message to parent (id -1)
-Hop to cssmpi1
-#: UnixAgent 0 exiting; sending exit message to parent (id -1)
-#: UnixAgent 0 exiting; sending exit message to parent (id -1)
-#: UnixAgent 0 exiting; sending exit message to parent (id -1)
-Hop to cssmpi1
-End of Trip
+Execution Time: 126
 Print/Count: count, nServers: 2, Server1: cssmpi1, Server2: cssmpi2, Command1: grep -o 123 ../files/text1.txt
 Count: 718
-Execution Time: 250
-#: UnixAgent 0 exiting; sending exit message to parent (id -1)
-#: UnixAgent 0 exiting; sending exit message to parent (id -1)
-End of Trip
+Execution Time: 243
 Print/Count: count, nServers: 3, Server1: cssmpi1, Server2: cssmpi2, Server3: cssmpi3, Command1: grep -o 123 ../files/text1.txt
 Count: 1077
-Execution Time: 344
-#: UnixAgent 0 exiting; sending exit message to parent (id -1)
-#: UnixAgent 0 exiting; sending exit message to parent (id -1)
-#: UnixAgent 0 exiting; sending exit message to parent (id -1)
-#: UnixAgent 0 exiting; sending exit message to parent (id -1)
-#: UnixAgent 0 exiting; sending exit message to parent (id -1)
-#: UnixAgent 0 exiting; sending exit message to parent (id -1)
-#: UnixAgent 0 exiting; sending exit message to parent (id -1)
-#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+Execution Time: 339

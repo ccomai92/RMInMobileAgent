@@ -9,7 +9,7 @@ public class UnixAgent extends UWAgent implements Serializable {
     private Vector<String> output;
     private Date start;
     private int currentServer;
-    private String summary; 
+    private String summary;
 
     // for input parameters
     private String option;
@@ -23,7 +23,7 @@ public class UnixAgent extends UWAgent implements Serializable {
         // 3. name of servers
         // 4. # of commands
         // 5. list of commands
-        
+
         // get host anme of current host
         try {
             this.origin = InetAddress.getLocalHost().getHostName();
@@ -31,7 +31,7 @@ public class UnixAgent extends UWAgent implements Serializable {
             e.printStackTrace();
         }
 
-        // print option 
+        // print option
         this.option = args[0];
 
         // parse server names
@@ -51,9 +51,9 @@ public class UnixAgent extends UWAgent implements Serializable {
             this.commands[i] = args[3 + serverIpSize + i];
         }
 
-        // argument parsing is completed 
+        // argument parsing is completed
         this.summary = this.parseArgs();
-        
+
         // initializing vector that agent will carry around
         this.output = new Vector<String>();
 
@@ -79,10 +79,9 @@ public class UnixAgent extends UWAgent implements Serializable {
         // end of timer
         Date end = new Date();
         System.err.println("End of Trip");
-        
 
-	System.out.println(this.summary);
-        // print based on the option 
+        System.out.println(this.summary);
+        // print based on the option
         if (option.equals("P")) {
             this.printResult();
         } else { // print count of result
@@ -98,15 +97,20 @@ public class UnixAgent extends UWAgent implements Serializable {
         // execute commands in all computing grid
 
         System.err.println("Injected to " + this.servers[this.currentServer]);
-	//        this.output.addElement("=========================================================================================");
+
+        if (this.option.equals("P")) {
+            this.output.addElement(
+                    "=========================================================================================");
+        }
         String line;
 
         for (int i = 0; i < this.commands.length; i++) {
 
             String command = this.commands[i];
-
-	    // this.output.addElement(this.servers[this.currentServer] + " command(" + command
-	    //       + "):.................................................................");
+            if (this.option.equals("P")) {
+                this.output.addElement(this.servers[this.currentServer] + " command(" + command
+                        + "):.................................................................");
+            }
 
             try {
                 Runtime runtime = Runtime.getRuntime();
@@ -133,14 +137,14 @@ public class UnixAgent extends UWAgent implements Serializable {
 
     }
 
-    // print overall result 
+    // print overall result
     private void printResult() {
         for (int i = 0; i < this.output.size(); i++) {
             System.out.println(this.output.get(i));
         }
     }
 
-    // return summary of input arguments 
+    // return summary of input arguments
     private String parseArgs() {
         String result = "Print/Count: ";
         if (option.equals("P")) {

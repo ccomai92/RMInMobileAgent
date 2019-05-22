@@ -11,7 +11,7 @@ public class UnixClient {
 		// 3. # of Unix commands
 		// 4. list of Unix commands
 
-		// Parsing port and option 
+		// Parsing port and option
 		String port = args[1];
 		String option = args[0];
 
@@ -39,7 +39,7 @@ public class UnixClient {
 		Vector<String> returnValue;
 		Vector<String> overallResult = new Vector<String>();
 
-		// start timer 
+		// start timer
 		Date startTime = new Date();
 		try {
 			// for each server, execute all given commands
@@ -47,12 +47,16 @@ public class UnixClient {
 
 				ServerInterface serverObject = (ServerInterface) Naming
 						.lookup("rmi://" + servers[i] + ":" + port + "/unixserver");
-
-				// overallResult.addElement(
-				//		"=========================================================================================");
+				if (option.equals("P")) {
+					overallResult.addElement(
+							"=========================================================================================");
+				}
 				for (int j = 0; j < commands.length; j++) {
-				    //	overallResult.addElement(servers[i] + " command(" + commands[j]
-				    //			+ "):.................................................................");
+					if (option.equals("P")) {
+						overallResult.addElement(servers[i] + " command(" + commands[j]
+								+ "):.................................................................");
+
+					}
 					try {
 						returnValue = serverObject.execute(commands[j]);
 						for (int k = 0; k < returnValue.size(); k++) {
@@ -73,10 +77,10 @@ public class UnixClient {
 		if (option.equals("P")) {
 			printResult(overallResult);
 		} else {
-			System.err.println("Count: " + overallResult.size());
+			System.out.println("Count: " + overallResult.size());
 		}
-		
-		// end timer 
+
+		// end timer
 		Date endTime = new Date();
 		// print execution time
 		System.err.println("Execution Time: " + (endTime.getTime() - startTime.getTime()));
@@ -93,11 +97,11 @@ public class UnixClient {
 	public static String parseArgs(String option, String port, String[] servers, String[] commands) {
 		String result = "Print/Count: ";
 		if (option.equals("P")) {
-			result += "print, "; 
+			result += "print, ";
 		} else {
 			result += "count, ";
 		}
-		
+
 		result += "Port: " + port + ", nServers: " + servers.length;
 		for (int i = 0; i < servers.length; i++) {
 			result += ", Server" + (i + 1) + ": " + servers[i];
